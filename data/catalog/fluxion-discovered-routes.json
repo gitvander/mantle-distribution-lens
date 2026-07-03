@@ -1,0 +1,320 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-07-03T03:30:01.346Z",
+  "platform": "Fluxion",
+  "network": {
+    "name": "Mantle",
+    "chainId": 5000
+  },
+  "scope": "Official xStocks Mantle ERC-4626 wrappers paired with Fluxion USDC at the 0.30% RWA fee tier. Other tokens, quote assets, or fee tiers are intentionally not claimed as covered.",
+  "factory": "0xf883162ed9c7e8ef604214c964c678e40c9b737c",
+  "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+  "fee": 3000,
+  "routes": [
+    {
+      "assetId": "aaplx-mantle",
+      "symbol": "AAPLx",
+      "name": "Apple xStock",
+      "underlying": "0x9d275685dc284c8eb1c79f6aba7a63dc75ec890a",
+      "wrapper": "0x5aa7649fdbda47de64a07ac81d64b682af9c0724",
+      "pool": "0x2cc6a607f3445d826b9e29f507b3a2e3b9dae106",
+      "fee": 3000,
+      "url": "https://fluxion.network/pool/0x2cc6a607f3445d826b9e29f507b3a2e3b9dae106",
+      "status": "verified_onchain",
+      "verifiedAt": "2026-07-03T03:29:19.885Z",
+      "verification": {
+        "factory": "0xf883162ed9c7e8ef604214c964c678e40c9b737c",
+        "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+        "method": "Fluxion Factory getPool + pool token checks + ERC-4626 asset() + onchain balances and slot0.",
+        "lastObserved": {
+          "poolTvlUsd": 111017.30852707551,
+          "poolTvlCapturedAt": "2026-07-03T03:29:19.886Z",
+          "token0": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+          "token1": "0x5aa7649fdbda47de64a07ac81d64b682af9c0724",
+          "token0Amount": 56004.636315,
+          "token1Amount": 178.6070070732675,
+          "stableAmount": 56004.636315,
+          "wrapperAmount": 178.6070070732675,
+          "priceUsdPerWrapper": 308.0095966756132
+        }
+      }
+    },
+    {
+      "assetId": "crclx-mantle",
+      "symbol": "CRCLx",
+      "name": "Circle xStock",
+      "underlying": "0xfebded1b0986a8ee107f5ab1a1c5a813491deceb",
+      "wrapper": "0xa90872aca656ebe47bdebf3b19ec9dd9c5adc7f8",
+      "pool": "0x43cf441f5949d52faa105060239543492193c87e",
+      "fee": 3000,
+      "url": "https://fluxion.network/pool/0x43cf441f5949d52faa105060239543492193c87e",
+      "status": "verified_onchain",
+      "verifiedAt": "2026-07-03T03:29:24.650Z",
+      "verification": {
+        "factory": "0xf883162ed9c7e8ef604214c964c678e40c9b737c",
+        "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+        "method": "Fluxion Factory getPool + pool token checks + ERC-4626 asset() + onchain balances and slot0.",
+        "lastObserved": {
+          "poolTvlUsd": 83579.88817182212,
+          "poolTvlCapturedAt": "2026-07-03T03:29:24.650Z",
+          "token0": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+          "token1": "0xa90872aca656ebe47bdebf3b19ec9dd9c5adc7f8",
+          "token0Amount": 41174.901406,
+          "token1Amount": 651.9220469328515,
+          "stableAmount": 41174.901406,
+          "wrapperAmount": 651.9220469328515,
+          "priceUsdPerWrapper": 65.04610016692668
+        }
+      }
+    },
+    {
+      "assetId": "googlx-mantle",
+      "symbol": "GOOGLx",
+      "name": "Alphabet xStock",
+      "underlying": "0xe92f673ca36c5e2efd2de7628f815f84807e803f",
+      "wrapper": "0x1630f08370917e79df0b7572395a5e907508bbbc",
+      "pool": "0x66960ed892daf022c5f282c5316c38cb6f0c1333",
+      "fee": 3000,
+      "url": "https://fluxion.network/pool/0x66960ed892daf022c5f282c5316c38cb6f0c1333",
+      "status": "verified_onchain",
+      "verifiedAt": "2026-07-03T03:29:27.146Z",
+      "verification": {
+        "factory": "0xf883162ed9c7e8ef604214c964c678e40c9b737c",
+        "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+        "method": "Fluxion Factory getPool + pool token checks + ERC-4626 asset() + onchain balances and slot0.",
+        "lastObserved": {
+          "poolTvlUsd": 111865.88602341435,
+          "poolTvlCapturedAt": "2026-07-03T03:29:27.146Z",
+          "token0": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+          "token1": "0x1630f08370917e79df0b7572395a5e907508bbbc",
+          "token0Amount": 56477.371925,
+          "token1Amount": 154.2567037706595,
+          "stableAmount": 56477.371925,
+          "wrapperAmount": 154.2567037706595,
+          "priceUsdPerWrapper": 359.06714421152805
+        }
+      }
+    },
+    {
+      "assetId": "hoodx-mantle",
+      "symbol": "HOODx",
+      "name": "Robinhood xStock",
+      "underlying": "0xe1385fdd5ffb10081cd52c56584f25efa9084015",
+      "wrapper": "0x953707d7a1cb30cc5c636bda8eaebe410341eb14",
+      "pool": "0x4e23bb828e51cbc03c81d76c844228cc75f6a287",
+      "fee": 3000,
+      "url": "https://fluxion.network/pool/0x4e23bb828e51cbc03c81d76c844228cc75f6a287",
+      "status": "verified_onchain",
+      "verifiedAt": "2026-07-03T03:29:29.854Z",
+      "verification": {
+        "factory": "0xf883162ed9c7e8ef604214c964c678e40c9b737c",
+        "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+        "method": "Fluxion Factory getPool + pool token checks + ERC-4626 asset() + onchain balances and slot0.",
+        "lastObserved": {
+          "poolTvlUsd": 126065.08185975216,
+          "poolTvlCapturedAt": "2026-07-03T03:29:29.854Z",
+          "token0": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+          "token1": "0x953707d7a1cb30cc5c636bda8eaebe410341eb14",
+          "token0Amount": 63369.334227,
+          "token1Amount": 556.3922073211835,
+          "stableAmount": 63369.334227,
+          "wrapperAmount": 556.3922073211835,
+          "priceUsdPerWrapper": 112.68264869238249
+        }
+      }
+    },
+    {
+      "assetId": "metax-mantle",
+      "symbol": "METAx",
+      "name": "Meta xStock",
+      "underlying": "0x96702be57cd9777f835117a809c7124fe4ec989a",
+      "wrapper": "0x4e41a262caa93c6575d336e0a4eb79f3c67caa06",
+      "pool": "0x782bd3895a6ac561d0df11b02dd6f9e023f3a497",
+      "fee": 3000,
+      "url": "https://fluxion.network/pool/0x782bd3895a6ac561d0df11b02dd6f9e023f3a497",
+      "status": "verified_onchain",
+      "verifiedAt": "2026-07-03T03:29:34.638Z",
+      "verification": {
+        "factory": "0xf883162ed9c7e8ef604214c964c678e40c9b737c",
+        "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+        "method": "Fluxion Factory getPool + pool token checks + ERC-4626 asset() + onchain balances and slot0.",
+        "lastObserved": {
+          "poolTvlUsd": 102001.70413893201,
+          "poolTvlCapturedAt": "2026-07-03T03:29:34.638Z",
+          "token0": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+          "token1": "0x4e41a262caa93c6575d336e0a4eb79f3c67caa06",
+          "token0Amount": 51629.021874,
+          "token1Amount": 86.12687371642168,
+          "stableAmount": 51629.021874,
+          "wrapperAmount": 86.12687371642168,
+          "priceUsdPerWrapper": 584.8660248691638
+        }
+      }
+    },
+    {
+      "assetId": "mstrx-mantle",
+      "symbol": "MSTRx",
+      "name": "MicroStrategy xStock",
+      "underlying": "0xae2f842ef90c0d5213259ab82639d5bbf649b08e",
+      "wrapper": "0x266e5923f6118f8b340ca5a23ae7f71897361476",
+      "pool": "0x0e1f84a9e388071e20df101b36c14c817bf81953",
+      "fee": 3000,
+      "url": "https://fluxion.network/pool/0x0e1f84a9e388071e20df101b36c14c817bf81953",
+      "status": "verified_onchain",
+      "verifiedAt": "2026-07-03T03:29:37.021Z",
+      "verification": {
+        "factory": "0xf883162ed9c7e8ef604214c964c678e40c9b737c",
+        "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+        "method": "Fluxion Factory getPool + pool token checks + ERC-4626 asset() + onchain balances and slot0.",
+        "lastObserved": {
+          "poolTvlUsd": 87481.6659788453,
+          "poolTvlCapturedAt": "2026-07-03T03:29:37.021Z",
+          "token0": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+          "token1": "0x266e5923f6118f8b340ca5a23ae7f71897361476",
+          "token0Amount": 44017.876873,
+          "token1Amount": 426.14790689311695,
+          "stableAmount": 44017.876873,
+          "wrapperAmount": 426.14790689311695,
+          "priceUsdPerWrapper": 101.99226231738018
+        }
+      }
+    },
+    {
+      "assetId": "nvdax-mantle",
+      "symbol": "NVDAx",
+      "name": "NVIDIA xStock",
+      "underlying": "0xc845b2894dbddd03858fd2d643b4ef725fe0849d",
+      "wrapper": "0x93e62845c1dd5822ebc807ab71a5fb750decd15a",
+      "pool": "0xa875ac23d106394d1baaae5bc42b951268bc04e2",
+      "fee": 3000,
+      "url": "https://fluxion.network/pool/0xa875ac23d106394d1baaae5bc42b951268bc04e2",
+      "status": "verified_onchain",
+      "verifiedAt": "2026-07-03T03:29:37.547Z",
+      "verification": {
+        "factory": "0xf883162ed9c7e8ef604214c964c678e40c9b737c",
+        "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+        "method": "Fluxion Factory getPool + pool token checks + ERC-4626 asset() + onchain balances and slot0.",
+        "lastObserved": {
+          "poolTvlUsd": 105463.80226040687,
+          "poolTvlCapturedAt": "2026-07-03T03:29:37.547Z",
+          "token0": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+          "token1": "0x93e62845c1dd5822ebc807ab71a5fb750decd15a",
+          "token0Amount": 53109.392493,
+          "token1Amount": 268.70177828844106,
+          "stableAmount": 53109.392493,
+          "wrapperAmount": 268.70177828844106,
+          "priceUsdPerWrapper": 194.84206655010084
+        }
+      }
+    },
+    {
+      "assetId": "qqqx-mantle",
+      "symbol": "QQQx",
+      "name": "Nasdaq xStock",
+      "underlying": "0xa753a7395cae905cd615da0b82a53e0560f250af",
+      "wrapper": "0xdbd9232fee15351068fe02f0683146e16d9f2cea",
+      "pool": "0x505258001e834251634029742fc73b5cab4fd67d",
+      "fee": 3000,
+      "url": "https://fluxion.network/pool/0x505258001e834251634029742fc73b5cab4fd67d",
+      "status": "verified_onchain",
+      "verifiedAt": "2026-07-03T03:29:42.885Z",
+      "verification": {
+        "factory": "0xf883162ed9c7e8ef604214c964c678e40c9b737c",
+        "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+        "method": "Fluxion Factory getPool + pool token checks + ERC-4626 asset() + onchain balances and slot0.",
+        "lastObserved": {
+          "poolTvlUsd": 110063.69356974438,
+          "poolTvlCapturedAt": "2026-07-03T03:29:42.885Z",
+          "token0": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+          "token1": "0xdbd9232fee15351068fe02f0683146e16d9f2cea",
+          "token0Amount": 55786.282417,
+          "token1Amount": 75.7659996000722,
+          "stableAmount": 55786.282417,
+          "wrapperAmount": 75.7659996000722,
+          "priceUsdPerWrapper": 716.3821693008146
+        }
+      }
+    },
+    {
+      "assetId": "spyx-mantle",
+      "symbol": "SPYx",
+      "name": "SP500 xStock",
+      "underlying": "0x90a2a4c76b5d8c0bc892a69ea28aa775a8f2dd48",
+      "wrapper": "0xc88fcd8b874fdb3256e8b55b3decb8c24eab4c02",
+      "pool": "0x373f7a2b95f28f38500eb70652e12038cca3bab8",
+      "fee": 3000,
+      "url": "https://fluxion.network/pool/0x373f7a2b95f28f38500eb70652e12038cca3bab8",
+      "status": "verified_onchain",
+      "verifiedAt": "2026-07-03T03:29:50.080Z",
+      "verification": {
+        "factory": "0xf883162ed9c7e8ef604214c964c678e40c9b737c",
+        "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+        "method": "Fluxion Factory getPool + pool token checks + ERC-4626 asset() + onchain balances and slot0.",
+        "lastObserved": {
+          "poolTvlUsd": 151830.75669200922,
+          "poolTvlCapturedAt": "2026-07-03T03:29:50.080Z",
+          "token0": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+          "token1": "0xc88fcd8b874fdb3256e8b55b3decb8c24eab4c02",
+          "token0Amount": 98234.124281,
+          "token1Amount": 71.83910843335977,
+          "stableAmount": 98234.124281,
+          "wrapperAmount": 71.83910843335977,
+          "priceUsdPerWrapper": 746.0648326492966
+        }
+      }
+    },
+    {
+      "assetId": "tslax-mantle",
+      "symbol": "TSLAx",
+      "name": "Tesla xStock",
+      "underlying": "0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0",
+      "wrapper": "0x43680abf18cf54898be84c6ef78237cfbd441883",
+      "pool": "0x5e7935d70b5d14b6cf36fbde59944533fab96b3c",
+      "fee": 3000,
+      "url": "https://fluxion.network/pool/0x5e7935d70b5d14b6cf36fbde59944533fab96b3c",
+      "status": "verified_onchain",
+      "verifiedAt": "2026-07-03T03:30:01.337Z",
+      "verification": {
+        "factory": "0xf883162ed9c7e8ef604214c964c678e40c9b737c",
+        "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+        "method": "Fluxion Factory getPool + pool token checks + ERC-4626 asset() + onchain balances and slot0.",
+        "lastObserved": {
+          "poolTvlUsd": 104943.71543394469,
+          "poolTvlCapturedAt": "2026-07-03T03:30:01.337Z",
+          "token0": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+          "token1": "0x43680abf18cf54898be84c6ef78237cfbd441883",
+          "token0Amount": 52999.533309,
+          "token1Amount": 131.7047943396945,
+          "stableAmount": 52999.533309,
+          "wrapperAmount": 131.7047943396945,
+          "priceUsdPerWrapper": 394.3985667747953
+        }
+      }
+    },
+    {
+      "assetId": "uspxx-mantle",
+      "symbol": "USPXx",
+      "name": "Franklin U.S. Equity Index xStock",
+      "underlying": "0x368192fec58e3150600a1409c631c77f45745bec",
+      "wrapper": "0xde5752c4f79c08193af97a6daa815c39cd069f89",
+      "pool": "0x1f84e7f2535d20d6e08ec714f36601588964e6fc",
+      "fee": 3000,
+      "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+      "url": "https://fluxion.network/pool/0x1f84e7f2535d20d6e08ec714f36601588964e6fc",
+      "status": "verified_onchain",
+      "verifiedAt": "2026-06-24T21:00:48.022Z",
+      "discovery": "factory_event",
+      "verification": {
+        "factory": "0xf883162ed9c7e8ef604214c964c678e40c9b737c",
+        "method": "Fluxion Factory event + getPool + pool token checks + ERC-4626 asset().",
+        "lastObserved": {
+          "poolTvlUsd": 14.256890905002367,
+          "poolTvlCapturedAt": "2026-06-24T21:00:48.675Z",
+          "token0Amount": 7.157267,
+          "token1Amount": 0.10976524327063093,
+          "priceUsdPerWrapper": 64.68007261185527
+        }
+      }
+    }
+  ]
+}

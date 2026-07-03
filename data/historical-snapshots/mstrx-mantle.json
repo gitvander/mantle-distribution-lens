@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-07-03T03:29:10.718Z",
+  "asset": {
+    "id": "mstrx-mantle",
+    "name": "MicroStrategy xStock",
+    "symbol": "MSTRx",
+    "address": "0xae2f842ef90c0d5213259ab82639d5bbf649b08e",
+    "chainId": 5000
+  },
+  "coverage": {
+    "type": "full_token_lifetime",
+    "contractCreatedBlock": 88103555,
+    "contractCreatedAt": "2025-11-28T13:43:42.000Z",
+    "firstTransferBlock": 88224031,
+    "lastTransferBlock": 97241220,
+    "lastIndexedBlock": 97459451,
+    "lastIndexedAt": "2026-07-03T03:26:54.000Z"
+  },
+  "stats": {
+    "transferCount": 31,
+    "walletAddresses": [
+      "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+      "0x4b8881f6eebd2b59661c66c08f47ab6d1cb110f8",
+      "0x92bda10103c45a5604799faa066fa2e32e9cdf05",
+      "0xd7e701e5f68bb2d6df6ba1ec3ba13b48a10d663a",
+      "0xee84c59e31b67e435579720e5b4c5bc397dfae27",
+      "0x266e5923f6118f8b340ca5a23ae7f71897361476",
+      "0xd894965581a598c0b9df5babaca73e714359e8b6",
+      "0xcdddbcb65f01d7696ecca0e635f425ce4d429010",
+      "0x41dee1855293e4450cd67459047f372d4d818143",
+      "0x3fdcb4af7f9019f6f8b669790bde93bbf91bbcc0",
+      "0x68a359928fa70d17207c5d7e47a9047c0744d6f4",
+      "0x3bb4d1be5fb72651555e2ba95b537a94705d58e4",
+      "0xb15d7daa4e21500102c7c57b21009cf3549ab890",
+      "0x708774f04d735fc3f1e6cf3cc2f3f5d430b643fb"
+    ],
+    "mints": 1,
+    "burns": 0,
+    "firstTransferBlock": 88224031,
+    "lastTransferBlock": 97241220
+  },
+  "market": {
+    "capturedAt": "2026-07-03T03:29:11.077Z",
+    "pairs": []
+  },
+  "sources": {
+    "rpcPoolSource": "file",
+    "rpcEndpointsUsed": [
+      {
+        "id": "publicnode-mantle",
+        "label": "PublicNode Mantle RPC",
+        "url": "https://mantle-rpc.publicnode.com"
+      },
+      {
+        "id": "drpc-mantle",
+        "label": "dRPC Mantle RPC",
+        "url": "https://mantle.drpc.org"
+      }
+    ],
+    "explorer": "https://mantlescan.xyz/token/0xae2f842ef90c0d5213259ab82639d5bbf649b08e",
+    "market": "https://api.dexscreener.com"
+  }
+}

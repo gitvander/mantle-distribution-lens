@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "network": "Mantle",
+  "notes": [
+    "V12 starts with three public Mantle RPC providers. They are public infrastructure, so availability and rate limits can change without notice.",
+    "The updater assigns each asset a preferred endpoint and falls back to the other enabled endpoints if a request fails.",
+    "V12 uses up to two controlled workers. Multiple healthy providers let those workers make progress without concentrating every request on one endpoint.",
+    "A provider is never treated as a source of market evidence: it only serves on-chain data. The snapshot keeps the endpoint history used for reproducibility."
+  ],
+  "endpoints": [
+    {
+      "id": "mantle-public",
+      "label": "Mantle Public RPC",
+      "url": "https://rpc.mantle.xyz",
+      "enabled": true
+    },
+    {
+      "id": "publicnode-mantle",
+      "label": "PublicNode Mantle RPC",
+      "url": "https://mantle-rpc.publicnode.com",
+      "enabled": true
+    },
+    {
+      "id": "drpc-mantle",
+      "label": "dRPC Mantle RPC",
+      "url": "https://mantle.drpc.org",
+      "enabled": true
+    }
+  ]
+}

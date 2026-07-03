@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "network": {
+    "name": "Mantle",
+    "chainId": 5000
+  },
+  "selection": {
+    "quoteToken": {
+      "symbol": "USDC",
+      "address": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9"
+    },
+    "factory": "0xf883162ed9c7e8ef604214c964c678e40c9b737c",
+    "fee": 3000,
+    "quoter": "0x3e4ee18ac7280813236a1eb850679da5322e14ce"
+  },
+  "routes": [
+    {
+      "assetId": "spcxx-mantle",
+      "symbol": "SPCXx",
+      "name": "Tokenized SpaceX",
+      "address": "0x68fa48b1c2fe52b3d776e1953e0e782b5044ce28",
+      "wrapper": "0x8e2eed8b8b5e13ea7bf38e50d7821d2c57309072",
+      "pool": "0xdcc6578d509baa30463319409ff38642698056a5",
+      "url": "https://fluxion.network/pool/0xdcc6578d509baa30463319409ff38642698056a5",
+      "status": "route_recorded",
+      "lastCheckedAt": "2026-07-03T03:31:16.564Z",
+      "lastAttemptAt": "2026-07-03T03:31:16.564Z",
+      "verification": {
+        "lastResult": "pass",
+        "lastObserved": {
+          "pool": "0xdcc6578d509baa30463319409ff38642698056a5",
+          "token0": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+          "token1": "0x8e2eed8b8b5e13ea7bf38e50d7821d2c57309072",
+          "fee": 3000,
+          "activeLiquidityUnits": "774217395615",
+          "slot0Available": true,
+          "underlying": "0x68fa48b1c2fe52b3d776e1953e0e782b5044ce28",
+          "factoryPool": "0xdcc6578d509baa30463319409ff38642698056a5",
+          "poolTvlUsd": 19.70672224902792,
+          "poolTvlCapturedAt": "2026-07-03T03:31:23.882Z",
+          "poolReserves": {
+            "token0Amount": 9.917004,
+            "token1Amount": 0.05971420968622237,
+            "stableAmount": 9.917004,
+            "wrapperAmount": 0.05971420968622237,
+            "priceUsdPerWrapper": 163.9428588349326,
+            "method": "ERC-20 balances held by the Fluxion V3 pool, valued using the pool slot0 price."
+          },
+          "quoteSimulation": {
+            "method": "Fluxion QuoterV2 quoteExactInputSingle; eth_call only, no trade is executed.",
+            "capturedAt": "2026-07-03T03:31:23.882Z",
+            "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+            "quoteTokenSymbol": "USDC",
+            "wrapperDecimals": 18,
+            "buy100Usd": {
+              "amountInUsdc": 100,
+              "amountOutRaw": "54998316723254843",
+              "initializedTicksCrossed": 0,
+              "wrapperOut": 0.05499831672325484,
+              "impliedUsdPerWrapper": 1818.2374653971397
+            },
+            "buy1000Usd": {
+              "amountInUsdc": 1000,
+              "amountOutRaw": "59691842522451537",
+              "initializedTicksCrossed": 1,
+              "wrapperOut": 0.059691842522451535,
+              "impliedUsdPerWrapper": 16752.7078699887
+            },
+            "largerTradePriceImpactPercent": 821.3707334058025
+          }
+        }
+      }
+    }
+  ],
+  "updatedAt": "2026-07-03T03:31:23.882Z"
+}

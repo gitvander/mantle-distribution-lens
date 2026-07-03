@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-07-03T03:29:14.533Z",
+  "asset": {
+    "id": "uspxx-mantle",
+    "name": "Franklin U.S. Equity Index xStock",
+    "symbol": "USPXx",
+    "address": "0x368192fec58e3150600a1409c631c77f45745bec",
+    "chainId": 5000
+  },
+  "coverage": {
+    "type": "full_token_lifetime",
+    "contractCreatedBlock": 95269806,
+    "contractCreatedAt": "2026-05-13T10:58:44.000Z",
+    "firstTransferBlock": 95283352,
+    "lastTransferBlock": 97441039,
+    "lastIndexedBlock": 97459456,
+    "lastIndexedAt": "2026-07-03T03:27:04.000Z"
+  },
+  "stats": {
+    "transferCount": 39,
+    "walletAddresses": [
+      "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+      "0xee84c59e31b67e435579720e5b4c5bc397dfae27",
+      "0x41dee1855293e4450cd67459047f372d4d818143",
+      "0x3fdcb4af7f9019f6f8b669790bde93bbf91bbcc0",
+      "0x68a359928fa70d17207c5d7e47a9047c0744d6f4",
+      "0x2b90c1dcfc676be2eb2ffaac1b37ac5f5c04662e",
+      "0xd894965581a598c0b9df5babaca73e714359e8b6",
+      "0xde5752c4f79c08193af97a6daa815c39cd069f89",
+      "0x735d8bfc46ee0e70304d0444194a7af905e8d970",
+      "0x00140f219303306d40bf7fb457a6e1461d313fd4"
+    ],
+    "mints": 1,
+    "burns": 0,
+    "firstTransferBlock": 95283352,
+    "lastTransferBlock": 97441039
+  },
+  "market": {
+    "capturedAt": "2026-07-03T03:29:14.757Z",
+    "pairs": []
+  },
+  "sources": {
+    "rpcPoolSource": "file",
+    "rpcEndpointsUsed": [
+      {
+        "id": "drpc-mantle",
+        "label": "dRPC Mantle RPC",
+        "url": "https://mantle.drpc.org"
+      }
+    ],
+    "explorer": "https://mantlescan.xyz/token/0x368192fec58e3150600a1409c631c77f45745bec",
+    "market": "https://api.dexscreener.com"
+  }
+}

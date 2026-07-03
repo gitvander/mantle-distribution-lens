@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-07-01T18:27:56.058Z",
+  "asset": {
+    "id": "hoodx-mantle",
+    "name": "Robinhood xStock",
+    "symbol": "HOODx",
+    "address": "0xe1385fdd5ffb10081cd52c56584f25efa9084015",
+    "chainId": 5000
+  },
+  "coverage": {
+    "type": "full_token_lifetime",
+    "firstTransferBlock": 95880613,
+    "lastTransferBlock": 97396681,
+    "lastIndexedBlock": 97399209,
+    "lastIndexedAt": "2026-07-01T17:58:50.000Z"
+  },
+  "stats": {
+    "transferCount": 237,
+    "walletAddresses": [
+      "0x953707d7a1cb30cc5c636bda8eaebe410341eb14",
+      "0xb15d7daa4e21500102c7c57b21009cf3549ab890",
+      "0xfd8b2cd9ad70a25f6741ac8948069000d42edf1a",
+      "0xd8169f099ce16c87a99d2a8494023574b5eea9c5",
+      "0xc868d0ea71243f1580f934cdc59620603bf9f1f1",
+      "0x4a67e97e770de93952b8596f04c13ada0ab9a69c",
+      "0x0d4dc3b8becc98782309e443a6da4b9455b5ca48",
+      "0x588846213a30fd36244e0ae0ebb2374516da836c",
+      "0x763d59cd428d27a5b6d232def6a5abbf64d548fa",
+      "0xa4791c140e08b46f979f4815e2f6c4900384996f",
+      "0x85cd080ef88a4be4f174eed2a5ef1de6c9cd264f",
+      "0x8489b7bfa6c7054b9aa23457f766b34511da40d7",
+      "0xcdddbcb65f01d7696ecca0e635f425ce4d429010",
+      "0x3fdcb4af7f9019f6f8b669790bde93bbf91bbcc0",
+      "0x68a359928fa70d17207c5d7e47a9047c0744d6f4",
+      "0x0e4d4e4a9f088a1ea9bceac9e897330f5b2e1247"
+    ],
+    "mints": 0,
+    "burns": 0,
+    "firstTransferBlock": 95880613,
+    "lastTransferBlock": 97396681
+  },
+  "market": {
+    "capturedAt": "2026-07-01T18:27:56.471Z",
+    "pairs": []
+  },
+  "sources": {
+    "rpcPoolSource": "file",
+    "rpcEndpointsUsed": [
+      {
+        "id": "publicnode-mantle",
+        "label": "PublicNode Mantle RPC",
+        "url": "https://mantle-rpc.publicnode.com"
+      },
+      {
+        "id": "drpc-mantle",
+        "label": "dRPC Mantle RPC",
+        "url": "https://mantle.drpc.org"
+      }
+    ],
+    "explorer": "https://mantlescan.xyz/token/0xe1385fdd5ffb10081cd52c56584f25efa9084015",
+    "market": "https://api.dexscreener.com"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "network": {
+    "name": "Mantle",
+    "chainId": 5000
+  },
+  "notes": [
+    "Direct pool links are recorded as route evidence, not as a live USD liquidity source until their protocol adapter is independently verified.",
+    "Do not use a third-party token search result as a substitute for the exact Merchant Moe pool route."
+  ],
+  "routes": [
+    {
+      "assetId": "spcxx-mantle",
+      "symbol": "SPCXx",
+      "venue": "Merchant Moe",
+      "pairLabel": "SPCXx / USDT0",
+      "tokenA": "0x68fa48b1c2fe52b3d776e1953e0e782b5044ce28",
+      "tokenB": "0x779ded0c9e1022225f8e0630b35a9b54be713736",
+      "binStep": 100,
+      "poolAddress": "0xd14B0DcD319551AE4D7B12787c00EE1C1f9E1d2E",
+      "url": "https://merchantmoe.com/pool/v22/0x68fa48b1c2fe52b3d776e1953e0e782b5044ce28/0x779ded0c9e1022225f8e0630b35a9b54be713736/100",
+      "status": "route_recorded_metric_pending",
+      "recordedAt": "2026-06-23T00:00:00.000Z",
+      "verification": {
+        "status": "verified",
+        "lastObserved": {
+          "pool": "0xd14b0dcd319551ae4d7b12787c00ee1c1f9e1d2e",
+          "tokenX": "0x68fa48b1c2fe52b3d776e1953e0e782b5044ce28",
+          "tokenY": "0x779ded0c9e1022225f8e0630b35a9b54be713736",
+          "activeId": 8386341,
+          "binStep": 100,
+          "reserveX": "12509655144681375248",
+          "reserveY": "48073828060",
+          "assetAmount": 12.509655144681377,
+          "stableAmount": 48073.82806,
+          "priceReference": {
+            "priceUsd": 159.78,
+            "pairAddress": "0xd14b0dcd319551ae4d7b12787c00ee1c1f9e1d2e",
+            "url": "https://dexscreener.com/mantle/0xd14b0dcd319551ae4d7b12787c00ee1c1f9e1d2e",
+            "capturedAt": "2026-07-03T03:31:29.043Z"
+          },
+          "tvlUsd": 50072.62075901719,
+          "capturedAt": "2026-07-03T03:31:29.044Z",
+          "method": "Exact Merchant Moe pool contract getReserves(), valued with the USD price reference for that same pool. Reserves are read-only onchain data; the price reference does not supply liquidity."
+        }
+      }
+    }
+  ],
+  "updatedAt": "2026-07-03T03:31:29.044Z"
+}

@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-07-01T19:29:58.491Z",
+  "asset": {
+    "id": "metax-mantle",
+    "name": "Meta xStock",
+    "symbol": "METAx",
+    "address": "0x96702be57cd9777f835117a809c7124fe4ec989a",
+    "chainId": 5000
+  },
+  "coverage": {
+    "type": "full_token_lifetime",
+    "firstTransferBlock": 96603458,
+    "lastTransferBlock": 97392301,
+    "lastIndexedBlock": 97401263,
+    "lastIndexedAt": "2026-07-01T19:07:18.000Z"
+  },
+  "stats": {
+    "transferCount": 14,
+    "walletAddresses": [
+      "0x4e41a262caa93c6575d336e0a4eb79f3c67caa06",
+      "0x2b90c1dcfc676be2eb2ffaac1b37ac5f5c04662e",
+      "0x588846213a30fd36244e0ae0ebb2374516da836c",
+      "0xb15d7daa4e21500102c7c57b21009cf3549ab890",
+      "0xfd8b2cd9ad70a25f6741ac8948069000d42edf1a",
+      "0x4a67e97e770de93952b8596f04c13ada0ab9a69c",
+      "0xc868d0ea71243f1580f934cdc59620603bf9f1f1",
+      "0xd8169f099ce16c87a99d2a8494023574b5eea9c5"
+    ],
+    "mints": 0,
+    "burns": 0,
+    "firstTransferBlock": 96603458,
+    "lastTransferBlock": 97392301
+  },
+  "market": {
+    "capturedAt": "2026-07-01T19:29:58.891Z",
+    "pairs": []
+  },
+  "sources": {
+    "rpcPoolSource": "file",
+    "rpcEndpointsUsed": [
+      {
+        "id": "drpc-mantle",
+        "label": "dRPC Mantle RPC",
+        "url": "https://mantle.drpc.org"
+      }
+    ],
+    "explorer": "https://mantlescan.xyz/token/0x96702be57cd9777f835117a809c7124fe4ec989a",
+    "market": "https://api.dexscreener.com"
+  }
+}

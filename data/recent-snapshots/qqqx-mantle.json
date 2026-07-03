@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-07-01T18:42:44.650Z",
+  "asset": {
+    "id": "qqqx-mantle",
+    "name": "Nasdaq xStock",
+    "symbol": "QQQx",
+    "address": "0xa753a7395cae905cd615da0b82a53e0560f250af",
+    "chainId": 5000
+  },
+  "coverage": {
+    "type": "full_token_lifetime",
+    "firstTransferBlock": null,
+    "lastTransferBlock": null,
+    "lastIndexedBlock": 97399839,
+    "lastIndexedAt": "2026-07-01T18:19:50.000Z"
+  },
+  "stats": {
+    "transferCount": 0,
+    "walletAddresses": [],
+    "mints": 0,
+    "burns": 0,
+    "firstTransferBlock": null,
+    "lastTransferBlock": null
+  },
+  "market": {
+    "capturedAt": "2026-07-01T18:42:45.047Z",
+    "pairs": []
+  },
+  "sources": {
+    "rpcPoolSource": "file",
+    "rpcEndpointsUsed": [
+      {
+        "id": "drpc-mantle",
+        "label": "dRPC Mantle RPC",
+        "url": "https://mantle.drpc.org"
+      }
+    ],
+    "explorer": "https://mantlescan.xyz/token/0xa753a7395cae905cd615da0b82a53e0560f250af",
+    "market": "https://api.dexscreener.com"
+  }
+}

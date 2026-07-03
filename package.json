@@ -1,0 +1,16 @@
+{
+  "name": "mantle-distribution-lens",
+  "version": "0.29.0",
+  "private": true,
+  "description": "Static Mantle RWA distribution research lens with GitHub Actions data refresh.",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check app.js && node --check server.js && node --check scripts/refresh-published-data.js",
+    "refresh": "node scripts/refresh-published-data.js",
+    "refresh:published": "node scripts/refresh-published-data.js"
+  }
+}

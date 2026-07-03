@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-07-01T19:57:55.371Z",
+  "asset": {
+    "id": "mstrx-mantle",
+    "name": "MicroStrategy xStock",
+    "symbol": "MSTRx",
+    "address": "0xae2f842ef90c0d5213259ab82639d5bbf649b08e",
+    "chainId": 5000
+  },
+  "coverage": {
+    "type": "full_token_lifetime",
+    "firstTransferBlock": 96347569,
+    "lastTransferBlock": 97241220,
+    "lastIndexedBlock": 97401882,
+    "lastIndexedAt": "2026-07-01T19:27:56.000Z"
+  },
+  "stats": {
+    "transferCount": 5,
+    "walletAddresses": [
+      "0x266e5923f6118f8b340ca5a23ae7f71897361476",
+      "0xb15d7daa4e21500102c7c57b21009cf3549ab890",
+      "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+      "0x708774f04d735fc3f1e6cf3cc2f3f5d430b643fb"
+    ],
+    "mints": 0,
+    "burns": 0,
+    "firstTransferBlock": 96347569,
+    "lastTransferBlock": 97241220
+  },
+  "market": {
+    "capturedAt": "2026-07-01T19:57:55.769Z",
+    "pairs": []
+  },
+  "sources": {
+    "rpcPoolSource": "file",
+    "rpcEndpointsUsed": [
+      {
+        "id": "publicnode-mantle",
+        "label": "PublicNode Mantle RPC",
+        "url": "https://mantle-rpc.publicnode.com"
+      },
+      {
+        "id": "drpc-mantle",
+        "label": "dRPC Mantle RPC",
+        "url": "https://mantle.drpc.org"
+      }
+    ],
+    "explorer": "https://mantlescan.xyz/token/0xae2f842ef90c0d5213259ab82639d5bbf649b08e",
+    "market": "https://api.dexscreener.com"
+  }
+}

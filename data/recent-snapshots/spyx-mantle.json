@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-07-01T18:21:51.655Z",
+  "asset": {
+    "id": "spyx-mantle",
+    "name": "SP500 xStock",
+    "symbol": "SPYx",
+    "address": "0x90a2a4c76b5d8c0bc892a69ea28aa775a8f2dd48",
+    "chainId": 5000
+  },
+  "coverage": {
+    "type": "full_token_lifetime",
+    "firstTransferBlock": 95842939,
+    "lastTransferBlock": 96728380,
+    "lastIndexedBlock": 97399209,
+    "lastIndexedAt": "2026-07-01T17:58:50.000Z"
+  },
+  "stats": {
+    "transferCount": 9,
+    "walletAddresses": [
+      "0xc88fcd8b874fdb3256e8b55b3decb8c24eab4c02",
+      "0x25f8d05f345d03f94d42cee5f795eec6478919cf",
+      "0xe2c17e812f506e1a2723618e787ee61b9e30470f",
+      "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+      "0x1cd802181262751d1dc2ede0a20a48fc4046a5e9",
+      "0x2ae394468edf2907ac5cf77b5472f935804208fa"
+    ],
+    "mints": 0,
+    "burns": 0,
+    "firstTransferBlock": 95842939,
+    "lastTransferBlock": 96728380
+  },
+  "market": {
+    "capturedAt": "2026-07-01T18:21:52.286Z",
+    "pairs": []
+  },
+  "sources": {
+    "rpcPoolSource": "file",
+    "rpcEndpointsUsed": [
+      {
+        "id": "mantle-public",
+        "label": "Mantle Public RPC",
+        "url": "https://rpc.mantle.xyz"
+      }
+    ],
+    "explorer": "https://mantlescan.xyz/token/0x90a2a4c76b5d8c0bc892a69ea28aa775a8f2dd48",
+    "market": "https://api.dexscreener.com"
+  }
+}

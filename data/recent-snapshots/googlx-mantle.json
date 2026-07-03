@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-07-01T18:48:55.616Z",
+  "asset": {
+    "id": "googlx-mantle",
+    "name": "Alphabet xStock",
+    "symbol": "GOOGLx",
+    "address": "0xe92f673ca36c5e2efd2de7628f815f84807e803f",
+    "chainId": 5000
+  },
+  "coverage": {
+    "type": "full_token_lifetime",
+    "firstTransferBlock": 96493183,
+    "lastTransferBlock": 97138768,
+    "lastIndexedBlock": 97400021,
+    "lastIndexedAt": "2026-07-01T18:25:54.000Z"
+  },
+  "stats": {
+    "transferCount": 7,
+    "walletAddresses": [
+      "0x588846213a30fd36244e0ae0ebb2374516da836c",
+      "0xb15d7daa4e21500102c7c57b21009cf3549ab890",
+      "0x1630f08370917e79df0b7572395a5e907508bbbc",
+      "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+      "0x41dee1855293e4450cd67459047f372d4d818143",
+      "0x3fdcb4af7f9019f6f8b669790bde93bbf91bbcc0",
+      "0x68a359928fa70d17207c5d7e47a9047c0744d6f4",
+      "0x6600330103512f2f9ac055a28d916afe2f5830a0",
+      "0x20236ce0419ce269976e1bebb8ee6ec40296737e"
+    ],
+    "mints": 0,
+    "burns": 0,
+    "firstTransferBlock": 96493183,
+    "lastTransferBlock": 97138768
+  },
+  "market": {
+    "capturedAt": "2026-07-01T18:48:55.977Z",
+    "pairs": []
+  },
+  "sources": {
+    "rpcPoolSource": "file",
+    "rpcEndpointsUsed": [
+      {
+        "id": "drpc-mantle",
+        "label": "dRPC Mantle RPC",
+        "url": "https://mantle.drpc.org"
+      }
+    ],
+    "explorer": "https://mantlescan.xyz/token/0xe92f673ca36c5e2efd2de7628f815f84807e803f",
+    "market": "https://api.dexscreener.com"
+  }
+}

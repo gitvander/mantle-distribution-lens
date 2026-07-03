@@ -1,0 +1,274 @@
+{
+  "schema": 3,
+  "network": {
+    "name": "Mantle",
+    "chainId": 5000
+  },
+  "generatedAt": "2026-07-03T03:29:15.119Z",
+  "methodology": "V28 uses full historical snapshots when available. Fluxion routes are verified onchain; quote simulations are separate from third-party TVL observations.",
+  "assets": [
+    {
+      "id": "spcxx-mantle",
+      "name": "Tokenized SpaceX",
+      "symbol": "SPCXx",
+      "address": "0x68fa48b1c2fe52b3d776e1953e0e782b5044ce28",
+      "snapshot": "data/historical-snapshots/spcxx-mantle.json",
+      "status": "indexed",
+      "priority": 0,
+      "notes": "Fluxion wrapper route; Merchant Moe SPCXx/USDT0 is recorded separately until its metric adapter is verified.",
+      "fluxion": {
+        "pool": "0xdcc6578d509baa30463319409ff38642698056a5",
+        "wrapper": "0x8e2eed8b8b5e13ea7bf38e50d7821d2c57309072",
+        "fee": 3000,
+        "url": "https://fluxion.network/pool/0xdcc6578d509baa30463319409ff38642698056a5",
+        "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9"
+      },
+      "coverageMode": "historical_pilot_with_recent_comparison",
+      "recentSnapshot": "data/recent-snapshots/spcxx-mantle.json",
+      "lastSnapshotAttemptAt": "2026-07-03T03:29:13.957Z",
+      "lastSnapshotSuccessAt": "2026-07-03T03:29:13.957Z",
+      "lastRpcUsed": "dRPC Mantle RPC"
+    },
+    {
+      "id": "spyx-mantle",
+      "name": "SP500 xStock",
+      "symbol": "SPYx",
+      "address": "0x90a2a4c76b5d8c0bc892a69ea28aa775a8f2dd48",
+      "snapshot": "data/historical-snapshots/spyx-mantle.json",
+      "status": "indexed",
+      "priority": 1,
+      "notes": "Fluxion RWA pool: USDC -> wrapper -> reviewed xStock underlying.",
+      "fluxion": {
+        "pool": "0x373f7a2b95f28f38500eb70652e12038cca3bab8",
+        "wrapper": "0xc88fcd8b874fdb3256e8b55b3decb8c24eab4c02",
+        "fee": 3000,
+        "url": "https://fluxion.network/pool/0x373f7a2b95f28f38500eb70652e12038cca3bab8",
+        "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9"
+      },
+      "coverageMode": "historical_with_recent_comparison",
+      "recentSnapshot": "data/recent-snapshots/spyx-mantle.json",
+      "lastSnapshotAttemptAt": "2026-07-03T03:28:29.084Z",
+      "lastSnapshotSuccessAt": "2026-07-03T03:28:29.084Z",
+      "lastRpcUsed": "Mantle Public RPC"
+    },
+    {
+      "id": "hoodx-mantle",
+      "name": "Robinhood xStock",
+      "symbol": "HOODx",
+      "address": "0xe1385fdd5ffb10081cd52c56584f25efa9084015",
+      "snapshot": "data/historical-snapshots/hoodx-mantle.json",
+      "status": "indexed",
+      "priority": 2,
+      "notes": "Fluxion RWA pool: USDC -> wrapper -> reviewed xStock underlying.",
+      "fluxion": {
+        "pool": "0x4e23bb828e51cbc03c81d76c844228cc75f6a287",
+        "wrapper": "0x953707d7a1cb30cc5c636bda8eaebe410341eb14",
+        "fee": 3000,
+        "url": "https://fluxion.network/pool/0x4e23bb828e51cbc03c81d76c844228cc75f6a287",
+        "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9"
+      },
+      "coverageMode": "historical_with_recent_comparison",
+      "recentSnapshot": "data/recent-snapshots/hoodx-mantle.json",
+      "lastSnapshotAttemptAt": "2026-07-03T03:28:37.849Z",
+      "lastSnapshotSuccessAt": "2026-07-03T03:28:37.849Z",
+      "lastRpcUsed": "PublicNode Mantle RPC"
+    },
+    {
+      "id": "qqqx-mantle",
+      "name": "Nasdaq xStock",
+      "symbol": "QQQx",
+      "address": "0xa753a7395cae905cd615da0b82a53e0560f250af",
+      "snapshot": "data/historical-snapshots/qqqx-mantle.json",
+      "status": "indexed",
+      "priority": 3,
+      "notes": "Fluxion RWA pool: USDC -> wrapper -> reviewed xStock underlying.",
+      "fluxion": {
+        "pool": "0x505258001e834251634029742fc73b5cab4fd67d",
+        "wrapper": "0xdbd9232fee15351068fe02f0683146e16d9f2cea",
+        "fee": 3000,
+        "url": "https://fluxion.network/pool/0x505258001e834251634029742fc73b5cab4fd67d",
+        "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9"
+      },
+      "coverageMode": "historical_with_recent_comparison",
+      "recentSnapshot": "data/recent-snapshots/qqqx-mantle.json",
+      "lastSnapshotAttemptAt": "2026-07-03T03:28:35.090Z",
+      "lastSnapshotSuccessAt": "2026-07-03T03:28:35.090Z",
+      "lastRpcUsed": "dRPC Mantle RPC"
+    },
+    {
+      "id": "googlx-mantle",
+      "name": "Alphabet xStock",
+      "symbol": "GOOGLx",
+      "address": "0xe92f673ca36c5e2efd2de7628f815f84807e803f",
+      "snapshot": "data/historical-snapshots/googlx-mantle.json",
+      "status": "indexed",
+      "priority": 4,
+      "notes": "Fluxion RWA pool: USDC -> wrapper -> reviewed xStock underlying.",
+      "fluxion": {
+        "pool": "0x66960ed892daf022c5f282c5316c38cb6f0c1333",
+        "wrapper": "0x1630f08370917e79df0b7572395a5e907508bbbc",
+        "fee": 3000,
+        "url": "https://fluxion.network/pool/0x66960ed892daf022c5f282c5316c38cb6f0c1333",
+        "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9"
+      },
+      "coverageMode": "historical_with_recent_comparison",
+      "recentSnapshot": "data/recent-snapshots/googlx-mantle.json",
+      "lastSnapshotAttemptAt": "2026-07-03T03:28:55.285Z",
+      "lastSnapshotSuccessAt": "2026-07-03T03:28:55.285Z",
+      "lastRpcUsed": "dRPC Mantle RPC"
+    },
+    {
+      "id": "aaplx-mantle",
+      "name": "Apple xStock",
+      "symbol": "AAPLx",
+      "address": "0x9d275685dc284c8eb1c79f6aba7a63dc75ec890a",
+      "snapshot": "data/historical-snapshots/aaplx-mantle.json",
+      "status": "indexed",
+      "priority": 5,
+      "notes": "Fluxion RWA pool: USDC -> wrapper -> reviewed xStock underlying.",
+      "fluxion": {
+        "pool": "0x2cc6a607f3445d826b9e29f507b3a2e3b9dae106",
+        "wrapper": "0x5aa7649fdbda47de64a07ac81d64b682af9c0724",
+        "fee": 3000,
+        "url": "https://fluxion.network/pool/0x2cc6a607f3445d826b9e29f507b3a2e3b9dae106",
+        "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9"
+      },
+      "coverageMode": "historical_with_recent_comparison",
+      "recentSnapshot": "data/recent-snapshots/aaplx-mantle.json",
+      "lastSnapshotAttemptAt": "2026-07-03T03:28:40.145Z",
+      "lastSnapshotSuccessAt": "2026-07-03T03:28:40.145Z",
+      "lastRpcUsed": "dRPC Mantle RPC"
+    },
+    {
+      "id": "nvdax-mantle",
+      "name": "NVIDIA xStock",
+      "symbol": "NVDAx",
+      "address": "0xc845b2894dbddd03858fd2d643b4ef725fe0849d",
+      "snapshot": "data/historical-snapshots/nvdax-mantle.json",
+      "status": "indexed",
+      "priority": 6,
+      "notes": "Fluxion RWA pool: USDC -> wrapper -> reviewed xStock underlying.",
+      "fluxion": {
+        "pool": "0xa875ac23d106394d1baaae5bc42b951268bc04e2",
+        "wrapper": "0x93e62845c1dd5822ebc807ab71a5fb750decd15a",
+        "fee": 3000,
+        "url": "https://fluxion.network/pool/0xa875ac23d106394d1baaae5bc42b951268bc04e2",
+        "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9"
+      },
+      "coverageMode": "historical_with_recent_comparison",
+      "recentSnapshot": "data/recent-snapshots/nvdax-mantle.json",
+      "lastSnapshotAttemptAt": "2026-07-03T03:28:44.500Z",
+      "lastSnapshotSuccessAt": "2026-07-03T03:28:44.500Z",
+      "lastRpcUsed": "dRPC Mantle RPC"
+    },
+    {
+      "id": "tslax-mantle",
+      "name": "Tesla xStock",
+      "symbol": "TSLAx",
+      "address": "0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0",
+      "snapshot": "data/historical-snapshots/tslax-mantle.json",
+      "status": "indexed",
+      "priority": 7,
+      "notes": "Fluxion RWA pool: USDC -> wrapper -> reviewed xStock underlying.",
+      "fluxion": {
+        "pool": "0x5e7935d70b5d14b6cf36fbde59944533fab96b3c",
+        "wrapper": "0x43680abf18cf54898be84c6ef78237cfbd441883",
+        "fee": 3000,
+        "url": "https://fluxion.network/pool/0x5e7935d70b5d14b6cf36fbde59944533fab96b3c",
+        "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9"
+      },
+      "coverageMode": "historical_with_recent_comparison",
+      "recentSnapshot": "data/recent-snapshots/tslax-mantle.json",
+      "lastSnapshotAttemptAt": "2026-07-03T03:28:48.259Z",
+      "lastSnapshotSuccessAt": "2026-07-03T03:28:48.259Z",
+      "lastRpcUsed": "Mantle Public RPC"
+    },
+    {
+      "id": "metax-mantle",
+      "name": "Meta xStock",
+      "symbol": "METAx",
+      "address": "0x96702be57cd9777f835117a809c7124fe4ec989a",
+      "snapshot": "data/historical-snapshots/metax-mantle.json",
+      "status": "indexed",
+      "priority": 8,
+      "notes": "Fluxion RWA pool: USDC -> wrapper -> reviewed xStock underlying.",
+      "fluxion": {
+        "pool": "0x782bd3895a6ac561d0df11b02dd6f9e023f3a497",
+        "wrapper": "0x4e41a262caa93c6575d336e0a4eb79f3c67caa06",
+        "fee": 3000,
+        "url": "https://fluxion.network/pool/0x782bd3895a6ac561d0df11b02dd6f9e023f3a497",
+        "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9"
+      },
+      "coverageMode": "historical_with_recent_comparison",
+      "recentSnapshot": "data/recent-snapshots/metax-mantle.json",
+      "lastSnapshotAttemptAt": "2026-07-03T03:29:06.563Z",
+      "lastSnapshotSuccessAt": "2026-07-03T03:29:06.563Z",
+      "lastRpcUsed": "dRPC Mantle RPC"
+    },
+    {
+      "id": "crclx-mantle",
+      "name": "Circle xStock",
+      "symbol": "CRCLx",
+      "address": "0xfebded1b0986a8ee107f5ab1a1c5a813491deceb",
+      "snapshot": "data/historical-snapshots/crclx-mantle.json",
+      "status": "indexed",
+      "priority": 9,
+      "notes": "Fluxion RWA pool: USDC -> wrapper -> reviewed xStock underlying.",
+      "fluxion": {
+        "pool": "0x43cf441f5949d52faa105060239543492193c87e",
+        "wrapper": "0xa90872aca656ebe47bdebf3b19ec9dd9c5adc7f8",
+        "fee": 3000,
+        "url": "https://fluxion.network/pool/0x43cf441f5949d52faa105060239543492193c87e",
+        "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9"
+      },
+      "coverageMode": "historical_with_recent_comparison",
+      "recentSnapshot": "data/recent-snapshots/crclx-mantle.json",
+      "lastSnapshotAttemptAt": "2026-07-03T03:28:58.023Z",
+      "lastSnapshotSuccessAt": "2026-07-03T03:28:58.023Z",
+      "lastRpcUsed": "dRPC Mantle RPC"
+    },
+    {
+      "id": "mstrx-mantle",
+      "name": "MicroStrategy xStock",
+      "symbol": "MSTRx",
+      "address": "0xae2f842ef90c0d5213259ab82639d5bbf649b08e",
+      "snapshot": "data/historical-snapshots/mstrx-mantle.json",
+      "status": "indexed",
+      "priority": 10,
+      "notes": "Fluxion RWA pool: USDC -> wrapper -> reviewed xStock underlying.",
+      "fluxion": {
+        "pool": "0x0e1f84a9e388071e20df101b36c14c817bf81953",
+        "wrapper": "0x266e5923f6118f8b340ca5a23ae7f71897361476",
+        "fee": 3000,
+        "url": "https://fluxion.network/pool/0x0e1f84a9e388071e20df101b36c14c817bf81953",
+        "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9"
+      },
+      "coverageMode": "historical_with_recent_comparison",
+      "recentSnapshot": "data/recent-snapshots/mstrx-mantle.json",
+      "lastSnapshotAttemptAt": "2026-07-03T03:29:11.079Z",
+      "lastSnapshotSuccessAt": "2026-07-03T03:29:11.079Z",
+      "lastRpcUsed": "PublicNode Mantle RPC"
+    },
+    {
+      "id": "uspxx-mantle",
+      "name": "Franklin U.S. Equity Index xStock",
+      "symbol": "USPXx",
+      "address": "0x368192fec58e3150600a1409c631c77f45745bec",
+      "snapshot": "data/historical-snapshots/uspxx-mantle.json",
+      "status": "indexed",
+      "priority": 11,
+      "notes": "Fluxion RWA pool discovered from Factory events and promoted when a historical snapshot exists.",
+      "fluxion": {
+        "pool": "0x1f84e7f2535d20d6e08ec714f36601588964e6fc",
+        "wrapper": "0xde5752c4f79c08193af97a6daa815c39cd069f89",
+        "fee": 3000,
+        "url": "https://fluxion.network/pool/0x1f84e7f2535d20d6e08ec714f36601588964e6fc",
+        "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9"
+      },
+      "coverageMode": "historical_with_recent_comparison",
+      "lastSnapshotAttemptAt": "2026-07-03T03:29:14.759Z",
+      "lastSnapshotSuccessAt": "2026-07-03T03:29:14.759Z",
+      "lastRpcUsed": "dRPC Mantle RPC"
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "schema": 2,
+  "assetId": "spcxx-mantle",
+  "researchProfile": "official-catalog-liquidity-basket",
+  "methodVersion": "V7.0",
+  "updatedAt": "2026-06-23T14:43:57.857Z",
+  "identity": {
+    "chainId": 5000,
+    "network": "Mantle",
+    "address": "0x68fa48b1c2fe52b3d776e1953e0e782b5044ce28",
+    "rule": {
+      "pt-BR": "A identidade do ativo é sempre rede + chainId + contrato. Um mesmo endereço em outra rede não é tratado como o mesmo ativo.",
+      "en": "Asset identity always includes network + chainId + contract. The same address on another chain is not treated as the same asset."
+    }
+  },
+  "score": {
+    "name": {
+      "pt-BR": "Prontidão de distribuição",
+      "en": "Distribution readiness"
+    },
+    "total": 70,
+    "summary": {
+      "pt-BR": "SPCXx agora tem o contrato, o wrapper e duas rotas p?blicas verificadas na Mantle. O cat?logo oficial xStocks confirma a implanta??o exata do ativo na rede, enquanto a liquidez permanece pequena e ainda precisa de m?tricas p?blicas mais robustas.",
+      "en": "SPCXx now has the contract, wrapper, and two public routes verified on Mantle. The official xStocks catalog confirms the exact deployment on the network, while liquidity remains small and still needs a more robust public metric."
+    },
+    "components": [
+      {
+        "id": "distribution",
+        "label": {
+          "pt-BR": "Distribuição on-chain",
+          "en": "Onchain distribution"
+        },
+        "score": 21,
+        "max": 25,
+        "detail": {
+          "pt-BR": "Usa as transferências e carteiras do snapshot publicado mais recente. Carteiras não são automaticamente investidores únicos.",
+          "en": "Uses transfers and wallets from the most recent published snapshot. Wallets are not automatically unique investors."
+        }
+      },
+      {
+        "id": "liquidity",
+        "label": {
+          "pt-BR": "Liquidez pública",
+          "en": "Public liquidity"
+        },
+        "score": 9,
+        "max": 25,
+        "detail": {
+          "pt-BR": "A Merchant Moe retornou liquidez pública observável, mas em escala pequena. A pool da Fluxion está ativa on-chain, porém ainda falta uma métrica pública normalizada em USD para somá-la à liquidez total.",
+          "en": "Merchant Moe returned observable public liquidity, but at a small scale. The Fluxion pool is active onchain, but a public USD-normalized metric is still needed before adding it to total liquidity."
+        }
+      },
+      {
+        "id": "access",
+        "label": {
+          "pt-BR": "Acesso de mercado",
+          "en": "Market access"
+        },
+        "score": 13,
+        "max": 20,
+        "detail": {
+          "pt-BR": "Duas rotas públicas foram confirmadas: SPCXx/USDT0 e USDC/wSPCXx. A segunda usa um wrapper cujo asset() aponta para SPCXx.",
+          "en": "Two public routes were confirmed: SPCXx/USDT0 and USDC/wSPCXx. The latter uses a wrapper whose asset() points to SPCXx."
+        }
+      },
+      {
+        "id": "connectivity",
+        "label": {
+          "pt-BR": "Conectividade",
+          "en": "Connectivity"
+        },
+        "score": 8,
+        "max": 10,
+        "detail": {
+          "pt-BR": "Duas venues independentes na Mantle estão ligadas ao ativo ou ao seu wrapper verificável. Isso melhora a redundância de rota, sem provar acesso global.",
+          "en": "Two independent Mantle venues are linked to the asset or its verifiable wrapper. This improves route redundancy without proving global access."
+        }
+      },
+      {
+        "id": "transparency",
+        "label": {
+          "pt-BR": "Transparência e evidência",
+          "en": "Transparency & evidence"
+        },
+        "score": 19,
+        "max": 20,
+        "detail": {
+          "pt-BR": "RPC, explorador, par público de DEX, as duas rotas e o catálogo oficial xStocks foram verificados. O enquadramento legal geral do emissor ajuda, mas os termos específicos do produto ainda merecem um link direto.",
+          "en": "RPC, explorer, public DEX pair, both routes, and the official xStocks catalog were verified. The issuer’s general legal framework helps, but the product-specific terms still deserve a direct link."
+        }
+      }
+    ]
+  },
+  "markets": [
+    {
+      "id": "merchant-moe-spcxx-usdt0",
+      "venue": "Merchant Moe",
+      "route": {
+        "pt-BR": "SPCXx / USDT0 · rota fornecida pelo usuário; par confirmado no DexScreener e pool LBT 0xd14B…E1d2E",
+        "en": "SPCXx / USDT0 · user-supplied route; pair confirmed in DexScreener and LBT pool 0xd14B…E1d2E"
+      },
+      "poolAddress": "0xd14b0dcd319551ae4d7b12787c00ee1c1f9e1d2e",
+      "sourceUrl": "https://merchantmoe.com/pool/v22/0x68fa48b1c2fe52b3d776e1953e0e782b5044ce28/0x779ded0c9e1022225f8e0630b35a9b54be713736/100",
+      "status": "confirmed",
+      "scoreEligible": true,
+      "verification": {
+        "kind": "dexscreener_pair",
+        "expectedTokens": [
+          "0x68fa48b1c2fe52b3d776e1953e0e782b5044ce28",
+          "0x779ded0c9e1022225f8e0630b35a9b54be713736"
+        ],
+        "confirmedPairAddress": "0xd14b0dcd319551ae4d7b12787c00ee1c1f9e1d2e",
+        "lastResult": "pass",
+        "lastObserved": {
+          "pairAddress": "0xd14b0dcd319551ae4d7b12787c00ee1c1f9e1d2e",
+          "baseSymbol": "SPCXx",
+          "quoteSymbol": "USDT0",
+          "liquidityUsd": 111907.53,
+          "volumeH24": 3822.11
+        }
+      },
+      "lastCheckedAt": "2026-06-23T14:43:55.198Z",
+      "lastAttemptAt": "2026-06-23T14:43:55.198Z"
+    },
+    {
+      "id": "fluxion-usdc-wspcxx",
+      "venue": "Fluxion",
+      "route": {
+        "pt-BR": "USDC / wSPCXx · pool 0xdcc6…56a5; wSPCXx asset() aponta diretamente para SPCXx",
+        "en": "USDC / wSPCXx · pool 0xdcc6…56a5; wSPCXx asset() points directly to SPCXx"
+      },
+      "poolAddress": "0xdcc6578d509baa30463319409ff38642698056a5",
+      "sourceUrl": "https://fluxion.network/pool/0xdcc6578d509baa30463319409ff38642698056a5",
+      "status": "confirmed",
+      "scoreEligible": true,
+      "verification": {
+        "kind": "uniswap_v3_wrapper_pool",
+        "expectedTokens": [
+          "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+          "0x8e2eed8b8b5e13ea7bf38e50d7821d2c57309072"
+        ],
+        "wrappedToken": "0x8e2eed8b8b5e13ea7bf38e50d7821d2c57309072",
+        "expectedUnderlying": "0x68fa48b1c2fe52b3d776e1953e0e782b5044ce28",
+        "fee": 3000,
+        "lastResult": "pass",
+        "lastObserved": {
+          "poolAddress": "0xdcc6578d509baa30463319409ff38642698056a5",
+          "token0": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+          "token1": "0x8e2eed8b8b5e13ea7bf38e50d7821d2c57309072",
+          "fee": 3000,
+          "activeLiquidityUnits": "5172057104679",
+          "slot0Available": true,
+          "wrapperUnderlying": "0x68fa48b1c2fe52b3d776e1953e0e782b5044ce28"
+        }
+      },
+      "lastCheckedAt": "2026-06-23T14:43:55.601Z",
+      "lastAttemptAt": "2026-06-23T14:43:55.601Z"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Mantle RPC",
+      "type": {
+        "pt-BR": "Dados on-chain",
+        "en": "Onchain data"
+      },
+      "detail": {
+        "pt-BR": "Transferências, blocos e cobertura histórica do snapshot foram agregados a partir da rede Mantle.",
+        "en": "Transfers, blocks, and historical snapshot coverage were aggregated from the Mantle network."
+      },
+      "status": "observed",
+      "scoreEligible": true,
+      "url": "https://docs.mantle.xyz/network/for-developers/network-information",
+      "lastCheckedAt": "2026-06-23T01:06:52.811Z"
+    },
+    {
+      "name": "Mantle Explorer",
+      "type": {
+        "pt-BR": "Verificação independente",
+        "en": "Independent verification"
+      },
+      "detail": {
+        "pt-BR": "Contrato e transações podem ser inspecionados de forma independente no explorador.",
+        "en": "The contract and transactions can be independently inspected in the explorer."
+      },
+      "status": "observed",
+      "scoreEligible": true,
+      "url": "https://mantlescan.xyz/token/0x68fa48b1c2fe52b3d776e1953e0e782b5044ce28",
+      "lastCheckedAt": "2026-06-23T01:06:52.811Z"
+    },
+    {
+      "name": "DexScreener",
+      "type": {
+        "pt-BR": "Dados públicos de mercado",
+        "en": "Public market data"
+      },
+      "detail": {
+        "pt-BR": "Confirmou o par SPCXx / USDT0 na Merchant Moe e retornou sua liquidez e volume públicos.",
+        "en": "Confirmed the SPCXx / USDT0 pair on Merchant Moe and returned its public liquidity and volume."
+      },
+      "status": "observed",
+      "scoreEligible": true,
+      "url": "https://dexscreener.com/mantle/0xd14b0dcd319551ae4d7b12787c00ee1c1f9e1d2e",
+      "lastCheckedAt": "2026-06-23T01:06:52.811Z"
+    },
+    {
+      "name": "Merchant Moe pool",
+      "type": {
+        "pt-BR": "Venue confirmada",
+        "en": "Confirmed venue"
+      },
+      "detail": {
+        "pt-BR": "A rota fornecida aponta SPCXx/USDT0; a fonte pública de DEX confirmou o par e o pool LBT correspondente na Mantle.",
+        "en": "The supplied route targets SPCXx/USDT0; the public DEX source confirmed the pair and its corresponding Mantle LBT pool."
+      },
+      "status": "confirmed",
+      "scoreEligible": true,
+      "marketId": "merchant-moe-spcxx-usdt0",
+      "url": "https://merchantmoe.com/pool/v22/0x68fa48b1c2fe52b3d776e1953e0e782b5044ce28/0x779ded0c9e1022225f8e0630b35a9b54be713736/100",
+      "lastCheckedAt": "2026-06-23T14:43:55.198Z",
+      "lastAttemptAt": "2026-06-23T14:43:55.198Z"
+    },
+    {
+      "name": "Fluxion pool",
+      "type": {
+        "pt-BR": "Venue confirmada",
+        "en": "Confirmed venue"
+      },
+      "detail": {
+        "pt-BR": "A pool 0xdcc6…56a5 contém USDC e wSPCXx; o contrato wSPCXx retorna SPCXx pelo método asset().",
+        "en": "Pool 0xdcc6…56a5 contains USDC and wSPCXx; the wSPCXx contract returns SPCXx through asset()."
+      },
+      "status": "confirmed",
+      "scoreEligible": true,
+      "marketId": "fluxion-usdc-wspcxx",
+      "url": "https://fluxion.network/pool/0xdcc6578d509baa30463319409ff38642698056a5",
+      "lastCheckedAt": "2026-06-23T14:43:55.601Z",
+      "lastAttemptAt": "2026-06-23T14:43:55.601Z"
+    },
+    {
+      "name": "Mantle Official",
+      "type": {
+        "pt-BR": "Contexto de ecossistema",
+        "en": "Ecosystem context"
+      },
+      "detail": {
+        "pt-BR": "Anúncio público de que Tokenized SpaceX (SPCXx) está ao vivo na Mantle. Um anúncio não prova volume, acesso ou liquidez.",
+        "en": "Public announcement that Tokenized SpaceX (SPCXx) is live on Mantle. An announcement does not prove volume, access, or liquidity."
+      },
+      "status": "announced",
+      "scoreEligible": false,
+      "url": "https://x.com/Mantle_Official/status/2065471800583327937",
+      "lastCheckedAt": "2026-06-23T01:06:52.811Z"
+    },
+    {
+      "name": "Documentação do emissor",
+      "type": {
+        "pt-BR": "Identidade do ativo",
+        "en": "Asset identity"
+      },
+      "detail": {
+        "pt-BR": "Ainda falta adicionar uma página oficial específica do emissor que associe este contrato Mantle ao ativo. A ausência é exibida, não escondida.",
+        "en": "A specific official issuer page tying this Mantle contract to the asset still needs to be added. The gap is displayed, not hidden."
+      },
+      "status": "missing",
+      "scoreEligible": false,
+      "lastCheckedAt": "2026-06-23T01:06:52.811Z"
+    },
+    {
+      "name": "xStocks legal overview",
+      "type": {
+        "pt-BR": "Contexto jurídico do emissor",
+        "en": "Issuer legal context"
+      },
+      "detail": {
+        "pt-BR": "Documento legal geral da xStocks / Backed que descreve o enquadramento do produto e o tipo de exposição econômica oferecida.",
+        "en": "General xStocks / Backed legal document describing the product framework and the type of economic exposure offered."
+      },
+      "status": "observed",
+      "scoreEligible": true,
+      "url": "https://docs.xstocks.fi/docs/product-legal-overview",
+      "lastCheckedAt": "2026-06-23T13:21:39.145Z"
+    },
+    {
+      "name": "xStocks Mantle deployment catalog",
+      "type": {
+        "pt-BR": "Catálogo oficial de implantações",
+        "en": "Official deployment catalog"
+      },
+      "detail": {
+        "pt-BR": "Catálogo oficial da Backed xStocks que confirma o contrato base da SPCXx e o wrapper ligado à Mantle.",
+        "en": "Official Backed xStocks catalog confirming the SPCXx base contract and the wrapper linked to Mantle."
+      },
+      "status": "observed",
+      "scoreEligible": true,
+      "url": "https://api.backed.fi/rest/tokens/wrappers?businessLine=xStocks",
+      "lastCheckedAt": "2026-06-23T13:21:39.145Z"
+    }
+  ],
+  "nextEvidence": [
+    {
+      "pt-BR": "Adicionar uma página oficial específica do produto que cite explicitamente a implantação SPCXx na Mantle.",
+      "en": "Add a product-specific official page that explicitly names the SPCXx deployment on Mantle."
+    },
+    {
+      "pt-BR": "Capturar uma métrica pública normalizada em USD para a liquidez e atividade da pool Fluxion, sem estimar preço a partir de suposições.",
+      "en": "Capture a public USD-normalized metric for Fluxion pool liquidity and activity without estimating price from assumptions."
+    },
+    {
+      "pt-BR": "Aplicar o mesmo mapa verificável a um pequeno grupo de ativos comparáveis na Mantle.",
+      "en": "Apply the same verifiable map to a small group of comparable Mantle assets."
+    }
+  ]
+}

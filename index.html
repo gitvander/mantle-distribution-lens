@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Pesquisa de distribuição baseada em evidências para ativos tokenizados na Mantle."
+    />
+    <title>Mantle Distribution Lens</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Mantle Distribution Lens home">
+        <span class="brand-mark" aria-hidden="true">◒</span>
+        <span>MANTLE <b>DISTRIBUTION LENS</b></span>
+      </a>
+      <div class="header-tools">
+        <label class="language-control" for="languageSelect">
+          <span class="sr-only" data-i18n="languageLabel">Idioma</span>
+          <select id="languageSelect" aria-label="Escolher idioma" data-i18n-aria-label="languageAriaLabel">
+            <option value="pt-BR">Português (Brasil)</option>
+            <option value="en">English</option>
+          </select>
+        </label>
+        <span class="version" data-i18n="version">PROTÓTIPO DE PESQUISA · V28</span>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section-wrap">
+        <p class="eyebrow" data-i18n="heroEyebrow">PESQUISA ON-CHAIN BASEADA EM EVIDÊNCIAS</p>
+        <h1 data-i18n-html="heroTitle">Meça a distribuição por trás<br />dos ativos tokenizados.</h1>
+        <p class="hero-copy" data-i18n="heroCopy">
+          A emissão é apenas a linha de largada. Esta ferramenta transforma dados públicos da Mantle
+          e do mercado em uma visão transparente sobre circulação, liquidez, conectividade e qualidade
+          das evidências observáveis.
+        </p>
+        <div class="hero-notes" aria-label="Research principles">
+          <span data-i18n="heroNoteEvidence">Evidência on-chain</span><span data-i18n="heroNoteMethod">Método transparente</span><span data-i18n="heroNoteRating">Não é uma recomendação de investimento</span>
+        </div>
+      </section>
+
+      <section class="onboarding section-wrap" aria-label="Fluxo de leitura do Lens">
+        <div class="onboarding-card">
+          <div class="onboarding-heading">
+            <p class="eyebrow" data-i18n="flowEyebrow">COMO USAR O LENS</p>
+            <h2 data-i18n="flowTitle">Da escolha do ativo à evidência.</h2>
+          </div>
+          <div class="lens-flow">
+            <article>
+              <span>01</span>
+              <strong data-i18n="flowOneTitle">Escolha um ativo</strong>
+              <p data-i18n="flowOneCopy">Use a biblioteca acompanhada ou cole um contrato Mantle para abrir a pesquisa.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <strong data-i18n="flowTwoTitle">Leia o retrato</strong>
+              <p data-i18n="flowTwoCopy">Veja primeiro a nota, a leitura simples e a idade dos dados de mercado.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <strong data-i18n="flowThreeTitle">Confira as evidências</strong>
+              <p data-i18n="flowThreeCopy">Use fontes, rotas e lacunas para decidir o que ainda precisa ser verificado.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="workspace section-wrap" aria-labelledby="console-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow" data-i18n="consoleEyebrow">CONSOLE DE PESQUISA</p>
+            <h2 id="console-title" data-i18n="consoleTitle">Inicie uma análise</h2>
+          </div>
+          <p class="small-copy" data-i18n="consoleNote">Apenas dados públicos gratuitos · Rede principal da Mantle</p>
+        </div>
+
+        <div class="control-card">
+          <label for="contractInput" data-i18n="contractLabel">Endereço do contrato do ativo</label>
+          <div class="input-row">
+            <input
+              id="contractInput"
+              type="text"
+              autocomplete="off"
+              spellcheck="false"
+              placeholder="0x…  (contrato ERC-20 na Mantle)"
+              data-i18n-placeholder="contractPlaceholder"
+              aria-describedby="contractHint"
+            />
+            <div id="assetSearchSuggestions" class="asset-search-suggestions" hidden></div>
+            <button class="primary-button" id="analyzeButton" type="button" data-i18n="analyzeButton">Fazer análise ao vivo</button>
+          </div>
+          <div class="timeframe-row">
+            <div class="timeframe-field">
+              <label for="periodSelect" data-i18n="periodLabel">Período de pesquisa</label>
+              <select id="periodSelect">
+                <option value="lifetime" selected data-i18n="periodLifetime">Vida completa do token</option>
+              </select>
+            </div>
+            <p class="period-hint" id="periodHint" data-i18n="periodHint7d">Busca por data real dos blocos, não por uma estimativa de velocidade da rede.</p>
+          </div>
+          <div class="custom-period" id="customPeriod" hidden>
+            <label for="startDate" data-i18n="startDateLabel">Data inicial</label>
+            <input id="startDate" type="date" />
+            <label for="endDate" data-i18n="endDateLabel">Data final</label>
+            <input id="endDate" type="date" />
+          </div>
+          <div class="control-footer">
+            <p id="contractHint" data-i18n="contractHint">
+              A ferramenta lê os últimos 5.000 blocos e sinais públicos de mercado de DEX. Ela nunca pede
+              carteira, chave ou conta.
+            </p>
+            <button class="text-button" id="sampleButton" type="button" data-i18n="sampleButton">Explorar exemplo ilustrativo</button>
+          </div>
+          <div class="legacy-catalog" hidden aria-hidden="true">
+            <label for="assetCatalog" data-i18n="catalogLabel">Biblioteca acompanhada</label>
+            <select id="assetCatalog" disabled>
+              <option value="" data-i18n="catalogLoading">Carregando catálogo…</option>
+            </select>
+            <p id="catalogHint" data-i18n="catalogHint">Ativos publicados carregam um snapshot histórico. Ativos em fila abrem um perfil preliminar sem nota final.</p>
+          </div>
+          <div class="progress-wrap" id="progressWrap" hidden>
+            <div class="progress-meta"><span id="progressLabel"></span><span id="progressValue"></span></div>
+            <div class="progress-bar" role="progressbar" id="progressBar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span></span></div>
+          </div>
+          <p class="form-status" id="formStatus" aria-live="polite"></p>
+        </div>
+
+        <section class="official-universe" id="officialUniverse" hidden aria-labelledby="official-universe-title">
+          <div class="universe-heading">
+            <div>
+              <p class="eyebrow" id="universeEyebrow">UNIVERSO OFICIAL XSTOCKS</p>
+              <h3 id="official-universe-title">Cesta inicial oficial na Mantle</h3>
+            </div>
+            <span class="method-badge" id="universeBadge">CATÁLOGO OFICIAL</span>
+          </div>
+          <p class="universe-copy" id="universeCopy"></p>
+          <div class="asset-tabs" role="tablist" aria-label="Asset categories">
+            <button type="button" class="asset-tab active" id="assetTabStocks" data-asset-category="stocks" role="tab" aria-selected="true">Stocks</button>
+            <button type="button" class="asset-tab" id="assetTabEtfs" data-asset-category="etfs" role="tab" aria-selected="false">ETFs / Vaults</button>
+          </div>
+          <div class="asset-list" id="basketGrid"></div>
+          <div class="asset-carousel-controls" id="assetCarouselControls" hidden>
+            <button class="secondary-button" id="assetPagePrev" type="button" data-i18n="assetPagePrev">Anterior</button>
+            <span id="assetPageInfo">1 / 1</span>
+            <button class="secondary-button" id="assetPageNext" type="button" data-i18n="assetPageNext">Próxima</button>
+          </div>
+        </section>
+      </section>
+
+      <div class="analysis-drawer" id="analysisDrawer" hidden>
+        <button class="analysis-drawer-backdrop" id="analysisDrawerBackdrop" type="button" aria-label="Fechar análise" data-i18n-aria-label="closeAnalysis"></button>
+        <section class="results section-wrap analysis-drawer-panel" aria-labelledby="results-title" role="dialog" aria-modal="true">
+          <button class="analysis-close-button" id="analysisCloseButton" type="button" data-i18n-aria-label="closeAnalysis" aria-label="Fechar análise">×</button>
+          <div class="result-heading">
+          <div>
+            <p class="eyebrow" data-i18n="resultsEyebrow">RETRATO DA DISTRIBUIÇÃO</p>
+            <h2 id="results-title"><span id="assetName">Sample tokenized equity</span></h2>
+          </div>
+          <div class="result-heading-controls">
+            <button class="secondary-button" id="downloadButton" type="button" data-i18n="downloadButton">Baixar relatório de pesquisa</button>
+            <span class="data-state sample" id="dataState">EXEMPLO ILUSTRATIVO</span>
+          </div>
+        </div>
+
+        <div class="summary-grid">
+          <article class="score-card" id="scoreCard">
+            <p class="card-label" data-i18n="scoreLabel">DISTRIBUIÇÃO OBSERVÁVEL</p>
+            <div class="score-line">
+              <strong id="totalScore">61</strong><span>/100</span>
+            </div>
+            <span class="status-pill neutral" id="distributionStatus">SINAIS INICIAIS</span>
+            <p class="summary-disclaimer" data-i18n="summaryDisclaimer">Evidência de pesquisa, não indicação de compra ou venda.</p>
+            <p id="scoreDescription">Existem sinais, mas a liquidez e o acesso precisam de verificação mais profunda.</p>
+            <div class="score-meter" aria-hidden="true"><span id="scoreMeter" style="width: 61%"></span></div>
+          </article>
+          <article class="finding-card">
+            <p class="card-label" id="readoutLabel" data-i18n="readoutLabel">EM LINGUAGEM SIMPLES</p>
+            <p id="researchReadout">
+              O exemplo mostra circulação on-chain ativa e conectividade básica de mercado. A próxima
+              pergunta é se a atividade observada representa amplo acesso de investidores ou apenas um
+              pequeno número de carteiras operacionais.
+            </p>
+            <div class="confidence-row" id="confidenceRow">
+              <span class="confidence-label" data-i18n="confidenceLabel">CONFIANÇA DOS DADOS</span>
+              <strong id="dataConfidence">MODERADA</strong>
+              <span id="confidenceDescription">O resultado usa fontes públicas, mas não comprova todos os mercados.</span>
+            </div>
+            <div class="quick-reasons" id="quickReasons" aria-live="polite"></div>
+            <div class="research-recency" id="researchRecency" aria-live="polite"></div>
+          </article>
+        </div>
+
+        <div class="metrics-grid" id="metricsGrid" aria-live="polite"></div>
+
+        <section class="result-guide" aria-label="Como ler este resultado">
+          <article>
+            <span data-i18n="guideScoreLabel">1 · Nota</span>
+            <p data-i18n="guideScoreCopy">Resumo rápido da prontidão de distribuição. Não é recomendação de compra.</p>
+          </article>
+          <article>
+            <span data-i18n="guideMarketLabel">2 · Mercado</span>
+            <p data-i18n="guideMarketCopy">TVL mostra liquidez monitorada nas plataformas verificadas; pode mudar rápido.</p>
+          </article>
+          <article>
+            <span data-i18n="guideEvidenceLabel">3 · Evidências</span>
+            <p data-i18n="guideEvidenceCopy">Fontes verdes contam mais; fontes pendentes aparecem como lacunas, não como prova.</p>
+          </article>
+        </section>
+
+        <div class="detail-grid">
+          <article class="panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow" data-i18n="scoreMeaningEyebrow">O QUE A NOTA SIGNIFICA</p>
+                <h3 data-i18n="scoreMeaningTitle">Quatro sinais observáveis</h3>
+              </div>
+              <span class="method-badge" data-i18n="methodBadge">MÉTODO V28</span>
+            </div>
+            <ol class="signal-list" id="signalList"></ol>
+          </article>
+
+          <article class="panel evidence-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow" data-i18n="provenanceEyebrow">ORIGEM DOS DADOS</p>
+                <h3 data-i18n="provenanceTitle">Evidências usadas</h3>
+              </div>
+              <span class="source-count" id="sourceCount">2 FONTES</span>
+            </div>
+            <ul class="source-list" id="sourceList"></ul>
+          </article>
+        </div>
+
+        <section class="trade-routes panel" id="tradeRoutesPanel" hidden aria-labelledby="trade-routes-title">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow" data-i18n="tradeRoutesEyebrow">ONDE NEGOCIAR ESTE ATIVO</p>
+              <h3 id="trade-routes-title" data-i18n="tradeRoutesTitle">Rotas verificadas na Mantle</h3>
+            </div>
+            <span class="source-count" id="tradeRoutesCount">0 ROTAS</span>
+          </div>
+          <div class="trade-route-list" id="tradeRouteList"></div>
+        </section>
+
+        <section class="source-intelligence" id="sourceIntelligence" hidden aria-labelledby="market-map-title">
+          <div class="intelligence-heading">
+            <div>
+              <p class="eyebrow" id="marketMapEyebrow" hidden>INTELIGÊNCIA DE FONTES</p>
+              <h3 id="market-map-title">Mapa de mercados e fontes</h3>
+            </div>
+            <span class="method-badge" id="sourceMethodBadge">MÉTODO V12.0</span>
+          </div>
+          <div class="source-intelligence-grid">
+            <article class="panel map-panel">
+              <div class="panel-heading">
+                <div>
+                  <p class="eyebrow" id="marketTableEyebrow">ROTAS DE MERCADO</p>
+                  <h3 id="marketTableTitle">Onde o ativo pode circular</h3>
+                </div>
+              </div>
+              <div class="table-wrap">
+                <table class="market-table">
+                  <thead>
+                    <tr>
+                      <th id="venueColumn">Venue</th>
+                      <th id="routeColumn">Evidência ou rota</th>
+                      <th id="stateColumn">Estado</th>
+                      <th id="checkedColumn">Verificado</th>
+                    </tr>
+                  </thead>
+                  <tbody id="marketMapRows"></tbody>
+                </table>
+              </div>
+            </article>
+            <article class="panel source-registry-panel">
+              <div class="panel-heading">
+                <div>
+                  <p class="eyebrow" id="sourceRegistryEyebrow">REGISTRO DE FONTES</p>
+                  <h3 id="sourceRegistryTitle">O que sustenta a leitura</h3>
+                </div>
+              </div>
+              <ul class="research-source-list" id="researchSourceList"></ul>
+            </article>
+          </div>
+          <p class="intelligence-note intelligence-footer-note" id="marketMapNote"></p>
+          <article class="next-evidence-panel">
+            <p class="eyebrow" id="nextEvidenceEyebrow">PRÓXIMAS EVIDÊNCIAS</p>
+            <h3 id="nextEvidenceTitle">O que falta confirmar</h3>
+            <ul id="nextEvidenceList"></ul>
+          </article>
+          </section>
+        </section>
+      </div>
+
+      <section class="method section-wrap" aria-labelledby="method-title">
+        <p class="eyebrow" data-i18n="methodEyebrow">POR QUE ISTO NÃO É UM PAINEL DE PREÇOS</p>
+        <h2 id="method-title" data-i18n="methodTitle">Distribuição é mais do que uma listagem.</h2>
+        <div class="method-grid">
+          <p data-i18n="methodCopyOne">
+            Um token pode ter preço e ainda assim não ter circulação relevante, mercados acessíveis ou
+            liquidez verificável. Esta lente acompanha esses sinais distintos, em vez de tratar a emissão
+            de um token como prova de adoção.
+          </p>
+          <p data-i18n="methodCopyTwo">
+            Os resultados são pistas de pesquisa, não uma análise jurídica, de propriedade ou de investimento.
+            Uma contagem de carteiras não é uma contagem de investidores; um par em DEX não prova acesso global.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span data-i18n="footerLeft">Mantle Distribution Lens · Protótipo independente de pesquisa</span>
+      <span data-i18n="footerRight">Criado a partir de dados públicos e verificáveis</span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

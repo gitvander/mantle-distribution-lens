@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-07-01T00:00:00.000Z",
+  "source": {
+    "name": "RWAlpha Marketplace and Docs",
+    "marketplaceUrl": "https://www.rwalpha.ai/marketplace?chain=mantle",
+    "docsUrl": "https://www.rwalpha.ai/docs",
+    "note": "Products are visible with Mantle selected in the RWAlpha marketplace. The documented contracts were observed on BNB Chain/BscScan, but Mantle contracts have not yet been verified."
+  },
+  "products": [
+    {
+      "id": "rwalpha-raix-mantle-observed",
+      "symbol": "rAIX",
+      "name": "RWAlpha rAIX Vault",
+      "type": "RWA ETF / yield vault",
+      "address": "rwalpha:mantle:raix",
+      "status": "mantle_contract_unverified",
+      "venue": "RWAlpha",
+      "url": "https://www.rwalpha.ai/vault/rAIX?chain=mantle",
+      "documentedBscContract": "0x87837F2466cdce52ffDC0793272075e3D2184f6C",
+      "nav": "$1.000",
+      "navDate": "2026-06-23",
+      "distribution": "Weekly",
+      "mintRedeem": "Daily subscribe/redeem; redemption settles up to T+5",
+      "paymentCurrency": "USDT",
+      "minimumSubscription": "100 USDT",
+      "composition": "30% NVDY + 20% QQQI + 20% DRAM + 20% VGT + 10% SGOV",
+      "riskNote": "Returns and distributions are variable and not guaranteed. Marketplace visibility does not prove a verified Mantle token contract."
+    },
+    {
+      "id": "rwalpha-rai-mantle-observed",
+      "symbol": "rAI",
+      "name": "RWAlpha rAI Vault",
+      "type": "RWA ETF / yield vault",
+      "address": "rwalpha:mantle:rai",
+      "status": "mantle_contract_unverified",
+      "venue": "RWAlpha",
+      "url": "https://www.rwalpha.ai/vault/rAI?chain=mantle",
+      "documentedBscContract": "0x5d08b15c4241cc0c147c65a562f0a5f9c5f9ca04",
+      "nav": "$1.0000",
+      "distribution": "Weekly",
+      "mintRedeem": "Daily subscribe/redeem",
+      "paymentCurrency": "USDT",
+      "composition": "75% QQQI + 25% NVDY",
+      "riskNote": "Returns and distributions are variable and not guaranteed. Marketplace visibility does not prove a verified Mantle token contract."
+    },
+    {
+      "id": "rwalpha-rstr-mantle-observed",
+      "symbol": "rSTR",
+      "name": "RWAlpha rSTR Vault",
+      "type": "RWA preferred-equity yield vault",
+      "address": "rwalpha:mantle:rstr",
+      "status": "mantle_contract_unverified",
+      "venue": "RWAlpha",
+      "url": "https://www.rwalpha.ai/vault/rSTR?chain=mantle",
+      "documentedBscContract": "0x375afe5eb0924fa507a32d2746928284442441e4e",
+      "distribution": "Periodic / monthly-oriented",
+      "mintRedeem": "Daily subscribe/redeem",
+      "paymentCurrency": "USDT",
+      "composition": "STRC preferred shares and related underlying assets",
+      "riskNote": "Returns and distributions are variable and not guaranteed. Marketplace visibility does not prove a verified Mantle token contract."
+    }
+  ]
+}
