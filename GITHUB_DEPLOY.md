@@ -19,9 +19,7 @@ This folder is ready to be used as the root of a GitHub Pages repository.
 3. In GitHub, open:
    `Settings -> Pages`
 4. Set Pages source to:
-   `Deploy from a branch`
-5. Select:
-   `main` branch and `/ (root)`
+   `GitHub Actions`
 6. In GitHub, open:
    `Settings -> Actions -> General`
 7. Under workflow permissions, allow:
@@ -45,3 +43,14 @@ GitHub Pages is static hosting. It cannot run a live server, private backend, or
 For this project, that is acceptable because the Lens publishes refreshed public JSON files through GitHub Actions.
 
 The scheduled updater is designed for public infrastructure, but it is not a paid realtime data feed. It can be delayed by GitHub scheduling, public RPC limits, or third-party dapp availability.
+
+## If Pages deploys fail
+
+Use `Settings -> Pages -> Source -> GitHub Actions`.
+
+This repository includes two Pages workflows:
+
+- `Deploy static Lens site`: publishes the current site after normal pushes.
+- `Refresh published Lens data`: refreshes `data/`, commits changes, and publishes the refreshed site.
+
+This avoids relying on the older branch-based Pages builder after every bot commit.
