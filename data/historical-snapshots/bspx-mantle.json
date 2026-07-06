@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-07-06T18:49:39.747Z",
+  "asset": {
+    "id": "bspx-mantle",
+    "name": "Bending Spoons xStock",
+    "symbol": "BSPx",
+    "address": "0x7796f4e23a62ef3653829c21032a9e24beaf4cf5",
+    "chainId": 5000
+  },
+  "coverage": {
+    "type": "full_token_lifetime",
+    "contractCreatedBlock": 97298445,
+    "contractCreatedAt": "2026-06-29T10:00:02.000Z",
+    "firstTransferBlock": 97307407,
+    "lastTransferBlock": 97612331,
+    "lastIndexedBlock": 97616255,
+    "lastIndexedAt": "2026-07-06T18:33:42.000Z"
+  },
+  "stats": {
+    "transferCount": 6,
+    "walletAddresses": [
+      "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+      "0x41dee1855293e4450cd67459047f372d4d818143",
+      "0x3fdcb4af7f9019f6f8b669790bde93bbf91bbcc0",
+      "0x68a359928fa70d17207c5d7e47a9047c0744d6f4",
+      "0xd894965581a598c0b9df5babaca73e714359e8b6",
+      "0x0dd03af27d401efc721b4f01d906e8df2e385a90"
+    ],
+    "mints": 1,
+    "burns": 0,
+    "firstTransferBlock": 97307407,
+    "lastTransferBlock": 97612331
+  },
+  "market": {
+    "capturedAt": "2026-07-06T18:49:39.863Z",
+    "pairs": []
+  },
+  "sources": {
+    "rpcPoolSource": "file",
+    "rpcEndpointsUsed": [
+      {
+        "id": "mantle-public",
+        "label": "Mantle Public RPC",
+        "url": "https://rpc.mantle.xyz"
+      }
+    ],
+    "explorer": "https://mantlescan.xyz/token/0x7796f4e23a62ef3653829c21032a9e24beaf4cf5",
+    "market": "https://api.dexscreener.com"
+  }
+}
