@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-07T20:28:42.619Z",
+  "generatedAt": "2026-07-07T21:56:30.251Z",
   "asset": {
     "id": "bspx-mantle",
     "name": "Bending Spoons xStock",
@@ -13,12 +13,12 @@
     "contractCreatedBlock": 97298445,
     "contractCreatedAt": "2026-06-29T10:00:02.000Z",
     "firstTransferBlock": 97307407,
-    "lastTransferBlock": 97653687,
-    "lastIndexedBlock": 97662901,
-    "lastIndexedAt": "2026-07-07T20:28:34.000Z"
+    "lastTransferBlock": 97663120,
+    "lastIndexedBlock": 97665535,
+    "lastIndexedAt": "2026-07-07T21:56:22.000Z"
   },
   "stats": {
-    "transferCount": 23,
+    "transferCount": 29,
     "walletAddresses": [
       "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
       "0x41dee1855293e4450cd67459047f372d4d818143",
@@ -29,16 +29,26 @@
       "0x804b10246b7d495517411b788f46134e731779cb",
       "0xb4a4a76e99e2acc1e51567c0231628780dfab0c8",
       "0x076990881b4901752db5d7887eb2cafa27af9ce8",
-      "0x0397279515ba8a57a869daa97df4dd7562cbf648"
+      "0x0397279515ba8a57a869daa97df4dd7562cbf648",
+      "0x75094d260b86ab7ac5c926404f5fbad4c79df581"
     ],
     "mints": 1,
     "burns": 0,
     "firstTransferBlock": 97307407,
-    "lastTransferBlock": 97653687
+    "lastTransferBlock": 97663120
   },
   "market": {
-    "capturedAt": "2026-07-07T20:28:42.703Z",
-    "pairs": []
+    "capturedAt": "2026-07-07T21:56:30.361Z",
+    "pairs": [
+      {
+        "dexId": "merchantmoe",
+        "pairAddress": "0x076990881B4901752Db5d7887eb2CaFA27AF9cE8",
+        "priceUsd": "36.28",
+        "liquidityUsd": 1128.59,
+        "volumeH24": 3.54,
+        "url": "https://dexscreener.com/mantle/0x076990881b4901752db5d7887eb2cafa27af9ce8"
+      }
+    ]
   },
   "sources": {
     "rpcPoolSource": "file",
