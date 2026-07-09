@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-09T04:05:23.124Z",
+  "generatedAt": "2026-07-09T07:49:10.886Z",
   "source": {
     "name": "xStocks / Backed official deployment catalog",
     "url": "https://api.backed.fi/rest/tokens/wrappers?businessLine=xStocks",
@@ -11,7 +11,7 @@
     "name": "Mantle",
     "chainId": 5000
   },
-  "assetCount": 159,
+  "assetCount": 160,
   "assets": [
     {
       "id": "aaplx-mantle",
@@ -1634,6 +1634,19 @@
       "address": "0x2dafa4732c8c1b25701a33b05f10f437f9599326",
       "decimals": 18,
       "wrappers": []
+    },
+    {
+      "id": "skhyx-mantle",
+      "name": "SK hynix xStock",
+      "symbol": "SKHYx",
+      "address": "0x58100046a4afcd4ee4fadbd4244f3f895a341c56",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x6215a58ed045d71f2561aaabe54f4c885c522998",
+          "type": "ERC4626V2"
+        }
+      ]
     },
     {
       "id": "smcix-mantle",
