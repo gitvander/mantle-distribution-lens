@@ -29,7 +29,7 @@
       "pool": "0x373f7a2b95f28f38500eb70652e12038cca3bab8",
       "observedTvlUsd": 152020,
       "observedVolumeH24Usd": 134.99,
-      "lastCheckedAt": "2026-07-14T14:30:53.429Z",
+      "lastCheckedAt": "2026-07-14T16:01:24.834Z",
       "verification": {
         "lastResult": "pass",
         "lastObserved": {
@@ -42,7 +42,7 @@
           "underlying": "0x90a2a4c76b5d8c0bc892a69ea28aa775a8f2dd48",
           "factoryPool": "0x373f7a2b95f28f38500eb70652e12038cca3bab8",
           "poolTvlUsd": 107908.92614354054,
-          "poolTvlCapturedAt": "2026-07-14T14:30:56.261Z",
+          "poolTvlCapturedAt": "2026-07-14T16:01:28.536Z",
           "poolReserves": {
             "token0Amount": 54711.30363,
             "token1Amount": 70.65057839194517,
@@ -53,7 +53,7 @@
           },
           "quoteSimulation": {
             "method": "Fluxion QuoterV2 quoteExactInputSingle; eth_call only, no trade is executed.",
-            "capturedAt": "2026-07-14T14:30:56.261Z",
+            "capturedAt": "2026-07-14T16:01:28.536Z",
             "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
             "quoteTokenSymbol": "USDC",
             "wrapperDecimals": 18,
@@ -75,7 +75,7 @@
           }
         }
       },
-      "lastAttemptAt": "2026-07-14T14:30:53.429Z"
+      "lastAttemptAt": "2026-07-14T16:01:24.834Z"
     },
     {
       "rank": 2,
@@ -86,7 +86,7 @@
       "pool": "0x4e23bb828e51cbc03c81d76c844228cc75f6a287",
       "observedTvlUsd": 121770,
       "observedVolumeH24Usd": 506.63,
-      "lastCheckedAt": "2026-07-14T14:30:56.261Z",
+      "lastCheckedAt": "2026-07-14T16:01:28.536Z",
       "verification": {
         "lastResult": "pass",
         "lastObserved": {
@@ -99,7 +99,7 @@
           "underlying": "0xe1385fdd5ffb10081cd52c56584f25efa9084015",
           "factoryPool": "0x4e23bb828e51cbc03c81d76c844228cc75f6a287",
           "poolTvlUsd": 125238.85606923958,
-          "poolTvlCapturedAt": "2026-07-14T14:30:58.440Z",
+          "poolTvlCapturedAt": "2026-07-14T16:01:31.252Z",
           "poolReserves": {
             "token0Amount": 62956.498777,
             "token1Amount": 559.8386186780391,
@@ -110,7 +110,7 @@
           },
           "quoteSimulation": {
             "method": "Fluxion QuoterV2 quoteExactInputSingle; eth_call only, no trade is executed.",
-            "capturedAt": "2026-07-14T14:30:58.440Z",
+            "capturedAt": "2026-07-14T16:01:31.252Z",
             "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
             "quoteTokenSymbol": "USDC",
             "wrapperDecimals": 18,
@@ -132,7 +132,7 @@
           }
         }
       },
-      "lastAttemptAt": "2026-07-14T14:30:56.261Z"
+      "lastAttemptAt": "2026-07-14T16:01:28.536Z"
     },
     {
       "rank": 3,
@@ -143,8 +143,8 @@
       "pool": "0x505258001e834251634029742fc73b5cab4fd67d",
       "observedTvlUsd": 111720,
       "observedVolumeH24Usd": 25.04,
-      "lastCheckedAt": "2026-07-14T14:30:58.440Z",
-      "lastAttemptAt": "2026-07-14T14:30:58.440Z",
+      "lastCheckedAt": "2026-07-14T16:01:31.252Z",
+      "lastAttemptAt": "2026-07-14T16:01:31.252Z",
       "verification": {
         "lastResult": "pass",
         "lastObserved": {
@@ -156,37 +156,37 @@
           "slot0Available": true,
           "underlying": "0xa753a7395cae905cd615da0b82a53e0560f250af",
           "factoryPool": "0x505258001e834251634029742fc73b5cab4fd67d",
-          "poolTvlUsd": 110302.39436339901,
-          "poolTvlCapturedAt": "2026-07-14T14:31:00.962Z",
+          "poolTvlUsd": 110397.92388335531,
+          "poolTvlCapturedAt": "2026-07-14T16:01:34.248Z",
           "poolReserves": {
-            "token0Amount": 55908.845188,
-            "token1Amount": 75.60953809473101,
-            "stableAmount": 55908.845188,
-            "wrapperAmount": 75.60953809473101,
-            "priceUsdPerWrapper": 719.4006278314976,
+            "token0Amount": 55957.954652,
+            "token1Amount": 75.54153809408466,
+            "stableAmount": 55957.954652,
+            "wrapperAmount": 75.54153809408466,
+            "priceUsdPerWrapper": 720.6627056435096,
             "method": "ERC-20 balances held by the Fluxion V3 pool, valued using the pool slot0 price."
           },
           "quoteSimulation": {
             "method": "Fluxion QuoterV2 quoteExactInputSingle; eth_call only, no trade is executed.",
-            "capturedAt": "2026-07-14T14:31:00.962Z",
+            "capturedAt": "2026-07-14T16:01:34.248Z",
             "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
             "quoteTokenSymbol": "USDC",
             "wrapperDecimals": 18,
             "buy100Usd": {
               "amountInUsdc": 100,
-              "amountOutRaw": "138340600993614650",
+              "amountOutRaw": "138098544309864537",
               "initializedTicksCrossed": 0,
-              "wrapperOut": 0.13834060099361464,
-              "impliedUsdPerWrapper": 722.8535894868324
+              "wrapperOut": 0.13809854430986454,
+              "impliedUsdPerWrapper": 724.1205944620293
             },
             "buy1000Usd": {
               "amountInUsdc": 1000,
-              "amountOutRaw": "1361566818014318257",
+              "amountOutRaw": "1359203226952691310",
               "initializedTicksCrossed": 0,
-              "wrapperOut": 1.3615668180143183,
-              "impliedUsdPerWrapper": 734.4479806421692
+              "wrapperOut": 1.3592032269526912,
+              "impliedUsdPerWrapper": 735.7251514491926
             },
-            "largerTradePriceImpactPercent": 1.6039750405843378
+            "largerTradePriceImpactPercent": 1.602572427288118
           }
         }
       }
@@ -200,7 +200,7 @@
       "pool": "0x66960ed892daf022c5f282c5316c38cb6f0c1333",
       "observedTvlUsd": 110070,
       "observedVolumeH24Usd": 69.73,
-      "lastCheckedAt": "2026-07-14T14:31:00.962Z",
+      "lastCheckedAt": "2026-07-14T16:01:34.249Z",
       "verification": {
         "lastResult": "pass",
         "lastObserved": {
@@ -212,41 +212,41 @@
           "slot0Available": true,
           "underlying": "0xe92f673ca36c5e2efd2de7628f815f84807e803f",
           "factoryPool": "0x66960ed892daf022c5f282c5316c38cb6f0c1333",
-          "poolTvlUsd": 111267.82088944751,
-          "poolTvlCapturedAt": "2026-07-14T14:31:03.648Z",
+          "poolTvlUsd": 111596.73049652908,
+          "poolTvlCapturedAt": "2026-07-14T16:01:36.859Z",
           "poolReserves": {
-            "token0Amount": 56172.570408,
-            "token1Amount": 155.15995198421808,
-            "stableAmount": 56172.570408,
-            "wrapperAmount": 155.15995198421808,
-            "priceUsdPerWrapper": 355.08679770055267,
+            "token0Amount": 56340.105074,
+            "token1Amount": 154.6909519776495,
+            "stableAmount": 56340.105074,
+            "wrapperAmount": 154.6909519776495,
+            "priceUsdPerWrapper": 357.20657683012274,
             "method": "ERC-20 balances held by the Fluxion V3 pool, valued using the pool slot0 price."
           },
           "quoteSimulation": {
             "method": "Fluxion QuoterV2 quoteExactInputSingle; eth_call only, no trade is executed.",
-            "capturedAt": "2026-07-14T14:31:03.648Z",
+            "capturedAt": "2026-07-14T16:01:36.859Z",
             "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
             "quoteTokenSymbol": "USDC",
             "wrapperDecimals": 18,
             "buy100Usd": {
               "amountInUsdc": 100,
-              "amountOutRaw": "280277807638205650",
+              "amountOutRaw": "278616018922405965",
               "initializedTicksCrossed": 0,
-              "wrapperOut": 0.28027780763820564,
-              "impliedUsdPerWrapper": 356.78886188907325
+              "wrapperOut": 0.27861601892240595,
+              "impliedUsdPerWrapper": 358.9169078890967
             },
             "buy1000Usd": {
               "amountInUsdc": 1000,
-              "amountOutRaw": "2758687297901229843",
+              "amountOutRaw": "2742458800807794485",
               "initializedTicksCrossed": 0,
-              "wrapperOut": 2.75868729790123,
-              "impliedUsdPerWrapper": 362.49124747150057
+              "wrapperOut": 2.742458800807795,
+              "impliedUsdPerWrapper": 364.63628905034005
             },
-            "largerTradePriceImpactPercent": 1.5982521293504526
+            "largerTradePriceImpactPercent": 1.593511209845433
           }
         }
       },
-      "lastAttemptAt": "2026-07-14T14:31:00.962Z"
+      "lastAttemptAt": "2026-07-14T16:01:34.249Z"
     },
     {
       "rank": 5,
@@ -257,7 +257,7 @@
       "pool": "0x2cc6a607f3445d826b9e29f507b3a2e3b9dae106",
       "observedTvlUsd": 108990,
       "observedVolumeH24Usd": 23.81,
-      "lastCheckedAt": "2026-07-14T14:31:03.648Z",
+      "lastCheckedAt": "2026-07-14T16:01:36.859Z",
       "verification": {
         "lastResult": "pass",
         "lastObserved": {
@@ -269,41 +269,41 @@
           "slot0Available": true,
           "underlying": "0x9d275685dc284c8eb1c79f6aba7a63dc75ec890a",
           "factoryPool": "0x2cc6a607f3445d826b9e29f507b3a2e3b9dae106",
-          "poolTvlUsd": 112217.9827711308,
-          "poolTvlCapturedAt": "2026-07-14T14:31:06.882Z",
+          "poolTvlUsd": 112267.8868389086,
+          "poolTvlCapturedAt": "2026-07-14T16:01:39.868Z",
           "poolReserves": {
-            "token0Amount": 56615.580685,
-            "token1Amount": 176.77687299743317,
-            "stableAmount": 56615.580685,
-            "wrapperAmount": 176.77687299743317,
-            "priceUsdPerWrapper": 314.53436834431477,
+            "token0Amount": 56640.981766,
+            "token1Amount": 176.69687299401113,
+            "stableAmount": 56640.981766,
+            "wrapperAmount": 176.69687299401113,
+            "priceUsdPerWrapper": 314.81544710071915,
             "method": "ERC-20 balances held by the Fluxion V3 pool, valued using the pool slot0 price."
           },
           "quoteSimulation": {
             "method": "Fluxion QuoterV2 quoteExactInputSingle; eth_call only, no trade is executed.",
-            "capturedAt": "2026-07-14T14:31:06.882Z",
+            "capturedAt": "2026-07-14T16:01:39.868Z",
             "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
             "quoteTokenSymbol": "USDC",
             "wrapperDecimals": 18,
             "buy100Usd": {
               "amountInUsdc": 100,
-              "amountOutRaw": "316418358024092887",
+              "amountOutRaw": "316136096685275469",
               "initializedTicksCrossed": 0,
-              "wrapperOut": 0.31641835802409285,
-              "impliedUsdPerWrapper": 316.0372888111181
+              "wrapperOut": 0.3161360966852755,
+              "impliedUsdPerWrapper": 316.3194619295673
             },
             "buy1000Usd": {
               "amountInUsdc": 1000,
-              "amountOutRaw": "3114822404217123107",
+              "amountOutRaw": "3112065462982331273",
               "initializedTicksCrossed": 0,
-              "wrapperOut": 3.1148224042171235,
-              "impliedUsdPerWrapper": 321.04559112137855
+              "wrapperOut": 3.1120654629823314,
+              "impliedUsdPerWrapper": 321.3300015359212
             },
-            "largerTradePriceImpactPercent": 1.5847187935008833
+            "largerTradePriceImpactPercent": 1.5840124334397077
           }
         }
       },
-      "lastAttemptAt": "2026-07-14T14:31:03.648Z"
+      "lastAttemptAt": "2026-07-14T16:01:36.859Z"
     },
     {
       "rank": 6,
@@ -314,7 +314,7 @@
       "pool": "0xa875ac23d106394d1baaae5bc42b951268bc04e2",
       "observedTvlUsd": 108770,
       "observedVolumeH24Usd": 45.78,
-      "lastCheckedAt": "2026-07-14T14:31:06.882Z",
+      "lastCheckedAt": "2026-07-14T16:01:39.868Z",
       "verification": {
         "lastResult": "pass",
         "lastObserved": {
@@ -326,41 +326,41 @@
           "slot0Available": true,
           "underlying": "0xc845b2894dbddd03858fd2d643b4ef725fe0849d",
           "factoryPool": "0xa875ac23d106394d1baaae5bc42b951268bc04e2",
-          "poolTvlUsd": 108128.50237936986,
-          "poolTvlCapturedAt": "2026-07-14T14:31:09.796Z",
+          "poolTvlUsd": 108984.49516822628,
+          "poolTvlCapturedAt": "2026-07-14T16:01:42.725Z",
           "poolReserves": {
-            "token0Amount": 54459.734863,
-            "token1Amount": 261.4682188728094,
-            "stableAmount": 54459.734863,
-            "wrapperAmount": 261.4682188728094,
-            "priceUsdPerWrapper": 205.25923857108197,
+            "token0Amount": 54893.443893,
+            "token1Amount": 259.3782188264627,
+            "stableAmount": 54893.443893,
+            "wrapperAmount": 259.3782188264627,
+            "priceUsdPerWrapper": 208.54122416275806,
             "method": "ERC-20 balances held by the Fluxion V3 pool, valued using the pool slot0 price."
           },
           "quoteSimulation": {
             "method": "Fluxion QuoterV2 quoteExactInputSingle; eth_call only, no trade is executed.",
-            "capturedAt": "2026-07-14T14:31:09.796Z",
+            "capturedAt": "2026-07-14T16:01:42.725Z",
             "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
             "quoteTokenSymbol": "USDC",
             "wrapperDecimals": 18,
             "buy100Usd": {
               "amountInUsdc": 100,
-              "amountOutRaw": "484837047860145863",
+              "amountOutRaw": "477213675779012864",
               "initializedTicksCrossed": 0,
-              "wrapperOut": 0.48483704786014586,
-              "impliedUsdPerWrapper": 206.25486530238422
+              "wrapperOut": 0.47721367577901286,
+              "impliedUsdPerWrapper": 209.5497364713156
             },
             "buy1000Usd": {
               "amountInUsdc": 1000,
-              "amountOutRaw": "4769699122201067480",
+              "amountOutRaw": "4695303193439648243",
               "initializedTicksCrossed": 0,
-              "wrapperOut": 4.769699122201067,
-              "impliedUsdPerWrapper": 209.65683041628236
+              "wrapperOut": 4.695303193439647,
+              "impliedUsdPerWrapper": 212.9787915287805
             },
-            "largerTradePriceImpactPercent": 1.6493987227455875
+            "largerTradePriceImpactPercent": 1.6363919684214467
           }
         }
       },
-      "lastAttemptAt": "2026-07-14T14:31:06.882Z"
+      "lastAttemptAt": "2026-07-14T16:01:39.868Z"
     },
     {
       "rank": 7,
@@ -371,7 +371,7 @@
       "pool": "0x5e7935d70b5d14b6cf36fbde59944533fab96b3c",
       "observedTvlUsd": 106040,
       "observedVolumeH24Usd": 64.05,
-      "lastCheckedAt": "2026-07-14T14:31:09.797Z",
+      "lastCheckedAt": "2026-07-14T16:01:42.725Z",
       "verification": {
         "lastResult": "pass",
         "lastObserved": {
@@ -383,41 +383,41 @@
           "slot0Available": true,
           "underlying": "0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0",
           "factoryPool": "0x5e7935d70b5d14b6cf36fbde59944533fab96b3c",
-          "poolTvlUsd": 105357.99691475529,
-          "poolTvlCapturedAt": "2026-07-14T14:31:12.338Z",
+          "poolTvlUsd": 105401.0517691063,
+          "poolTvlCapturedAt": "2026-07-14T16:01:45.372Z",
           "poolReserves": {
-            "token0Amount": 53210.349898,
-            "token1Amount": 131.1746763566428,
-            "stableAmount": 53210.349898,
-            "wrapperAmount": 131.1746763566428,
-            "priceUsdPerWrapper": 397.5435538714366,
+            "token0Amount": 53232.252694,
+            "token1Amount": 131.12167634503948,
+            "stableAmount": 53232.252694,
+            "wrapperAmount": 131.12167634503948,
+            "priceUsdPerWrapper": 397.86555914543817,
             "method": "ERC-20 balances held by the Fluxion V3 pool, valued using the pool slot0 price."
           },
           "quoteSimulation": {
             "method": "Fluxion QuoterV2 quoteExactInputSingle; eth_call only, no trade is executed.",
-            "capturedAt": "2026-07-14T14:31:12.338Z",
+            "capturedAt": "2026-07-14T16:01:45.372Z",
             "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
             "quoteTokenSymbol": "USDC",
             "wrapperDecimals": 18,
             "buy100Usd": {
               "amountInUsdc": 100,
-              "amountOutRaw": "250319191321964000",
+              "amountOutRaw": "250116790124731584",
               "initializedTicksCrossed": 0,
-              "wrapperOut": 0.250319191321964,
-              "impliedUsdPerWrapper": 399.4899451052421
+              "wrapperOut": 0.2501167901247316,
+              "impliedUsdPerWrapper": 399.81322305524014
             },
             "buy1000Usd": {
               "amountInUsdc": 1000,
-              "amountOutRaw": "2461590012030251580",
+              "amountOutRaw": "2459616152309611730",
               "initializedTicksCrossed": 0,
-              "wrapperOut": 2.4615900120302516,
-              "impliedUsdPerWrapper": 406.2414923333344
+              "wrapperOut": 2.4596161523096116,
+              "impliedUsdPerWrapper": 406.56750406399266
             },
-            "largerTradePriceImpactPercent": 1.690041842308121
+            "largerTradePriceImpactPercent": 1.689359085509623
           }
         }
       },
-      "lastAttemptAt": "2026-07-14T14:31:09.797Z"
+      "lastAttemptAt": "2026-07-14T16:01:42.725Z"
     },
     {
       "rank": 8,
@@ -428,7 +428,7 @@
       "pool": "0x782bd3895a6ac561d0df11b02dd6f9e023f3a497",
       "observedTvlUsd": 100960,
       "observedVolumeH24Usd": 197.91,
-      "lastCheckedAt": "2026-07-14T14:31:12.338Z",
+      "lastCheckedAt": "2026-07-14T16:01:45.372Z",
       "verification": {
         "lastResult": "pass",
         "lastObserved": {
@@ -440,41 +440,41 @@
           "slot0Available": true,
           "underlying": "0x96702be57cd9777f835117a809c7124fe4ec989a",
           "factoryPool": "0x782bd3895a6ac561d0df11b02dd6f9e023f3a497",
-          "poolTvlUsd": 108317.73240300122,
-          "poolTvlCapturedAt": "2026-07-14T14:31:15.589Z",
+          "poolTvlUsd": 108363.04694735375,
+          "poolTvlCapturedAt": "2026-07-14T16:01:48.361Z",
           "poolReserves": {
-            "token0Amount": 54864.860176,
-            "token1Amount": 81.09767412377192,
-            "stableAmount": 54864.860176,
-            "wrapperAmount": 81.09767412377192,
-            "priceUsdPerWrapper": 659.1172040941767,
+            "token0Amount": 54888.088156,
+            "token1Amount": 81.06317412093807,
+            "stableAmount": 54888.088156,
+            "wrapperAmount": 81.06317412093807,
+            "priceUsdPerWrapper": 659.6701815743671,
             "method": "ERC-20 balances held by the Fluxion V3 pool, valued using the pool slot0 price."
           },
           "quoteSimulation": {
             "method": "Fluxion QuoterV2 quoteExactInputSingle; eth_call only, no trade is executed.",
-            "capturedAt": "2026-07-14T14:31:15.589Z",
+            "capturedAt": "2026-07-14T16:01:48.361Z",
             "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
             "quoteTokenSymbol": "USDC",
             "wrapperDecimals": 18,
             "buy100Usd": {
               "amountInUsdc": 100,
-              "amountOutRaw": "150987884359833158",
+              "amountOutRaw": "150861431715945288",
               "initializedTicksCrossed": 0,
-              "wrapperOut": 0.15098788435983315,
-              "impliedUsdPerWrapper": 662.3047963350541
+              "wrapperOut": 0.1508614317159453,
+              "impliedUsdPerWrapper": 662.8599428135383
             },
             "buy1000Usd": {
               "amountInUsdc": 1000,
-              "amountOutRaw": "1485567534210837915",
+              "amountOutRaw": "1484333369674691427",
               "initializedTicksCrossed": 0,
-              "wrapperOut": 1.485567534210838,
-              "impliedUsdPerWrapper": 673.1434128514521
+              "wrapperOut": 1.4843333696746914,
+              "impliedUsdPerWrapper": 673.7031049966636
             },
-            "largerTradePriceImpactPercent": 1.6364997771984857
+            "largerTradePriceImpactPercent": 1.635814971274474
           }
         }
       },
-      "lastAttemptAt": "2026-07-14T14:31:12.338Z"
+      "lastAttemptAt": "2026-07-14T16:01:45.372Z"
     },
     {
       "rank": 9,
@@ -485,7 +485,7 @@
       "pool": "0x43cf441f5949d52faa105060239543492193c87e",
       "observedTvlUsd": 91150,
       "observedVolumeH24Usd": 1010,
-      "lastCheckedAt": "2026-07-14T14:31:15.589Z",
+      "lastCheckedAt": "2026-07-14T16:01:48.361Z",
       "verification": {
         "lastResult": "pass",
         "lastObserved": {
@@ -497,41 +497,41 @@
           "slot0Available": true,
           "underlying": "0xfebded1b0986a8ee107f5ab1a1c5a813491deceb",
           "factoryPool": "0x43cf441f5949d52faa105060239543492193c87e",
-          "poolTvlUsd": 80456.98808228059,
-          "poolTvlCapturedAt": "2026-07-14T14:31:18.972Z",
+          "poolTvlUsd": 81489.570560119,
+          "poolTvlCapturedAt": "2026-07-14T16:01:50.994Z",
           "poolReserves": {
-            "token0Amount": 39664.138183,
-            "token1Amount": 676.5835590013369,
-            "stableAmount": 39664.138183,
-            "wrapperAmount": 676.5835590013369,
-            "priceUsdPerWrapper": 60.2924049166852,
+            "token0Amount": 40164.138183,
+            "token1Amount": 668.4186857542147,
+            "stableAmount": 40164.138183,
+            "wrapperAmount": 668.4186857542147,
+            "priceUsdPerWrapper": 61.82566893755994,
             "method": "ERC-20 balances held by the Fluxion V3 pool, valued using the pool slot0 price."
           },
           "quoteSimulation": {
             "method": "Fluxion QuoterV2 quoteExactInputSingle; eth_call only, no trade is executed.",
-            "capturedAt": "2026-07-14T14:31:18.972Z",
+            "capturedAt": "2026-07-14T16:01:50.994Z",
             "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
             "quoteTokenSymbol": "USDC",
             "wrapperDecimals": 18,
             "buy100Usd": {
               "amountInUsdc": 100,
-              "amountOutRaw": "1649439680154083692",
+              "amountOutRaw": "1608584505884439549",
               "initializedTicksCrossed": 0,
-              "wrapperOut": 1.6494396801540836,
-              "impliedUsdPerWrapper": 60.62664867542075
+              "wrapperOut": 1.6085845058844395,
+              "impliedUsdPerWrapper": 62.16645730092839
             },
             "buy1000Usd": {
               "amountInUsdc": 1000,
-              "amountOutRaw": "16128499187402302235",
+              "amountOutRaw": "15733354490909744504",
               "initializedTicksCrossed": 0,
-              "wrapperOut": 16.1284991874023,
-              "impliedUsdPerWrapper": 62.00204919135211
+              "wrapperOut": 15.733354490909745,
+              "impliedUsdPerWrapper": 63.559236561902274
             },
-            "largerTradePriceImpactPercent": 2.268640187081572
+            "largerTradePriceImpactPercent": 2.2404031393197688
           }
         }
       },
-      "lastAttemptAt": "2026-07-14T14:31:15.589Z"
+      "lastAttemptAt": "2026-07-14T16:01:48.361Z"
     },
     {
       "rank": 10,
@@ -542,7 +542,7 @@
       "pool": "0x0e1f84a9e388071e20df101b36c14c817bf81953",
       "observedTvlUsd": 90620,
       "observedVolumeH24Usd": 125.86,
-      "lastCheckedAt": "2026-07-14T14:31:18.972Z",
+      "lastCheckedAt": "2026-07-14T16:01:50.994Z",
       "verification": {
         "lastResult": "pass",
         "lastObserved": {
@@ -554,42 +554,42 @@
           "slot0Available": true,
           "underlying": "0xae2f842ef90c0d5213259ab82639d5bbf649b08e",
           "factoryPool": "0x0e1f84a9e388071e20df101b36c14c817bf81953",
-          "poolTvlUsd": 85311.90803571232,
-          "poolTvlCapturedAt": "2026-07-14T14:31:21.534Z",
+          "poolTvlUsd": 85347.32062042886,
+          "poolTvlCapturedAt": "2026-07-14T16:01:53.851Z",
           "poolReserves": {
-            "token0Amount": 42930.597577,
-            "token1Amount": 438.2839010379913,
-            "stableAmount": 42930.597577,
-            "wrapperAmount": 438.2839010379913,
-            "priceUsdPerWrapper": 96.69830527277026,
+            "token0Amount": 42948.322598,
+            "token1Amount": 438.1199009320274,
+            "stableAmount": 42948.322598,
+            "wrapperAmount": 438.1199009320274,
+            "priceUsdPerWrapper": 96.77487357280971,
             "method": "ERC-20 balances held by the Fluxion V3 pool, valued using the pool slot0 price."
           },
           "quoteSimulation": {
             "method": "Fluxion QuoterV2 quoteExactInputSingle; eth_call only, no trade is executed.",
-            "capturedAt": "2026-07-14T14:31:21.534Z",
+            "capturedAt": "2026-07-14T16:01:53.851Z",
             "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
             "quoteTokenSymbol": "USDC",
             "wrapperDecimals": 18,
             "buy100Usd": {
               "amountInUsdc": 100,
-              "amountOutRaw": "1028621076683650992",
+              "amountOutRaw": "1027808186319829130",
               "initializedTicksCrossed": 0,
-              "wrapperOut": 1.028621076683651,
-              "impliedUsdPerWrapper": 97.21752962947956
+              "wrapperOut": 1.0278081863198292,
+              "impliedUsdPerWrapper": 97.29441867753562
             },
             "buy1000Usd": {
               "amountInUsdc": 1000,
-              "amountOutRaw": "10073350251170007734",
+              "amountOutRaw": "10065471786291709259",
               "initializedTicksCrossed": 0,
-              "wrapperOut": 10.073350251170007,
-              "impliedUsdPerWrapper": 99.27183857067327
+              "wrapperOut": 10.06547178629171,
+              "impliedUsdPerWrapper": 99.34954080959348
             },
-            "largerTradePriceImpactPercent": 2.1131054749315314
+            "largerTradePriceImpactPercent": 2.1122713512161218
           }
         }
       },
-      "lastAttemptAt": "2026-07-14T14:31:18.972Z"
+      "lastAttemptAt": "2026-07-14T16:01:50.994Z"
     }
   ],
-  "updatedAt": "2026-07-14T14:31:24.136Z"
+  "updatedAt": "2026-07-14T16:01:56.904Z"
 }
