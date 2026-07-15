@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-07-15T08:54:43.843Z",
+  "asset": {
+    "id": "skhyx-mantle",
+    "name": "SK hynix xStock",
+    "symbol": "SKHYx",
+    "address": "0x58100046a4afcd4ee4fadbd4244f3f895a341c56",
+    "chainId": 5000
+  },
+  "coverage": {
+    "type": "full_token_lifetime",
+    "contractCreatedBlock": 97478315,
+    "contractCreatedAt": "2026-07-03T13:55:42.000Z",
+    "firstTransferBlock": 97725394,
+    "lastTransferBlock": 97978714,
+    "lastIndexedBlock": 97986932,
+    "lastIndexedAt": "2026-07-15T08:29:36.000Z"
+  },
+  "stats": {
+    "transferCount": 13,
+    "walletAddresses": [
+      "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+      "0x41dee1855293e4450cd67459047f372d4d818143",
+      "0x3fdcb4af7f9019f6f8b669790bde93bbf91bbcc0",
+      "0x68a359928fa70d17207c5d7e47a9047c0744d6f4",
+      "0x2b90c1dcfc676be2eb2ffaac1b37ac5f5c04662e",
+      "0xd894965581a598c0b9df5babaca73e714359e8b6",
+      "0x6215a58ed045d71f2561aaabe54f4c885c522998"
+    ],
+    "mints": 1,
+    "burns": 0,
+    "firstTransferBlock": 97725394,
+    "lastTransferBlock": 97978714
+  },
+  "market": {
+    "capturedAt": "2026-07-15T08:54:44.069Z",
+    "pairs": []
+  },
+  "sources": {
+    "rpcPoolSource": "file",
+    "rpcEndpointsUsed": [
+      {
+        "id": "drpc-mantle",
+        "label": "dRPC Mantle RPC",
+        "url": "https://mantle.drpc.org"
+      }
+    ],
+    "explorer": "https://mantlescan.xyz/token/0x58100046a4afcd4ee4fadbd4244f3f895a341c56",
+    "market": "https://api.dexscreener.com"
+  }
+}
