@@ -22,29 +22,11 @@
       "status": "route_recorded_metric_pending",
       "recordedAt": "2026-06-23T00:00:00.000Z",
       "verification": {
-        "status": "verified",
-        "lastObserved": {
-          "pool": "0xd14b0dcd319551ae4d7b12787c00ee1c1f9e1d2e",
-          "tokenX": "0x68fa48b1c2fe52b3d776e1953e0e782b5044ce28",
-          "tokenY": "0x779ded0c9e1022225f8e0630b35a9b54be713736",
-          "activeId": 8386319,
-          "binStep": 100,
-          "reserveX": "20592387817175809507",
-          "reserveY": "385476142",
-          "assetAmount": 20.59238781717581,
-          "stableAmount": 385.476142,
-          "priceReference": {
-            "priceUsd": 128.35,
-            "pairAddress": "0xd14b0dcd319551ae4d7b12787c00ee1c1f9e1d2e",
-            "url": "https://dexscreener.com/mantle/0xd14b0dcd319551ae4d7b12787c00ee1c1f9e1d2e",
-            "capturedAt": "2026-07-18T06:16:58.797Z"
-          },
-          "tvlUsd": 3028.509118334515,
-          "capturedAt": "2026-07-18T06:16:58.798Z",
-          "method": "Exact Merchant Moe pool contract getReserves(), valued with the USD price reference for that same pool. Reserves are read-only onchain data; the price reference does not supply liquidity."
-        }
+        "status": "pending",
+        "lastError": "DexScreener did not return a usable USD price for the exact Merchant Moe pool",
+        "lastAttemptAt": "2026-07-18T08:12:44.904Z"
       }
     }
   ],
-  "updatedAt": "2026-07-18T06:16:58.798Z"
+  "updatedAt": "2026-07-18T08:12:44.904Z"
 }
