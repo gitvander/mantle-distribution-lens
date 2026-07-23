@@ -1,15 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-23T07:23:03.521Z",
+  "generatedAt": "2026-07-23T10:02:19.179Z",
   "platform": "Fluxion",
   "network": {
     "name": "Mantle",
     "chainId": 5000
   },
-  "scope": "Official xStocks Mantle ERC-4626 wrappers paired with Fluxion USDC at the 0.30% RWA fee tier. Other tokens, quote assets, or fee tiers are intentionally not claimed as covered.",
+  "scope": "Official xStocks Mantle wrappers discovered through incremental Fluxion Factory event scanning. Any pool without an official wrapper is deliberately excluded.",
   "factory": "0xf883162ed9c7e8ef604214c964c678e40c9b737c",
-  "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
-  "fee": 3000,
   "routes": [
     {
       "assetId": "aaplx-mantle",
