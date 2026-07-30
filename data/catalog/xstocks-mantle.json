@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-30T17:04:59.797Z",
+  "generatedAt": "2026-07-30T18:39:30.826Z",
   "source": {
     "name": "xStocks / Backed official deployment catalog",
     "url": "https://api.backed.fi/rest/tokens/wrappers?businessLine=xStocks",
@@ -11,7 +11,7 @@
     "name": "Mantle",
     "chainId": 5000
   },
-  "assetCount": 619,
+  "assetCount": 620,
   "assets": [
     {
       "id": "aaplx-mantle",
@@ -3986,6 +3986,19 @@
       "wrappers": [
         {
           "address": "0x37f1e624707829a62759bc04953b50e5ca47458c",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "jmkex-mantle",
+      "name": "Jersey Mike's Subs xStock",
+      "symbol": "JMKEx",
+      "address": "0x97fcf4dd5275ab0de96420cbe36e4c947d5d8edf",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x9503b89937d442348e7def6dba5e6cb7d422a27c",
           "type": "ERC4626V2"
         }
       ]
