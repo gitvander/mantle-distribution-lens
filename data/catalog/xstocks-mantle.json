@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-30T06:43:53.118Z",
+  "generatedAt": "2026-07-30T09:19:53.298Z",
   "source": {
     "name": "xStocks / Backed official deployment catalog",
     "url": "https://api.backed.fi/rest/tokens/wrappers?businessLine=xStocks",
@@ -11,7 +11,7 @@
     "name": "Mantle",
     "chainId": 5000
   },
-  "assetCount": 618,
+  "assetCount": 619,
   "assets": [
     {
       "id": "aaplx-mantle",
@@ -6367,6 +6367,19 @@
       "wrappers": [
         {
           "address": "0x66bf60f19b58cac602ec79a0947aa08f9dc16891",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "rpmx-mantle",
+      "name": "RPM International xStock",
+      "symbol": "RPMx",
+      "address": "0x4f59465f8a978b1212475f605b444b42f794ba91",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xd7b5b880f86cd04c115cf05100312fd6cec6ad20",
           "type": "ERC4626V2"
         }
       ]
