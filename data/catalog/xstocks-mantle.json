@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-07-31T12:21:30.781Z",
+  "generatedAt": "2026-07-31T14:41:49.617Z",
   "source": {
     "name": "xStocks / Backed official deployment catalog",
     "url": "https://api.backed.fi/rest/tokens/wrappers?businessLine=xStocks",
@@ -11,8 +11,21 @@
     "name": "Mantle",
     "chainId": 5000
   },
-  "assetCount": 620,
+  "assetCount": 632,
   "assets": [
+    {
+      "id": "aaoix-mantle",
+      "name": "Applied Optoelectronics xStock",
+      "symbol": "AAOIx",
+      "address": "0xed242f35bf53ce7757c74ecb9e6de070157a74c0",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x8f828795e3c29e26c800a340534d3b8a3b666c5b",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
     {
       "id": "aaplx-mantle",
       "name": "Apple xStock",
@@ -609,6 +622,19 @@
       ]
     },
     {
+      "id": "armx-mantle",
+      "name": "ARM xStock",
+      "symbol": "ARMx",
+      "address": "0xd15140134a81d3718c87a2d5c17145d324d874a6",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x11673f2bc2c11d372277301b2bf6826f7ad3a125",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "arwx-mantle",
       "name": "Arrow Electronics xStock",
       "symbol": "ARWx",
@@ -876,6 +902,19 @@
       ]
     },
     {
+      "id": "bex-mantle",
+      "name": "Bloom Energy xStock",
+      "symbol": "BEx",
+      "address": "0xdcf5f4a677514c293474556133dcfd3276f5e998",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xc728b5030470a6abf52b574f42fd5c1255e15a2b",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "biibx-mantle",
       "name": "Biogen xStock",
       "symbol": "BIIBx",
@@ -910,6 +949,19 @@
       "wrappers": [
         {
           "address": "0x8ed42915e1e68ae6d00d2b6b4cd1c275f8de408c",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "bkrx-mantle",
+      "name": "Baker Hughes xStock",
+      "symbol": "BKRx",
+      "address": "0xac63197ead820a810141b942ebe593abdbb1d07f",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x3c6bc05f31b899ccf458c7bfe5f92783f780c456",
           "type": "ERC4626V2"
         }
       ]
@@ -1169,6 +1221,19 @@
       "wrappers": [
         {
           "address": "0x410639843b58fcd906607a2681be3fbf6f081627",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "cbrsx-mantle",
+      "name": "Cerebras Systems xStock",
+      "symbol": "CBRSx",
+      "address": "0x874c1986ede15f6520686652268e0d62d9a10618",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xc636c591c2626902e98030b324c16c780445a7b0",
           "type": "ERC4626V2"
         }
       ]
@@ -1704,6 +1769,19 @@
         },
         {
           "address": "0xdc7784de9c30651f094dfc87d47019796548c0ce",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "crwvx-mantle",
+      "name": "CoreWeave xStock",
+      "symbol": "CRWVx",
+      "address": "0x16314d1032e6476c9451d1f02ba365a249ff36c7",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xadf63a79c9813a8e0c4d1d334ebdfaeef04bdf98",
           "type": "ERC4626V2"
         }
       ]
@@ -2760,6 +2838,19 @@
       "wrappers": [
         {
           "address": "0xc87fac69560a0394a6a7fb9bbd62c6b474aeab9c",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "fdxfx-mantle",
+      "name": "FedEx Freight xStock",
+      "symbol": "FDXFx",
+      "address": "0xdc8c197c0c47649a5538f4e5969177a6b2dd8b0b",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xd90a9fe2f74696cae29be8e5cc74d15277f3aacb",
           "type": "ERC4626V2"
         }
       ]
@@ -5052,6 +5143,19 @@
       ]
     },
     {
+      "id": "nbisx-mantle",
+      "name": "Nebius xStock",
+      "symbol": "NBISx",
+      "address": "0x0361d9e8a923d0fe9b8877d9bc9f38abffb46f74",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x43a7b7acfae969b0682e56142b52e63e07d59b7d",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "nbixx-mantle",
       "name": "Neurocrine Biosciences xStock",
       "symbol": "NBIXx",
@@ -6074,6 +6178,19 @@
       ]
     },
     {
+      "id": "qurex-mantle",
+      "name": "uniQure xStock",
+      "symbol": "QUREx",
+      "address": "0xda1e4f408ab7563fddd342d40247913585c14bc0",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x9ff59b9f52862b5c34cab387a3a3795f03bb1a02",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "qx-mantle",
       "name": "Qnity Electronics xStock",
       "symbol": "Qx",
@@ -6601,6 +6718,19 @@
       ]
     },
     {
+      "id": "shazx-mantle",
+      "name": "SharonAI xStock",
+      "symbol": "SHAZx",
+      "address": "0x242d8409e549f8127ba6e85d7bad4a7ce57a4423",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x14bef7a114dd71d446a290f4b7efcd787cd14129",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "shwx-mantle",
       "name": "Sherwin-Williams xStock",
       "symbol": "SHWx",
@@ -7102,6 +7232,19 @@
       ]
     },
     {
+      "id": "tex-mantle",
+      "name": "T1 Energy xStock",
+      "symbol": "TEx",
+      "address": "0x05f7ef3228b53ff9feb2dbb7617989c1ede6f7a8",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x95015fef15ae954f3bda4bb36d4772b201c2634d",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "tfcx-mantle",
       "name": "Truist Financial xStock",
       "symbol": "TFCx",
@@ -7407,6 +7550,19 @@
       "wrappers": [
         {
           "address": "0x9ad91114c91b95f212d397f592239d31866ffd12",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "twstx-mantle",
+      "name": "Twist Bioscience xStock",
+      "symbol": "TWSTx",
+      "address": "0x04ee5c38ceb66133f7ec01401a7673b6475e950d",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xc7046e8c2a7472a5bc1a4128c153d0dd1404dac0",
           "type": "ERC4626V2"
         }
       ]
