@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-12T08:00:59.365Z",
+  "generatedAt": "2026-08-12T09:19:12.603Z",
   "source": {
     "name": "xStocks / Backed official deployment catalog",
     "url": "https://api.backed.fi/rest/tokens/wrappers?businessLine=xStocks",
@@ -11,7 +11,7 @@
     "name": "Mantle",
     "chainId": 5000
   },
-  "assetCount": 708,
+  "assetCount": 709,
   "assets": [
     {
       "id": "aaoix-mantle",
@@ -6556,6 +6556,19 @@
       "wrappers": [
         {
           "address": "0x8150f70c6c4b35cdba2a35fc8cda14aff589c27b",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "picox-mantle",
+      "name": "Ping An Insurance Group Co. of China xStock",
+      "symbol": "PICOx",
+      "address": "0x8bd17230466a8c04f569da2d8eeea6029e978a48",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x5c45ea78a4e23754d8689f7f879922cac6d7c881",
           "type": "ERC4626V2"
         }
       ]
