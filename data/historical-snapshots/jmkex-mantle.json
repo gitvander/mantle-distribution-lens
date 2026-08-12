@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-12T03:21:26.914Z",
+  "asset": {
+    "id": "jmkex-mantle",
+    "name": "Jersey Mike's Subs xStock",
+    "symbol": "JMKEx",
+    "address": "0x97fcf4dd5275ab0de96420cbe36e4c947d5d8edf",
+    "chainId": 5000
+  },
+  "coverage": {
+    "type": "full_token_lifetime",
+    "contractCreatedBlock": 98387593,
+    "contractCreatedAt": "2026-07-24T15:04:58.000Z",
+    "firstTransferBlock": 98565798,
+    "lastTransferBlock": 99145726,
+    "lastIndexedBlock": 99187051,
+    "lastIndexedAt": "2026-08-12T03:13:34.000Z"
+  },
+  "stats": {
+    "transferCount": 14,
+    "walletAddresses": [
+      "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+      "0x41dee1855293e4450cd67459047f372d4d818143",
+      "0x3fdcb4af7f9019f6f8b669790bde93bbf91bbcc0",
+      "0x68a359928fa70d17207c5d7e47a9047c0744d6f4",
+      "0xab8b612548cc3f5f9f7e723823be37058d0110b2",
+      "0xd894965581a598c0b9df5babaca73e714359e8b6",
+      "0x9503b89937d442348e7def6dba5e6cb7d422a27c"
+    ],
+    "mints": 1,
+    "burns": 0,
+    "firstTransferBlock": 98565798,
+    "lastTransferBlock": 99145726
+  },
+  "market": {
+    "capturedAt": "2026-08-12T03:21:27.041Z",
+    "pairs": []
+  },
+  "sources": {
+    "rpcPoolSource": "file",
+    "rpcEndpointsUsed": [
+      {
+        "id": "drpc-mantle",
+        "label": "dRPC Mantle RPC",
+        "url": "https://mantle.drpc.org"
+      },
+      {
+        "id": "publicnode-mantle",
+        "label": "PublicNode Mantle RPC",
+        "url": "https://mantle-rpc.publicnode.com"
+      }
+    ],
+    "explorer": "https://mantlescan.xyz/token/0x97fcf4dd5275ab0de96420cbe36e4c947d5d8edf",
+    "market": "https://api.dexscreener.com"
+  }
+}
