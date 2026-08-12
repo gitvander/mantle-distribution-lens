@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-06T14:38:23.165Z",
+  "generatedAt": "2026-08-12T01:00:09.881Z",
   "asset": {
     "id": "spcxx-mantle",
     "name": "Tokenized SpaceX",
@@ -13,12 +13,12 @@
     "contractCreatedBlock": 96096100,
     "contractCreatedAt": "2026-06-01T14:01:52.000Z",
     "firstTransferBlock": 96524963,
-    "lastTransferBlock": 98909865,
-    "lastIndexedBlock": 98948390,
-    "lastIndexedAt": "2026-08-06T14:38:12.000Z"
+    "lastTransferBlock": 99023229,
+    "lastIndexedBlock": 99182981,
+    "lastIndexedAt": "2026-08-12T00:57:54.000Z"
   },
   "stats": {
-    "transferCount": 6302,
+    "transferCount": 6308,
     "walletAddresses": [
       "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
       "0x2f943ee1dd4b4afb07320ca5765b4616c1ff7a87",
@@ -96,15 +96,16 @@
       "0x49754062e35f7591b93cc4f9915965be89643a65",
       "0x6e5c66f02c9cb0f1eea53de949af03100c233a76",
       "0x378b434d8294f7520bce308c33732104557408e8",
-      "0x836114bd5ff1ace93c1ffe5759aaf9aecfafc958"
+      "0x836114bd5ff1ace93c1ffe5759aaf9aecfafc958",
+      "0xb53472b833f464189ddb27662df2a0dc96a90985"
     ],
     "mints": 1,
     "burns": 1,
     "firstTransferBlock": 96524963,
-    "lastTransferBlock": 98909865
+    "lastTransferBlock": 99023229
   },
   "market": {
-    "capturedAt": "2026-08-06T14:38:23.209Z",
+    "capturedAt": "2026-08-12T01:00:09.941Z",
     "pairs": []
   },
   "sources": {
@@ -114,6 +115,11 @@
         "id": "drpc-mantle",
         "label": "dRPC Mantle RPC",
         "url": "https://mantle.drpc.org"
+      },
+      {
+        "id": "publicnode-mantle",
+        "label": "PublicNode Mantle RPC",
+        "url": "https://mantle-rpc.publicnode.com"
       }
     ],
     "explorer": "https://mantlescan.xyz/token/0x68fa48b1c2fe52b3d776e1953e0e782b5044ce28",

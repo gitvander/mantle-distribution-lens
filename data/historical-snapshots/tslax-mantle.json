@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-06T14:37:50.082Z",
+  "generatedAt": "2026-08-12T00:53:13.458Z",
   "asset": {
     "id": "tslax-mantle",
     "name": "Tesla xStock",
@@ -13,12 +13,12 @@
     "contractCreatedBlock": 88102283,
     "contractCreatedAt": "2025-11-28T13:01:18.000Z",
     "firstTransferBlock": 88224031,
-    "lastTransferBlock": 98926653,
-    "lastIndexedBlock": 98948375,
-    "lastIndexedAt": "2026-08-06T14:37:42.000Z"
+    "lastTransferBlock": 99167956,
+    "lastIndexedBlock": 99182785,
+    "lastIndexedAt": "2026-08-12T00:51:22.000Z"
   },
   "stats": {
-    "transferCount": 1664,
+    "transferCount": 1673,
     "walletAddresses": [
       "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
       "0x4b8881f6eebd2b59661c66c08f47ab6d1cb110f8",
@@ -782,15 +782,16 @@
       "0xfd8b2cd9ad70a25f6741ac8948069000d42edf1a",
       "0x46083f3d85c04212a615d98cf2004c38cbb96bfa",
       "0x804b10246b7d495517411b788f46134e731779cb",
-      "0x289741ffbb028c0e754737c077dd1b1e3eb527de"
+      "0x289741ffbb028c0e754737c077dd1b1e3eb527de",
+      "0x0e6aa0bf43630145fd5438280bee7102c2e8545c"
     ],
     "mints": 1,
     "burns": 0,
     "firstTransferBlock": 88224031,
-    "lastTransferBlock": 98926653
+    "lastTransferBlock": 99167956
   },
   "market": {
-    "capturedAt": "2026-08-06T14:37:50.723Z",
+    "capturedAt": "2026-08-12T00:53:13.519Z",
     "pairs": []
   },
   "sources": {
@@ -800,6 +801,11 @@
         "id": "mantle-public",
         "label": "Mantle Public RPC",
         "url": "https://rpc.mantle.xyz"
+      },
+      {
+        "id": "publicnode-mantle",
+        "label": "PublicNode Mantle RPC",
+        "url": "https://mantle-rpc.publicnode.com"
       }
     ],
     "explorer": "https://mantlescan.xyz/token/0x8ad3c73f833d3f9a523ab01476625f269aeb7cf0",

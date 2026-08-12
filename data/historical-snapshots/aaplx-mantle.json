@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-06T14:37:48.644Z",
+  "generatedAt": "2026-08-12T00:51:29.652Z",
   "asset": {
     "id": "aaplx-mantle",
     "name": "Apple xStock",
@@ -13,12 +13,12 @@
     "contractCreatedBlock": 88102033,
     "contractCreatedAt": "2025-11-28T12:52:58.000Z",
     "firstTransferBlock": 88224031,
-    "lastTransferBlock": 98898241,
-    "lastIndexedBlock": 98948373,
-    "lastIndexedAt": "2026-08-06T14:37:38.000Z"
+    "lastTransferBlock": 99119740,
+    "lastIndexedBlock": 99182719,
+    "lastIndexedAt": "2026-08-12T00:49:10.000Z"
   },
   "stats": {
-    "transferCount": 3277,
+    "transferCount": 3282,
     "walletAddresses": [
       "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
       "0x4b8881f6eebd2b59661c66c08f47ab6d1cb110f8",
@@ -56,15 +56,17 @@
       "0xfaaa096f90bf532ce5d8ad39ca547d8d40749ff2",
       "0xed8f393d2582c9b2ef57559fa5c49f5e5b6d543a",
       "0x35263632aa76b909b1ce57bd6291b80c565f79b3",
-      "0x0d4dc3b8becc98782309e443a6da4b9455b5ca48"
+      "0x0d4dc3b8becc98782309e443a6da4b9455b5ca48",
+      "0x41951a191ec0c833db8c50c713a07b376d083cc1",
+      "0x289741ffbb028c0e754737c077dd1b1e3eb527de"
     ],
     "mints": 1,
     "burns": 0,
     "firstTransferBlock": 88224031,
-    "lastTransferBlock": 98898241
+    "lastTransferBlock": 99119740
   },
   "market": {
-    "capturedAt": "2026-08-06T14:37:48.693Z",
+    "capturedAt": "2026-08-12T00:51:29.734Z",
     "pairs": []
   },
   "sources": {
@@ -74,6 +76,11 @@
         "id": "drpc-mantle",
         "label": "dRPC Mantle RPC",
         "url": "https://mantle.drpc.org"
+      },
+      {
+        "id": "publicnode-mantle",
+        "label": "PublicNode Mantle RPC",
+        "url": "https://mantle-rpc.publicnode.com"
       }
     ],
     "explorer": "https://mantlescan.xyz/token/0x9d275685dc284c8eb1c79f6aba7a63dc75ec890a",
