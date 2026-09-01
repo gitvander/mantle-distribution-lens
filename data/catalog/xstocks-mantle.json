@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-01T02:04:35.504Z",
+  "generatedAt": "2026-09-01T07:42:15.073Z",
   "source": {
     "name": "xStocks / Backed official deployment catalog",
     "url": "https://api.backed.fi/rest/tokens/wrappers?businessLine=xStocks",
@@ -11,7 +11,7 @@
     "name": "Mantle",
     "chainId": 5000
   },
-  "assetCount": 715,
+  "assetCount": 716,
   "assets": [
     {
       "id": "aaoix-mantle",
@@ -7545,6 +7545,19 @@
       "wrappers": [
         {
           "address": "0x14bef7a114dd71d446a290f4b7efcd787cd14129",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "sheinx-mantle",
+      "name": "SHEIN xStock",
+      "symbol": "SHEINx",
+      "address": "0x4d0ba049c430a7a80a61e7ebdf50b6daac6c3bd6",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xff637d2d435d6745df3faf61272b1216e7e8b727",
           "type": "ERC4626V2"
         }
       ]
