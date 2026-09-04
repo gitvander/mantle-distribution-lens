@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-09-04T09:09:53.223Z",
+  "asset": {
+    "id": "sheinx-mantle",
+    "name": "SHEIN xStock",
+    "symbol": "SHEINx",
+    "address": "0x4d0ba049c430a7a80a61e7ebdf50b6daac6c3bd6",
+    "chainId": 5000
+  },
+  "coverage": {
+    "type": "full_token_lifetime",
+    "contractCreatedBlock": 99725189,
+    "contractCreatedAt": "2026-08-24T14:11:30.000Z",
+    "firstTransferBlock": 100051222,
+    "lastTransferBlock": 100178555,
+    "lastIndexedBlock": 100191216,
+    "lastIndexedAt": "2026-09-04T09:05:44.000Z"
+  },
+  "stats": {
+    "transferCount": 22,
+    "walletAddresses": [
+      "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+      "0x41dee1855293e4450cd67459047f372d4d818143",
+      "0x3fdcb4af7f9019f6f8b669790bde93bbf91bbcc0",
+      "0x68a359928fa70d17207c5d7e47a9047c0744d6f4",
+      "0xab8b612548cc3f5f9f7e723823be37058d0110b2",
+      "0x2b90c1dcfc676be2eb2ffaac1b37ac5f5c04662e",
+      "0xd894965581a598c0b9df5babaca73e714359e8b6",
+      "0xff637d2d435d6745df3faf61272b1216e7e8b727"
+    ],
+    "mints": 3,
+    "burns": 0,
+    "firstTransferBlock": 100051222,
+    "lastTransferBlock": 100178555
+  },
+  "market": {
+    "capturedAt": "2026-09-04T09:09:53.368Z",
+    "pairs": []
+  },
+  "sources": {
+    "rpcPoolSource": "file",
+    "rpcEndpointsUsed": [
+      {
+        "id": "mantle-public",
+        "label": "Mantle Public RPC",
+        "url": "https://rpc.mantle.xyz"
+      },
+      {
+        "id": "publicnode-mantle",
+        "label": "PublicNode Mantle RPC",
+        "url": "https://mantle-rpc.publicnode.com"
+      }
+    ],
+    "explorer": "https://mantlescan.xyz/token/0x4d0ba049c430a7a80a61e7ebdf50b6daac6c3bd6",
+    "market": "https://api.dexscreener.com"
+  }
+}
