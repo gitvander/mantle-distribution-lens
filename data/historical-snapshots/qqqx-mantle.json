@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-14T13:52:25.779Z",
+  "generatedAt": "2026-09-14T18:54:48.092Z",
   "asset": {
     "id": "qqqx-mantle",
     "name": "Nasdaq xStock",
@@ -13,12 +13,12 @@
     "contractCreatedBlock": 88104079,
     "contractCreatedAt": "2025-11-28T14:01:10.000Z",
     "firstTransferBlock": 88224031,
-    "lastTransferBlock": 100627841,
-    "lastIndexedBlock": 100631810,
-    "lastIndexedAt": "2026-09-14T13:52:12.000Z"
+    "lastTransferBlock": 100637565,
+    "lastIndexedBlock": 100640884,
+    "lastIndexedAt": "2026-09-14T18:54:40.000Z"
   },
   "stats": {
-    "transferCount": 98,
+    "transferCount": 102,
     "walletAddresses": [
       "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
       "0x4b8881f6eebd2b59661c66c08f47ab6d1cb110f8",
@@ -53,15 +53,17 @@
       "0x5a962c61abe2ebbf9a50dcb9ab485b86050d94f8",
       "0x093bdd8ea868f919e5d8382e501db70c70146bcd",
       "0x6e5c66f02c9cb0f1eea53de949af03100c233a76",
-      "0xf1cab919befabb80aae5308d7fe1cdc91f97d8ec"
+      "0xf1cab919befabb80aae5308d7fe1cdc91f97d8ec",
+      "0x8f15d976e46b3c0047c41625105b4f2918e79a09",
+      "0x07322b23e40a11c776126c4fdd80f972d65e5a58"
     ],
     "mints": 1,
     "burns": 0,
     "firstTransferBlock": 88224031,
-    "lastTransferBlock": 100627841
+    "lastTransferBlock": 100637565
   },
   "market": {
-    "capturedAt": "2026-09-14T13:52:25.852Z",
+    "capturedAt": "2026-09-14T18:54:48.222Z",
     "pairs": []
   },
   "sources": {
@@ -73,9 +75,9 @@
         "url": "https://mantle.drpc.org"
       },
       {
-        "id": "publicnode-mantle",
-        "label": "PublicNode Mantle RPC",
-        "url": "https://mantle-rpc.publicnode.com"
+        "id": "mantle-public",
+        "label": "Mantle Public RPC",
+        "url": "https://rpc.mantle.xyz"
       }
     ],
     "explorer": "https://mantlescan.xyz/token/0xa753a7395cae905cd615da0b82a53e0560f250af",
