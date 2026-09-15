@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-15T10:22:15.363Z",
+  "generatedAt": "2026-09-15T15:05:31.243Z",
   "source": {
     "name": "xStocks / Backed official deployment catalog",
     "url": "https://api.backed.fi/rest/tokens/wrappers?businessLine=xStocks",
@@ -11,7 +11,7 @@
     "name": "Mantle",
     "chainId": 5000
   },
-  "assetCount": 822,
+  "assetCount": 827,
   "assets": [
     {
       "id": "aaoix-mantle",
@@ -6065,6 +6065,23 @@
       ]
     },
     {
+      "id": "lulux-mantle",
+      "name": "lululemon xStock",
+      "symbol": "LULUx",
+      "address": "0x847deb9c78fb00319bc7a006dff729c11428e537",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xd395c4dad12eb071714d2b86cb5bc16ace9996b6",
+          "type": "ERC4626"
+        },
+        {
+          "address": "0xc076c2d51c091db3809b6d39730dbc1c159d2d66",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "luvx-mantle",
       "name": "Southwest Airlines xStock",
       "symbol": "LUVx",
@@ -8707,6 +8724,19 @@
       ]
     },
     {
+      "id": "shelx-mantle",
+      "name": "Shell xStock",
+      "symbol": "SHELx",
+      "address": "0x140464fd446a15508818a076038a0dd329c231e9",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x2bf5ff0929403c93267ade7e868d25d9bf8c4117",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "shwx-mantle",
       "name": "Sherwin-Williams xStock",
       "symbol": "SHWx",
@@ -9372,6 +9402,19 @@
       "wrappers": [
         {
           "address": "0xceac36e652c47c02b847b374bc63d3e2d6123132",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "tefx-mantle",
+      "name": "Telefonica xStock",
+      "symbol": "TEFx",
+      "address": "0xbdc730ff7f103a91566c5fe08b407a9811589934",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xb5abebffd27c68d6a9b1865895233e30d0ba0787",
           "type": "ERC4626V2"
         }
       ]
@@ -10228,6 +10271,19 @@
       ]
     },
     {
+      "id": "vodx-mantle",
+      "name": "Vodafone xStock",
+      "symbol": "VODx",
+      "address": "0x90991295916543e8b0d922ca19ecac9685910008",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x1ff2868c0c65c556466068a001be4a68e68eab54",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "voox-mantle",
       "name": "Vanguard S&P 500 xStock",
       "symbol": "VOOx",
@@ -10236,6 +10292,19 @@
       "wrappers": [
         {
           "address": "0x64e225c84b80c7dab7ef2094a81a461a13f960c1",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "vow3x-mantle",
+      "name": "Volkswagen xStock",
+      "symbol": "VOW3x",
+      "address": "0x0bba5fc21204ef0c3e373e10475e9318d503922b",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x3dcd74054c343de6821e6912043b081f6e4d942c",
           "type": "ERC4626V2"
         }
       ]
