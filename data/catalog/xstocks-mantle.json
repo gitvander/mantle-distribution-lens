@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-16T09:49:48.413Z",
+  "generatedAt": "2026-09-16T14:22:49.543Z",
   "source": {
     "name": "xStocks / Backed official deployment catalog",
     "url": "https://api.backed.fi/rest/tokens/wrappers?businessLine=xStocks",
@@ -11,8 +11,21 @@
     "name": "Mantle",
     "chainId": 5000
   },
-  "assetCount": 827,
+  "assetCount": 867,
   "assets": [
+    {
+      "id": "aafx-mantle",
+      "name": "Airtel Africa xStock",
+      "symbol": "AAFx",
+      "address": "0xe7fd74df6c9c32e34af6774aebb240c990f5008c",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x8a79fd90607f66489884ac16787494a30eecb0df",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
     {
       "id": "aaoix-mantle",
       "name": "Applied Optoelectronics xStock",
@@ -69,6 +82,32 @@
         },
         {
           "address": "0x7ad3da1947926d0685496f6daa2d786ca7f45e4a",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "abdnx-mantle",
+      "name": "Aberdeen xStock",
+      "symbol": "ABDNx",
+      "address": "0xa03edf0e7096ba0c1ceaae53cf642e17a1a23b11",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x91fcff69fc9142a10abe83b647848af8f1508e26",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "abfx-mantle",
+      "name": "Associated British Foods xStock",
+      "symbol": "ABFx",
+      "address": "0xadf0932b765b0083b579e6ed44d254dfe4108b52",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x83fb8d427657df550cb2e7ddd14fcd26a8369970",
           "type": "ERC4626V2"
         }
       ]
@@ -657,6 +696,19 @@
       ]
     },
     {
+      "id": "antox-mantle",
+      "name": "Antofagasta xStock",
+      "symbol": "ANTOx",
+      "address": "0xdb1915ac0990fa4fc0dd7d0738651874b1f3b295",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x6f7af49a5e1307595764a35e3ae4d19ea6e150d5",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "apax-mantle",
       "name": "APA xStock",
       "symbol": "APAx",
@@ -929,6 +981,32 @@
       ]
     },
     {
+      "id": "auto.gbx-mantle",
+      "name": "Auto Trader xStock",
+      "symbol": "AUTO.GBx",
+      "address": "0x1c68dd07c9a463622c8e46612b81900be690c641",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xd344bc30e9e7529f545be46d11ea595a898523e4",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "av.gbx-mantle",
+      "name": "Aviva xStock",
+      "symbol": "AV.GBx",
+      "address": "0x83a1daecbd64e3bd4d87fe6daecce3c77d25066e",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xceb112fe76da21533b5d631b6cd316633ba6d91d",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "avgox-mantle",
       "name": "Broadcom xStock",
       "symbol": "AVGOx",
@@ -1054,6 +1132,32 @@
       ]
     },
     {
+      "id": "ba.gbx-mantle",
+      "name": "BAE Systems xStock",
+      "symbol": "BA.GBx",
+      "address": "0x6acc94e8ebfacec80af8a2b8964c6c03054efd22",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xc0e729973e3253f97b1c1eb91d312f7d9bd2cf6b",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "bab.gbx-mantle",
+      "name": "Babcock International xStock",
+      "symbol": "BAB.GBx",
+      "address": "0xb5b6511c9cc1957e646e15ca8e53372b6ccffaf5",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x3e8175e1ed7287e96b3c05323e90f7e8c1c0febb",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "bacx-mantle",
       "name": "Bank of America xStock",
       "symbol": "BACx",
@@ -1110,6 +1214,32 @@
       ]
     },
     {
+      "id": "barcx-mantle",
+      "name": "Barclays xStock",
+      "symbol": "BARCx",
+      "address": "0x598a941bc6961e60c0d5059bb453949d2ce536a4",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xb34a65cda6dc74709c22a17f2cfa4f21b019a7c6",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "batsx-mantle",
+      "name": "British American Tobacco xStock",
+      "symbol": "BATSx",
+      "address": "0x1acd84d9139e486e4d36774534274005f234b58e",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xdc0040d1a9320f6b5e639ffa224ac2eb92ffe493",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "bax-mantle",
       "name": "Boeing xStock",
       "symbol": "BAx",
@@ -1144,6 +1274,19 @@
       "wrappers": [
         {
           "address": "0xfbf225854ceb5f6690468819d2a9a36741fbd7a5",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "bby.gbx-mantle",
+      "name": "Balfour Beatty xStock",
+      "symbol": "BBY.GBx",
+      "address": "0xa47bb3c10cd3016b2939e5bc692d2d716987b6a3",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x71bfce6ac0b69a05852b73a398cd6cdc2a2463e6",
           "type": "ERC4626V2"
         }
       ]
@@ -1222,6 +1365,32 @@
       "wrappers": [
         {
           "address": "0xc728b5030470a6abf52b574f42fd5c1255e15a2b",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "bez.gbx-mantle",
+      "name": "Beazley xStock",
+      "symbol": "BEZ.GBx",
+      "address": "0x658c25f50e9a0865b446ca156b99ea0ff7417e12",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xdf80ff32e64427c43f7e7ea378b00550cb4f76e9",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "bgeox-mantle",
+      "name": "Lion Finance xStock",
+      "symbol": "BGEOx",
+      "address": "0x4fdf5f0f89fb993cc30c1be2e3da518bfb19e3b5",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x649f65856030d1014dde7157d5f7575607aaba7f",
           "type": "ERC4626V2"
         }
       ]
@@ -1335,6 +1504,19 @@
       ]
     },
     {
+      "id": "bnzlx-mantle",
+      "name": "Bunzl xStock",
+      "symbol": "BNZLx",
+      "address": "0x18b446a866beb65f6fa15f73a6badcccb4243051",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x8b2e0ad0066ceae12092068fd82591d95f973ecf",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "bochkx-mantle",
       "name": "BOC Hong Kong xStock",
       "symbol": "BOCHKx",
@@ -1382,6 +1564,32 @@
       "wrappers": [
         {
           "address": "0x25efa3ee38f04c4c31151cddcc2e2e4cdaaa2362",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "bpx-mantle",
+      "name": "BP xStock",
+      "symbol": "BPx",
+      "address": "0x88fdb07a5bc6e2536587acc0a9d5d180da48752f",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xdd5f6cb3f14f0ca25086181b4b882d69916fd09e",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "brbyx-mantle",
+      "name": "Burberry xStock",
+      "symbol": "BRBYx",
+      "address": "0x0e5b018887147cb2a0eee745a01f5a878fd53616",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x401db523157e11628cd4155b21cc6ca3d56956d0",
           "type": "ERC4626V2"
         }
       ]
@@ -1469,6 +1677,19 @@
       ]
     },
     {
+      "id": "bt.ax-mantle",
+      "name": "BT xStock",
+      "symbol": "BT.Ax",
+      "address": "0xad954194903699f88afee6e03101693d5066a107",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x18f11915ad723aa9d5b6ac59d72f05516482227b",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "btbtx-mantle",
       "name": "Bit Digital xStock",
       "symbol": "BTBTx",
@@ -1481,6 +1702,19 @@
         },
         {
           "address": "0x49f2f3d44dd8f77a54209c732f6aea97ef252a85",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "btrwx-mantle",
+      "name": "Barratt Redrow xStock",
+      "symbol": "BTRWx",
+      "address": "0xb8ea15539d582ee9f5e2cef32a4af757d8ac6ed7",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x701ffa5aac94cce28c5da5053277b82cf43b6a9d",
           "type": "ERC4626V2"
         }
       ]
@@ -1650,6 +1884,19 @@
       "wrappers": [
         {
           "address": "0xc636c591c2626902e98030b324c16c780445a7b0",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "ccc.gbx-mantle",
+      "name": "Computacenter xStock",
+      "symbol": "CCC.GBx",
+      "address": "0xb88b9988136b741cfcb72426ba99fc8629e8871d",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x5a3363fe5682facfc09799cfc88041b497c89d82",
           "type": "ERC4626V2"
         }
       ]
@@ -2118,6 +2365,19 @@
       ]
     },
     {
+      "id": "cna.gbx-mantle",
+      "name": "Centrica xStock",
+      "symbol": "CNA.GBx",
+      "address": "0x383b75a6a738778e194e45131d15f8b4f6f52547",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xb5b023f8647052c09056ff786a6373e4d05ac1aa",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "cnax-mantle",
       "name": "CNA Financial xStock",
       "symbol": "CNAx",
@@ -2403,6 +2663,19 @@
       ]
     },
     {
+      "id": "crdax-mantle",
+      "name": "Croda International xStock",
+      "symbol": "CRDAx",
+      "address": "0x71eed272e83fba6194ec22af39bb50040f4a528b",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xa0124b1f8a1e5d9c04d2c00ac00f345bc053ed2e",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "cresbx-mantle",
       "name": "China Resources Beer Holdings xStock",
       "symbol": "CRESBx",
@@ -2623,6 +2896,19 @@
       ]
     },
     {
+      "id": "ctec.gbx-mantle",
+      "name": "ConvaTec xStock",
+      "symbol": "CTEC.GBx",
+      "address": "0x083fb46d5c77d5e813881af902f397ac0d9aa095",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x00e056beea42291910a23903bc3d0a000eb8bf24",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "ctfjwx-mantle",
       "name": "Chow Tai Fook Jewellery xStock",
       "symbol": "CTFJWx",
@@ -2726,6 +3012,19 @@
         },
         {
           "address": "0xef40ea1cbbaeee54c753a763a88013aafdaeebb7",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "cwk.gbx-mantle",
+      "name": "Cranswick xStock",
+      "symbol": "CWK.GBx",
+      "address": "0x3f3886541ba028a3dcec167494e27e0dc35192bc",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x3efeca37a296c7c1d83622be94df07e74d0196f3",
           "type": "ERC4626V2"
         }
       ]
@@ -2873,6 +3172,19 @@
         },
         {
           "address": "0x9bad4af78b27396079a2bdc96300a8eef9a24057",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "dgex-mantle",
+      "name": "Diageo xStock",
+      "symbol": "DGEx",
+      "address": "0x02e80f0aad210ea16009c7ed1d49124098d54215",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xc3be5013ecccdca40f39e17115bfb3b127970144",
           "type": "ERC4626V2"
         }
       ]
@@ -3090,6 +3402,19 @@
       ]
     },
     {
+      "id": "dplmx-mantle",
+      "name": "Diploma xStock",
+      "symbol": "DPLMx",
+      "address": "0xf066661e666e4910882400f877908617aaa21161",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x3a510888d263019795ea13bb793bd27b24ae08a9",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "dpzx-mantle",
       "name": "Domino's Pizza xStock",
       "symbol": "DPZx",
@@ -3254,6 +3579,19 @@
       "wrappers": [
         {
           "address": "0xdda941864d89f1a0e89b8330ca6902b38d66fecd",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "edv.gbx-mantle",
+      "name": "Endeavour Mining xStock",
+      "symbol": "EDV.GBx",
+      "address": "0x34bfdc2896ecee9ad6879eaca640ee888651b13c",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x966bf7a3e01b9092b2358239c80c3c65b79b540b",
           "type": "ERC4626V2"
         }
       ]
@@ -3449,6 +3787,19 @@
       "wrappers": [
         {
           "address": "0x73ee3672a13caef5468b9e9314f4a0b144d54a7b",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "entx-mantle",
+      "name": "Entain xStock",
+      "symbol": "ENTx",
+      "address": "0x24b32fb0ce236caa742e16d816d1bf0bebac4130",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x989a2079756facab5be8647074918d82af904c54",
           "type": "ERC4626V2"
         }
       ]
@@ -3709,6 +4060,19 @@
       "wrappers": [
         {
           "address": "0xbbddd91eef13fcc091866f305cd61d73d80e010d",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "expnx-mantle",
+      "name": "Experian xStock",
+      "symbol": "EXPNx",
+      "address": "0x02e7cb32208c6b1c514acd132d6e2ed7a3110c21",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x578cf0815f05b2fc4fae0df24dbc802558446b58",
           "type": "ERC4626V2"
         }
       ]
@@ -4039,6 +4403,19 @@
       ]
     },
     {
+      "id": "fresx-mantle",
+      "name": "Fresnillo xStock",
+      "symbol": "FRESx",
+      "address": "0xbc6082e536ec246858fbf2e694c2d45cd25a8754",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x266eb9c96213a5f166950b99e50769bdf45c9955",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "frhcx-mantle",
       "name": "Freedom xStock",
       "symbol": "FRHCx",
@@ -4138,6 +4515,19 @@
       "wrappers": [
         {
           "address": "0x752d49fb569f5e652881faa375f0a18b268883e3",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "gawx-mantle",
+      "name": "Games Workshop xStock",
+      "symbol": "GAWx",
+      "address": "0x8b713857b95ef6a2ec9ff5fe389aa918d5682364",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xa6367d8776105c4aeb445da257cc090a84d5c8da",
           "type": "ERC4626V2"
         }
       ]
@@ -4355,6 +4745,19 @@
       ]
     },
     {
+      "id": "glenx-mantle",
+      "name": "Glencore xStock",
+      "symbol": "GLENx",
+      "address": "0x00c65323d8e16f34a43277273a22b02d61d8d4cc",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xeb1ab3969af94b133c4c5c44c28fed9ed0f8ae6b",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "glpix-mantle",
       "name": "Gaming and Leisure Properties xStock",
       "symbol": "GLPIx",
@@ -4462,6 +4865,19 @@
       "wrappers": [
         {
           "address": "0xd82cf68590d6b7c638040cde45256a8ba8237d40",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "gns.gbx-mantle",
+      "name": "Genus xStock",
+      "symbol": "GNS.GBx",
+      "address": "0x0ecfcc1c00ded3cd53f7b7f7c3ef320ea11ffd3d",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xa56075fc43db8bab6d7de1d2c51283692196aedd",
           "type": "ERC4626V2"
         }
       ]
@@ -4752,6 +5168,19 @@
       ]
     },
     {
+      "id": "hlmax-mantle",
+      "name": "Halma xStock",
+      "symbol": "HLMAx",
+      "address": "0x5232842f9505210bc666cab1f6ecc0b8d4236348",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xbd5c708afe187f70b2d53c72ecba3dc9bac01050",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "hltx-mantle",
       "name": "Hilton Worldwide xStock",
       "symbol": "HLTx",
@@ -4877,6 +5306,19 @@
       ]
     },
     {
+      "id": "hsbax-mantle",
+      "name": "HSBC xStock",
+      "symbol": "HSBAx",
+      "address": "0xa859cd10a59f3e6bca9ae0b0ea9aee90245e3301",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x4bcae8bee3ba7cd61d34c7aa9399d97ecaee7862",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "hstx-mantle",
       "name": "Host Hotels & Resorts xStock",
       "symbol": "HSTx",
@@ -4985,6 +5427,19 @@
       ]
     },
     {
+      "id": "iag.gbx-mantle",
+      "name": "International Consolidated Airlines xStock",
+      "symbol": "IAG.GBx",
+      "address": "0xafbee6a8bccf1d3943d84116f51039a8adc66b3b",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x7847554c2f0e3652deb8fb4ac662ac7b8b7cbad5",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "ibkrx-mantle",
       "name": "Interactive Brokers xStock",
       "symbol": "IBKRx",
@@ -5036,6 +5491,19 @@
       "wrappers": [
         {
           "address": "0xbdff6dd4cec5eeaff1e21d65863431e79755ea13",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "icg.gbx-mantle",
+      "name": "ICG xStock",
+      "symbol": "ICG.GBx",
+      "address": "0x72ca516a643400acb57a6be0f9dde33b2d16d23f",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x4f1ffe9896c1bf545cbb31eab54b169f961a2ced",
           "type": "ERC4626V2"
         }
       ]
@@ -7200,6 +7668,19 @@
       ]
     },
     {
+      "id": "nxt.gbx-mantle",
+      "name": "Next xStock",
+      "symbol": "NXT.GBx",
+      "address": "0x2963d15d60318d2355d247f3bfa61f046a85507a",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xf5ff4f37d12c6cb4ced1de4e8e5b5217a6a3be07",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "nytx-mantle",
       "name": "New York Times xStock",
       "symbol": "NYTx",
@@ -7929,6 +8410,19 @@
       ]
     },
     {
+      "id": "psn.gbx-mantle",
+      "name": "Persimmon xStock",
+      "symbol": "PSN.GBx",
+      "address": "0xa9ec28c57b0edda445eddf829e24dcaf9e2ab1e2",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x84ab8fa122126e9943a405bef50a1bc354b8f7f6",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "psxx-mantle",
       "name": "Phillips 66 xStock",
       "symbol": "PSXx",
@@ -8451,6 +8945,19 @@
       "wrappers": [
         {
           "address": "0x00a2384f22722e53b4c2933354f301944153ba50",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "rtox-mantle",
+      "name": "Rentokil Initial xStock",
+      "symbol": "RTOx",
+      "address": "0x9dabaa49b8c326b7d8ad11907ca0b51348953b09",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x762e2697186923554c79f1694dbe22f902fb8e0e",
           "type": "ERC4626V2"
         }
       ]
@@ -10719,6 +11226,19 @@
       "wrappers": [
         {
           "address": "0x31b6bf130750fdc33ed7517a07baec68c9fa19fa",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "wppx-mantle",
+      "name": "WPP xStock",
+      "symbol": "WPPx",
+      "address": "0x640e3e17a00ee539971a080d3854d6969c8ef028",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x5b6402e667ffa35324d25076a1dcf24182eb57e3",
           "type": "ERC4626V2"
         }
       ]
