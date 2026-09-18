@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-18T05:58:52.105Z",
+  "generatedAt": "2026-09-18T11:03:28.988Z",
   "source": {
     "name": "xStocks / Backed official deployment catalog",
     "url": "https://api.backed.fi/rest/tokens/wrappers?businessLine=xStocks",
@@ -11,7 +11,7 @@
     "name": "Mantle",
     "chainId": 5000
   },
-  "assetCount": 917,
+  "assetCount": 918,
   "assets": [
     {
       "id": "aafx-mantle",
@@ -35,6 +35,19 @@
       "wrappers": [
         {
           "address": "0x8f828795e3c29e26c800a340534d3b8a3b666c5b",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "aaonx-mantle",
+      "name": "AAON xStock",
+      "symbol": "AAONx",
+      "address": "0x6cf8a0f1e7982a2cad7f878db2bd0e1f30b49e6c",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xdeaaa9b564846164d37b8b835585d7972eb7efea",
           "type": "ERC4626V2"
         }
       ]
