@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-25T10:15:19.176Z",
+  "generatedAt": "2026-09-25T15:18:35.626Z",
   "source": {
     "name": "xStocks / Backed official deployment catalog",
     "url": "https://api.backed.fi/rest/tokens/wrappers?businessLine=xStocks",
@@ -11,7 +11,7 @@
     "name": "Mantle",
     "chainId": 5000
   },
-  "assetCount": 992,
+  "assetCount": 993,
   "assets": [
     {
       "id": "aafx-mantle",
@@ -7232,6 +7232,19 @@
       "wrappers": [
         {
           "address": "0x61453272263115d33f4052837c2e086d3e17d4b4",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "itax-mantle",
+      "name": "iShares U.S. Aerospace & Defense ETF xStock",
+      "symbol": "ITAx",
+      "address": "0x375b9f00a83132cabcda7abf2bfc87c14f7ac324",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xf8e5e984ecf03583597fd32fbdb038a41e2a23bf",
           "type": "ERC4626V2"
         }
       ]
