@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-28T01:45:26.581Z",
+  "generatedAt": "2026-09-28T07:42:21.305Z",
   "asset": {
     "id": "spyx-mantle",
     "name": "SP500 xStock",
@@ -13,12 +13,12 @@
     "contractCreatedBlock": 88104054,
     "contractCreatedAt": "2025-11-28T14:00:20.000Z",
     "firstTransferBlock": 88224031,
-    "lastTransferBlock": 101068651,
-    "lastIndexedBlock": 101214803,
-    "lastIndexedAt": "2026-09-28T01:45:18.000Z"
+    "lastTransferBlock": 101221590,
+    "lastIndexedBlock": 101225508,
+    "lastIndexedAt": "2026-09-28T07:42:08.000Z"
   },
   "stats": {
-    "transferCount": 149,
+    "transferCount": 151,
     "walletAddresses": [
       "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
       "0xceb0482d53f3234e9f3ee396009cd576847eb697",
@@ -85,15 +85,16 @@
       "0xdeb6df88340897d51e1e94dadbe034e242fd2576",
       "0x5bb871a303d02f80f25b8ae69e10a3186e0a417b",
       "0xc6b47e2a83b39040027f726e33c73e9b048eef0c",
-      "0xd79314e52a190ef96013a204ac3f98ca1238f04d"
+      "0xd79314e52a190ef96013a204ac3f98ca1238f04d",
+      "0xfaaa096f90bf532ce5d8ad39ca547d8d40749ff2"
     ],
     "mints": 1,
     "burns": 0,
     "firstTransferBlock": 88224031,
-    "lastTransferBlock": 101068651
+    "lastTransferBlock": 101221590
   },
   "market": {
-    "capturedAt": "2026-09-28T01:45:26.681Z",
+    "capturedAt": "2026-09-28T07:42:21.351Z",
     "pairs": []
   },
   "sources": {
@@ -103,6 +104,11 @@
         "id": "mantle-public",
         "label": "Mantle Public RPC",
         "url": "https://rpc.mantle.xyz"
+      },
+      {
+        "id": "publicnode-mantle",
+        "label": "PublicNode Mantle RPC",
+        "url": "https://mantle-rpc.publicnode.com"
       }
     ],
     "explorer": "https://mantlescan.xyz/token/0x90a2a4c76b5d8c0bc892a69ea28aa775a8f2dd48",
