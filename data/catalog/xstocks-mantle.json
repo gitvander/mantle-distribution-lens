@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-29T13:57:37.115Z",
+  "generatedAt": "2026-09-29T19:16:21.801Z",
   "source": {
     "name": "xStocks / Backed official deployment catalog",
     "url": "https://api.backed.fi/rest/tokens/wrappers?businessLine=xStocks",
@@ -13037,6 +13037,23 @@
       ]
     },
     {
+      "id": "tronx-mantle",
+      "name": "Tron xStock",
+      "symbol": "TRONx",
+      "address": "0xecf59a3fd0224d33429920f8fa6de493abc4efc0",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x93730d679190e831caea5e4ce46a5701d555e0f2",
+          "type": "ERC4626"
+        },
+        {
+          "address": "0x2801ba8815fb1e1723e54dcdc756320764486e8a",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "trowx-mantle",
       "name": "T. Rowe Price xStock",
       "symbol": "TROWx",
@@ -13261,19 +13278,6 @@
       "wrappers": [
         {
           "address": "0x61cfbd23e59f60ee2ae2b381a0c8a3bc06a2e2a5",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "txrhx-mantle",
-      "name": "Texas Roadhouse xStock",
-      "symbol": "TXRHx",
-      "address": "0x013678d2039f27ac8531dd994411b6f6c502d889",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0x6aa0526c6d7943d2449f81617cdf4eed3622b1b8",
           "type": "ERC4626V2"
         }
       ]
