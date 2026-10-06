@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-06T02:53:35.394Z",
+  "generatedAt": "2026-10-06T10:06:07.232Z",
   "asset": {
     "id": "spcxx-mantle",
     "name": "Tokenized SpaceX",
@@ -13,12 +13,12 @@
     "contractCreatedBlock": 96096100,
     "contractCreatedAt": "2026-06-01T14:01:52.000Z",
     "firstTransferBlock": 96524963,
-    "lastTransferBlock": 101562426,
-    "lastIndexedBlock": 101562446,
-    "lastIndexedAt": "2026-10-06T02:53:24.000Z"
+    "lastTransferBlock": 101573797,
+    "lastIndexedBlock": 101575419,
+    "lastIndexedAt": "2026-10-06T10:05:50.000Z"
   },
   "stats": {
-    "transferCount": 6445,
+    "transferCount": 6457,
     "walletAddresses": [
       "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
       "0x2f943ee1dd4b4afb07320ca5765b4616c1ff7a87",
@@ -107,22 +107,24 @@
       "0x86bd731db543bbecd116db1cdb3ea8d3df85eebf",
       "0x588846213a30fd36244e0ae0ebb2374516da836c",
       "0xc868d0ea71243f1580f934cdc59620603bf9f1f1",
-      "0xd8169f099ce16c87a99d2a8494023574b5eea9c5"
+      "0xd8169f099ce16c87a99d2a8494023574b5eea9c5",
+      "0x2dc68de867bc42a1f8b001f1151e169e701d2f46",
+      "0xe1d8a3ee79cc96bf8e483361cbcfe1287ab8742e"
     ],
     "mints": 1,
     "burns": 1,
     "firstTransferBlock": 96524963,
-    "lastTransferBlock": 101562426
+    "lastTransferBlock": 101573797
   },
   "market": {
-    "capturedAt": "2026-10-06T02:53:35.481Z",
+    "capturedAt": "2026-10-06T10:06:07.285Z",
     "pairs": [
       {
         "dexId": "merchantmoe",
         "pairAddress": "0xd14B0DcD319551AE4D7B12787c00EE1C1f9E1d2E",
-        "priceUsd": "173.0055",
-        "liquidityUsd": 2045.78,
-        "volumeH24": 20.66,
+        "priceUsd": "174.73",
+        "liquidityUsd": 2385.12,
+        "volumeH24": 27.86,
         "url": "https://dexscreener.com/mantle/0xd14b0dcd319551ae4d7b12787c00ee1c1f9e1d2e"
       }
     ]
@@ -136,9 +138,9 @@
         "url": "https://mantle.drpc.org"
       },
       {
-        "id": "mantle-public",
-        "label": "Mantle Public RPC",
-        "url": "https://rpc.mantle.xyz"
+        "id": "publicnode-mantle",
+        "label": "PublicNode Mantle RPC",
+        "url": "https://mantle-rpc.publicnode.com"
       }
     ],
     "explorer": "https://mantlescan.xyz/token/0x68fa48b1c2fe52b3d776e1953e0e782b5044ce28",

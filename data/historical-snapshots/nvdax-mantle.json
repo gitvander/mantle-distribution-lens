@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-06T02:53:00.426Z",
+  "generatedAt": "2026-10-06T10:05:07.402Z",
   "asset": {
     "id": "nvdax-mantle",
     "name": "NVIDIA xStock",
@@ -13,12 +13,12 @@
     "contractCreatedBlock": 88102138,
     "contractCreatedAt": "2025-11-28T12:56:28.000Z",
     "firstTransferBlock": 88224031,
-    "lastTransferBlock": 101550121,
-    "lastIndexedBlock": 101562428,
-    "lastIndexedAt": "2026-10-06T02:52:48.000Z"
+    "lastTransferBlock": 101572861,
+    "lastIndexedBlock": 101575391,
+    "lastIndexedAt": "2026-10-06T10:04:54.000Z"
   },
   "stats": {
-    "transferCount": 1842,
+    "transferCount": 1848,
     "walletAddresses": [
       "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
       "0x4b8881f6eebd2b59661c66c08f47ab6d1cb110f8",
@@ -709,15 +709,18 @@
       "0x09fc9b7545020f6a51d113e495e0a451597969d3",
       "0xac9da6761ef80644a3bb9ab7e590cf4e64be084f",
       "0x33d7161cde6b37cf4b14b826c05382f362515217",
-      "0x84caf89cba5eabd2a01ba06686a8717ba3f46a11"
+      "0x84caf89cba5eabd2a01ba06686a8717ba3f46a11",
+      "0x990effa0be055487aabc5395cb4ebf4cb919b68d",
+      "0xd380315bc914dbbf94dab50f22a74c6815a2a074",
+      "0x9b3d9357b447ded7bf7fac4765be23cb691a3ca6"
     ],
     "mints": 2,
     "burns": 0,
     "firstTransferBlock": 88224031,
-    "lastTransferBlock": 101550121
+    "lastTransferBlock": 101572861
   },
   "market": {
-    "capturedAt": "2026-10-06T02:53:00.506Z",
+    "capturedAt": "2026-10-06T10:05:07.452Z",
     "pairs": []
   },
   "sources": {
@@ -729,9 +732,9 @@
         "url": "https://mantle.drpc.org"
       },
       {
-        "id": "mantle-public",
-        "label": "Mantle Public RPC",
-        "url": "https://rpc.mantle.xyz"
+        "id": "publicnode-mantle",
+        "label": "PublicNode Mantle RPC",
+        "url": "https://mantle-rpc.publicnode.com"
       }
     ],
     "explorer": "https://mantlescan.xyz/token/0xc845b2894dbddd03858fd2d643b4ef725fe0849d",
