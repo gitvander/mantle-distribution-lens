@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-13T10:42:40.182Z",
+  "generatedAt": "2026-10-13T17:48:32.897Z",
   "source": {
     "name": "xStocks / Backed official deployment catalog",
     "url": "https://api.backed.fi/rest/tokens/wrappers?businessLine=xStocks",
@@ -1713,6 +1713,23 @@
       ]
     },
     {
+      "id": "axpx-mantle",
+      "name": "American Express xStock",
+      "symbol": "AXPx",
+      "address": "0xb23767492d0ca6dc7221cbea45689a0410f388c4",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x0b306951161b856ad02c8566b4ef184c6bb08564",
+          "type": "ERC4626"
+        },
+        {
+          "address": "0x72d1515320dd910f68e2512863d30d1a154a6741",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "axsmx-mantle",
       "name": "Axsome Therapeutics xStock",
       "symbol": "AXSMx",
@@ -2366,6 +2383,23 @@
       "wrappers": [
         {
           "address": "0x9b1f282c076d239b258583c2c4d0b00c57d7d6c8",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "bkngx-mantle",
+      "name": "Booking xStock",
+      "symbol": "BKNGx",
+      "address": "0xa8a25db6cf17fa097f1dbbc9c841892456898ff3",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x277f724d12dd0249b48cbd7eb2623c5e5042b970",
+          "type": "ERC4626"
+        },
+        {
+          "address": "0x9fb9f5c495112d3797a3c45b86d6c1639601652f",
           "type": "ERC4626V2"
         }
       ]
@@ -4006,6 +4040,23 @@
       "wrappers": [
         {
           "address": "0xde2387b828c01914ec74c918cd48f480438d8fa0",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "costx-mantle",
+      "name": "Costco xStock",
+      "symbol": "COSTx",
+      "address": "0x4720b5e6421e6879132aed52040d56bb6e5cfeef",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xfa48fee923600fecaa7af0dfb4a66e3109ad51bf",
+          "type": "ERC4626"
+        },
+        {
+          "address": "0x4e913b799fe60b658e2a8ec13e7fde503f2606c1",
           "type": "ERC4626V2"
         }
       ]
@@ -6244,6 +6295,23 @@
       "wrappers": [
         {
           "address": "0xbbddd91eef13fcc091866f305cd61d73d80e010d",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "expex-mantle",
+      "name": "Expedia xStock",
+      "symbol": "EXPEx",
+      "address": "0xd1be5ba0c293997c7f69da707d14eb4abcb13ddd",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x5230c4b621bd2d1f22933903f9a4fa82a9f17fcf",
+          "type": "ERC4626"
+        },
+        {
+          "address": "0xf22a4c167afec53d1659006aa107ae4be0db1033",
           "type": "ERC4626V2"
         }
       ]
@@ -11016,6 +11084,23 @@
       ]
     },
     {
+      "id": "mnstx-mantle",
+      "name": "Monster xStock",
+      "symbol": "MNSTx",
+      "address": "0x8499b26bbfc8c3830a37b92e47df2d7cbc0154e9",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x61a6cd11f658d1b418e1082b564678983b71fb7f",
+          "type": "ERC4626"
+        },
+        {
+          "address": "0x0f1155ba518b8d6e780d0c55924e5e05c6206f60",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "modx-mantle",
       "name": "Modine Manufacturing xStock",
       "symbol": "MODx",
@@ -13176,71 +13261,6 @@
       "wrappers": [
         {
           "address": "0x2fcfdde86521616bb899beca889dfa439eede561",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "pnfpx-mantle",
-      "name": "Pinnacle Financial Partners xStock",
-      "symbol": "PNFPx",
-      "address": "0x75ed2324543a3a1d8e1b5339d91c2598cdfa1f94",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0x7241886c0e1167f8080ed2c7e69a9c67079a01ac",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "pnrx-mantle",
-      "name": "Pentair xStock",
-      "symbol": "PNRx",
-      "address": "0xab401aa3321ee1d3dd83ee664061605202b317f6",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0x3d9f09aa9a87cdca1c1aad65a4e2bc313953af10",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "pnwx-mantle",
-      "name": "Pinnacle West Capital xStock",
-      "symbol": "PNWx",
-      "address": "0x9b258ad07b0e90faacc0c6bb10413e10a30bc4cb",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0xe69767f1247c3393817bfebebb488ea45456b739",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "poddx-mantle",
-      "name": "Insulet xStock",
-      "symbol": "PODDx",
-      "address": "0x4415154d6b6e2acc22dd3fcc5cb4ddeb2244af4f",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0x21191c128047428aeac164f6b9828438c6d3fa79",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "poetx-mantle",
-      "name": "POET Technologies xStock",
-      "symbol": "POETx",
-      "address": "0x2baed3ce1420b89150bb4b3b8d9099ed0126f4c3",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0xadf24b147b8afc77b9bc441ba4a44c732d259a91",
           "type": "ERC4626V2"
         }
       ]
