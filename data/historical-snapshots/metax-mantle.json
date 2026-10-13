@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-13T03:14:28.164Z",
+  "generatedAt": "2026-10-13T10:43:48.807Z",
   "asset": {
     "id": "metax-mantle",
     "name": "Meta xStock",
@@ -13,12 +13,12 @@
     "contractCreatedBlock": 88102209,
     "contractCreatedAt": "2025-11-28T12:58:50.000Z",
     "firstTransferBlock": 88224031,
-    "lastTransferBlock": 101865271,
-    "lastIndexedBlock": 101865472,
-    "lastIndexedAt": "2026-10-13T03:14:16.000Z"
+    "lastTransferBlock": 101868761,
+    "lastIndexedBlock": 101878946,
+    "lastIndexedAt": "2026-10-13T10:43:24.000Z"
   },
   "stats": {
-    "transferCount": 232,
+    "transferCount": 235,
     "walletAddresses": [
       "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
       "0x4b8881f6eebd2b59661c66c08f47ab6d1cb110f8",
@@ -59,15 +59,17 @@
       "0x55fecad373d6872cff869688e907432d0ec85253",
       "0xdf3afb0b849de152e3ced51892ece97d65c5bfaf",
       "0x33d7161cde6b37cf4b14b826c05382f362515217",
-      "0x44e9100d2e09c3888309af58e068955a690097f8"
+      "0x44e9100d2e09c3888309af58e068955a690097f8",
+      "0x4b8009b9aff952bad6d2bb9e07baec432e8d5a9c",
+      "0x80ee14332aa8cc54a1fff2754b6fd3490f3205e0"
     ],
     "mints": 1,
     "burns": 0,
     "firstTransferBlock": 88224031,
-    "lastTransferBlock": 101865271
+    "lastTransferBlock": 101868761
   },
   "market": {
-    "capturedAt": "2026-10-13T03:14:28.289Z",
+    "capturedAt": "2026-10-13T10:43:48.838Z",
     "pairs": []
   },
   "sources": {
@@ -79,9 +81,9 @@
         "url": "https://mantle.drpc.org"
       },
       {
-        "id": "mantle-public",
-        "label": "Mantle Public RPC",
-        "url": "https://rpc.mantle.xyz"
+        "id": "publicnode-mantle",
+        "label": "PublicNode Mantle RPC",
+        "url": "https://mantle-rpc.publicnode.com"
       }
     ],
     "explorer": "https://mantlescan.xyz/token/0x96702be57cd9777f835117a809c7124fe4ec989a",
