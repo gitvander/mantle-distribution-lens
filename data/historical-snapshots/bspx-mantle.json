@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-14T11:40:49.672Z",
+  "generatedAt": "2026-10-14T15:58:53.120Z",
   "asset": {
     "id": "bspx-mantle",
     "name": "Bending Spoons xStock",
@@ -13,12 +13,12 @@
     "contractCreatedBlock": 97298445,
     "contractCreatedAt": "2026-06-29T10:00:02.000Z",
     "firstTransferBlock": 97307407,
-    "lastTransferBlock": 101645159,
-    "lastIndexedBlock": 101923864,
-    "lastIndexedAt": "2026-10-14T11:40:40.000Z"
+    "lastTransferBlock": 101930139,
+    "lastIndexedBlock": 101931609,
+    "lastIndexedAt": "2026-10-14T15:58:50.000Z"
   },
   "stats": {
-    "transferCount": 160,
+    "transferCount": 164,
     "walletAddresses": [
       "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
       "0x41dee1855293e4450cd67459047f372d4d818143",
@@ -45,11 +45,20 @@
     "mints": 1,
     "burns": 0,
     "firstTransferBlock": 97307407,
-    "lastTransferBlock": 101645159
+    "lastTransferBlock": 101930139
   },
   "market": {
-    "capturedAt": "2026-10-14T11:40:49.866Z",
-    "pairs": []
+    "capturedAt": "2026-10-14T15:58:53.189Z",
+    "pairs": [
+      {
+        "dexId": "merchantmoe",
+        "pairAddress": "0x076990881B4901752Db5d7887eb2CaFA27AF9cE8",
+        "priceUsd": "50.16",
+        "liquidityUsd": 1130.49,
+        "volumeH24": 402.88,
+        "url": "https://dexscreener.com/mantle/0x076990881b4901752db5d7887eb2cafa27af9ce8"
+      }
+    ]
   },
   "sources": {
     "rpcPoolSource": "file",
@@ -58,11 +67,6 @@
         "id": "mantle-public",
         "label": "Mantle Public RPC",
         "url": "https://rpc.mantle.xyz"
-      },
-      {
-        "id": "publicnode-mantle",
-        "label": "PublicNode Mantle RPC",
-        "url": "https://mantle-rpc.publicnode.com"
       }
     ],
     "explorer": "https://mantlescan.xyz/token/0x7796f4e23a62ef3653829c21032a9e24beaf4cf5",
