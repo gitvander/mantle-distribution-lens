@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T06:20:27.648Z",
+  "generatedAt": "2026-10-15T11:42:28.493Z",
   "source": {
     "name": "xStocks / Backed official deployment catalog",
     "url": "https://api.backed.fi/rest/tokens/wrappers?businessLine=xStocks",
@@ -2426,6 +2426,40 @@
       "wrappers": [
         {
           "address": "0xaaa2dbb6d9abdeac900859ca972af07e106210d0",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "blkx-mantle",
+      "name": "BlackRock xStock",
+      "symbol": "BLKx",
+      "address": "0x5a6a0742ca689e7e8a91a38f5255589cb2191646",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xe5365a5a16a7d1dd37b33e6f8d78aeb89847398b",
+          "type": "ERC4626"
+        },
+        {
+          "address": "0x8cdcf0a84502c7e0a160047b4561d5756b28b68d",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "blshx-mantle",
+      "name": "Bullish xStock",
+      "symbol": "BLSHx",
+      "address": "0x38de7b9fc733def81525e65c1bf99722026489e2",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x7a1d054e09eae0294d53959674ee9de14a1f70b1",
+          "type": "ERC4626"
+        },
+        {
+          "address": "0x4a937372313ed2b56ab00abb592782b635a98b06",
           "type": "ERC4626V2"
         }
       ]
@@ -5390,6 +5424,23 @@
       ]
     },
     {
+      "id": "duolx-mantle",
+      "name": "Duolingo xStock",
+      "symbol": "DUOLx",
+      "address": "0x03d44b9bb0398e2be3c89417d51e615c3d461f5a",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x3e5ceea6d6399ac1a1fee67c1644fc7f616ad9fd",
+          "type": "ERC4626"
+        },
+        {
+          "address": "0xb13e6941757e6b5f327cd960f9c45bdaacb45fd1",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "dvax-mantle",
       "name": "DaVita xStock",
       "symbol": "DVAx",
@@ -5450,6 +5501,23 @@
       "wrappers": [
         {
           "address": "0x8a7d21b96e0ac6da779156ea3c0d56a0e1cd825e",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "ebayx-mantle",
+      "name": "eBay xStock",
+      "symbol": "EBAYx",
+      "address": "0x4c7610990cb63cdca174ce61822f7693b49fce93",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x0c4f0256fb31cc71666fee3f0ce1de3b1abe347b",
+          "type": "ERC4626"
+        },
+        {
+          "address": "0x85fd214104f676dd5bd2bde0b014f1ff841a5f36",
           "type": "ERC4626V2"
         }
       ]
@@ -6598,6 +6666,23 @@
       "wrappers": [
         {
           "address": "0x0c22f01bcef1239b14eac464c5dbb3ad54454c7f",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "figx-mantle",
+      "name": "Figma xStock",
+      "symbol": "FIGx",
+      "address": "0x3c313d234d0c6c876f6c21ba2ec1f26823247be2",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x91049e9586301c54b2ef410c2b7e9040ffb02182",
+          "type": "ERC4626"
+        },
+        {
+          "address": "0x105b2365dae670bbf37fb2f176c4a2c9651c7cfc",
           "type": "ERC4626V2"
         }
       ]
@@ -13184,83 +13269,6 @@
       "wrappers": [
         {
           "address": "0x512e4fa54479382b63bc11441fb3c48c02415792",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "plntx-mantle",
-      "name": "Planet Fitness xStock",
-      "symbol": "PLNTx",
-      "address": "0x3fea32296ba957ef001ece35a57ce0fb1dc38939",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0xe40a27ba8d471322dbd859f303db09de5885cb4d",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "pltrx-mantle",
-      "name": "Palantir xStock",
-      "symbol": "PLTRx",
-      "address": "0x6d482cec5f9dd1f05ccee9fd3ff79b246170f8e2",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0xa3b6fe1a923585bb828fcfaa460b78eefd5ae2ec",
-          "type": "ERC4626"
-        },
-        {
-          "address": "0x4a2df09536f62341c9f946427d16414c04e21342",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "plx-mantle",
-      "name": "Planet Labs xStock",
-      "symbol": "PLx",
-      "address": "0x536825370f1159cba953055f5c2f16ddc7b5a348",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0xf429759bbf687118efd6b3713303006c356b8765",
-          "type": "ERC4626"
-        },
-        {
-          "address": "0x7ff7e61bee7aba606b0aae034cc22210cd5e8c7b",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "pmx-mantle",
-      "name": "Philip Morris xStock",
-      "symbol": "PMx",
-      "address": "0x02a6c1789c3b4fdb1a7a3dfa39f90e5d3c94f4f9",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0x7c2e00e6b0d519a8c492d20c2524342a4398ff34",
-          "type": "ERC4626"
-        },
-        {
-          "address": "0xc10a58d806d80c632cf5475cc3357e5c9ca0d48b",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "pncx-mantle",
-      "name": "PNC Financial Services xStock",
-      "symbol": "PNCx",
-      "address": "0xd249b28fc6c3e4c8879b93ba38f19dcdebbe5141",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0x2fcfdde86521616bb899beca889dfa439eede561",
           "type": "ERC4626V2"
         }
       ]
