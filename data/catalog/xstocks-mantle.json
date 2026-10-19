@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T14:34:01.549Z",
+  "generatedAt": "2026-10-19T20:07:59.752Z",
   "source": {
     "name": "xStocks / Backed official deployment catalog",
     "url": "https://api.backed.fi/rest/tokens/wrappers?businessLine=xStocks",
@@ -2154,6 +2154,19 @@
       ]
     },
     {
+      "id": "beix-mantle",
+      "name": "Beiersdorf xStock",
+      "symbol": "BEIx",
+      "address": "0xdedf549037c7e204ad90f2081f80b1c43fa40ef0",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x1a7be0b157cd39e8a1b3d2622ac69d3bb611f2fa",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "benx-mantle",
       "name": "Franklin Templeton xStock",
       "symbol": "BENx",
@@ -2542,6 +2555,19 @@
       "wrappers": [
         {
           "address": "0xde6993be72685ddb855f12cec17e8f83022748e0",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "bnr.dex-mantle",
+      "name": "Brenntag xStock",
+      "symbol": "BNR.DEx",
+      "address": "0xa766e718fd02d47bb9acc5206edc0880ad5f521f",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xe8a196bd4d0095e4d220f0634185ba8cdc9e6d43",
           "type": "ERC4626V2"
         }
       ]
@@ -3135,6 +3161,19 @@
       "wrappers": [
         {
           "address": "0x1505df4738b4234ec113c45827763adbfea4adda",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "cbk.dex-mantle",
+      "name": "Commerzbank xStock",
+      "symbol": "CBK.DEx",
+      "address": "0x553eb87208d83aa71883b747cfa72a953ecba461",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x9b992d3ea7cbf45c0a2bb38dbdfb75e6822094bb",
           "type": "ERC4626V2"
         }
       ]
@@ -3992,6 +4031,19 @@
       "wrappers": [
         {
           "address": "0x1e0821f418e1c94135c67eebc0ef8d5996d91ca8",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "con.dex-mantle",
+      "name": "Continental xStock",
+      "symbol": "CON.DEx",
+      "address": "0xedcdeaae94a06940a1dadc9e3127947f6faef414",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xbedd1e8e40ecc94b12da6f0070cb933f90b50e88",
           "type": "ERC4626V2"
         }
       ]
@@ -6857,6 +6909,19 @@
       ]
     },
     {
+      "id": "fmex-mantle",
+      "name": "Fresenius Medical Care xStock",
+      "symbol": "FMEx",
+      "address": "0x48f4f5b31e6cba879d084b91ab5838cb25994f5e",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x0e6667645960216613368b1c839a50a3e12c466c",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "fnbx-mantle",
       "name": "F N B xStock",
       "symbol": "FNBx",
@@ -7164,6 +7229,32 @@
       "wrappers": [
         {
           "address": "0x374171c67ebf2e5ff6ab09a901be58ae8ab1e3f9",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "g1ax-mantle",
+      "name": "GEA xStock",
+      "symbol": "G1Ax",
+      "address": "0x34524f4cd52ce2c9ebaa3af328cae1454c8adcb0",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x7fc8f905edfffcb0d02f93cf9df07d0209657347",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "g24x-mantle",
+      "name": "Scout24 xStock",
+      "symbol": "G24x",
+      "address": "0x90745f31fa7b318629cef8bae45ad02cba495ff1",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x82cc0227d861abb46480c5220069a0bbdf7f4239",
           "type": "ERC4626V2"
         }
       ]
@@ -7999,6 +8090,19 @@
       ]
     },
     {
+      "id": "hen3x-mantle",
+      "name": "Henkel xStock",
+      "symbol": "HEN3x",
+      "address": "0x7aa412afe413513d05929f1d58958b1a81fb9e33",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x0045f1ac94d1478317137238afb64fe86437aeee",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "hhhx-mantle",
       "name": "Howard Hughes xStock",
       "symbol": "HHHx",
@@ -8236,6 +8340,19 @@
         },
         {
           "address": "0x59801175a9b2248f9bf4ba7f82e17045c4672ec8",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "hotx-mantle",
+      "name": "Hochtief xStock",
+      "symbol": "HOTx",
+      "address": "0x97551cfa037d8572d7b86e671d036fd2d27e1351",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xf0739d81ceab8824258792e014f345dc2d5b6dc2",
           "type": "ERC4626V2"
         }
       ]
@@ -13152,123 +13269,6 @@
         },
         {
           "address": "0xf8154adaa88cb3929b27ee627a530ed9ffa17e49",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "phiax-mantle",
-      "name": "Koninklijke Philips xStock",
-      "symbol": "PHIAx",
-      "address": "0x17543d2aa5c4d441aba4cc1e039ccf3e4b637df7",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0x234e3e9e9809454047208d23fc6039db36a3e2ac",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "phmx-mantle",
-      "name": "PulteGroup xStock",
-      "symbol": "PHMx",
-      "address": "0x41580e51c15a558ce8bb71d5e3e625d7b28febd3",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0x19cd99d209c81ccc864f1d89432b903201be7c93",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "phx-mantle",
-      "name": "Parker Hannifin xStock",
-      "symbol": "PHx",
-      "address": "0x8c0d35c89598da21114d28248c0d1324be04ecf0",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0x6282954c910933d0a6971c4ca150b9fc35a91b4c",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "piccx-mantle",
-      "name": "PICC Property and Casualty xStock",
-      "symbol": "PICCx",
-      "address": "0xb97b45ec03fe0443e94e7d72512ad4df120c33be",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0x8150f70c6c4b35cdba2a35fc8cda14aff589c27b",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "picox-mantle",
-      "name": "Ping An Insurance Group Co. of China xStock",
-      "symbol": "PICOx",
-      "address": "0x8bd17230466a8c04f569da2d8eeea6029e978a48",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0x5c45ea78a4e23754d8689f7f879922cac6d7c881",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "pinsx-mantle",
-      "name": "Pinterest xStock",
-      "symbol": "PINSx",
-      "address": "0x85093041471382fe01517ab00ce897d7189db5d3",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0xb7bed3c13ed4234ca6b532dbafe20e6facca062a",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "pkgx-mantle",
-      "name": "Packaging Corp of America xStock",
-      "symbol": "PKGx",
-      "address": "0x705a0c4d463418bd371d496c447e6ec497a47876",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0x4617e9d867aaf21b1531292874118ab1eee0e258",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "plcex-mantle",
-      "name": "Children's Place xStock",
-      "symbol": "PLCEx",
-      "address": "0xa39c7a49348752e0748e95c05a09eccae7126f8c",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0xc22d8903ded63865b2569b002305468ba6d4e28b",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "pldx-mantle",
-      "name": "Prologis xStock",
-      "symbol": "PLDx",
-      "address": "0x54fefa2838f7dc972b1a08b41a48328875c84abc",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0x512e4fa54479382b63bc11441fb3c48c02415792",
           "type": "ERC4626V2"
         }
       ]
