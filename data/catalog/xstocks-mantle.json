@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-20T07:39:51.435Z",
+  "generatedAt": "2026-10-20T13:02:23.738Z",
   "source": {
     "name": "xStocks / Backed official deployment catalog",
     "url": "https://api.backed.fi/rest/tokens/wrappers?businessLine=xStocks",
@@ -272,6 +272,19 @@
         },
         {
           "address": "0xd37a850b99a8b80126e025c2ecfcdf853a1eb77d",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "acs.esx-mantle",
+      "name": "ACS Actividades de Construccion y Servicios xStock",
+      "symbol": "ACS.ESx",
+      "address": "0x40720f2ad0998040c090482e00964a21ee335493",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x69a25b855966d8485d7f6413d97fa8d028653fe2",
           "type": "ERC4626V2"
         }
       ]
@@ -8298,6 +8311,19 @@
       ]
     },
     {
+      "id": "hnr1x-mantle",
+      "name": "Hannover Rueck xStock",
+      "symbol": "HNR1x",
+      "address": "0x0e87c9a509414b9a59e3fbcf237c6fd032c64224",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x30b5f5d630f77b232321fbd382783279228fad9d",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "hogx-mantle",
       "name": "Harley-Davidson xStock",
       "symbol": "HOGx",
@@ -13239,36 +13265,6 @@
       "wrappers": [
         {
           "address": "0xad5c89049c9f5aba5630a0d1afebb60951618ffc",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "pgrx-mantle",
-      "name": "Progressive xStock",
-      "symbol": "PGRx",
-      "address": "0x75b6dcd603314bcd8b3683e526d63193cf7d7bae",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0xce97dee7ee0bb3e5a94ad20bf4cc887bd74ca708",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "pgx-mantle",
-      "name": "Procter & Gamble xStock",
-      "symbol": "PGx",
-      "address": "0xa90424d5d3e770e8644103ab503ed775dd1318fd",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0x0afc19943fa98e9e9e90fc4ab4d4d3c13e162232",
-          "type": "ERC4626"
-        },
-        {
-          "address": "0xf8154adaa88cb3929b27ee627a530ed9ffa17e49",
           "type": "ERC4626V2"
         }
       ]
