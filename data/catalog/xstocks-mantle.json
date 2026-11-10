@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-10T11:49:41.566Z",
+  "generatedAt": "2026-11-10T18:53:34.496Z",
   "source": {
     "name": "xStocks / Backed official deployment catalog",
     "url": "https://api.backed.fi/rest/tokens/wrappers?businessLine=xStocks",
@@ -13,6 +13,19 @@
   },
   "assetCount": 997,
   "assets": [
+    {
+      "id": "4gldx-mantle",
+      "name": "Xetra-Gold xStock",
+      "symbol": "4GLDx",
+      "address": "0x40f73ded22a642b3e5266f44124535898db012f1",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x377ecc79a645abdd14e2ca9de3360e2de1ff62ce",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
     {
       "id": "a5gx-mantle",
       "name": "AIB xStock",
@@ -13253,19 +13266,6 @@
       "wrappers": [
         {
           "address": "0x81bd2c8847f79bfab3aa178d87743879618b64dd",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "otisx-mantle",
-      "name": "Otis Worldwide xStock",
-      "symbol": "OTISx",
-      "address": "0x2cd4e4cc2cea86e3f1ac26dd4d4855d468833dd3",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0xf6cd5a0e21eef4b5f5074ce1f935daf96eb10ce5",
           "type": "ERC4626V2"
         }
       ]
