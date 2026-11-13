@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-13T11:39:00.965Z",
+  "generatedAt": "2026-11-13T18:45:13.780Z",
   "asset": {
     "id": "spcxx-mantle",
     "name": "Tokenized SpaceX",
@@ -13,12 +13,12 @@
     "contractCreatedBlock": 96096100,
     "contractCreatedAt": "2026-06-01T14:01:52.000Z",
     "firstTransferBlock": 96524963,
-    "lastTransferBlock": 103139501,
-    "lastIndexedBlock": 103219807,
-    "lastIndexedAt": "2026-11-13T11:38:46.000Z"
+    "lastTransferBlock": 103230629,
+    "lastIndexedBlock": 103232592,
+    "lastIndexedAt": "2026-11-13T18:44:56.000Z"
   },
   "stats": {
-    "transferCount": 6593,
+    "transferCount": 6611,
     "walletAddresses": [
       "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
       "0x2f943ee1dd4b4afb07320ca5765b4616c1ff7a87",
@@ -114,16 +114,26 @@
       "0x42c500513aff22feb67eb30a29381e7aa0929d4e",
       "0x3ffca50b674b9e06e46eb6002fca3ed6cf273a59",
       "0x055ea0d52c761c00ffa1f23907dca432690a9b9d",
-      "0x4a67e97e770de93952b8596f04c13ada0ab9a69c"
+      "0x4a67e97e770de93952b8596f04c13ada0ab9a69c",
+      "0x8daf30654efd4fba883d5eedecd0d9ce22367395"
     ],
     "mints": 2,
     "burns": 1,
     "firstTransferBlock": 96524963,
-    "lastTransferBlock": 103139501
+    "lastTransferBlock": 103230629
   },
   "market": {
-    "capturedAt": "2026-11-13T11:39:01.066Z",
-    "pairs": []
+    "capturedAt": "2026-11-13T18:45:13.822Z",
+    "pairs": [
+      {
+        "dexId": "merchantmoe",
+        "pairAddress": "0xd14B0DcD319551AE4D7B12787c00EE1C1f9E1d2E",
+        "priceUsd": "137.62",
+        "liquidityUsd": 1717.77,
+        "volumeH24": 256.57,
+        "url": "https://dexscreener.com/mantle/0xd14b0dcd319551ae4d7b12787c00ee1c1f9e1d2e"
+      }
+    ]
   },
   "sources": {
     "rpcPoolSource": "file",
