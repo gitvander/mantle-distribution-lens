@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-20T12:45:26.043Z",
+  "generatedAt": "2026-11-20T20:48:08.068Z",
   "platform": "Fluxion",
   "network": {
     "name": "Mantle",
@@ -21,21 +21,46 @@
       "fee": 3000,
       "url": "https://fluxion.network/pool/0x2cc6a607f3445d826b9e29f507b3a2e3b9dae106",
       "status": "verified_onchain",
-      "verifiedAt": "2026-11-20T12:45:06.517Z",
+      "verifiedAt": "2026-11-20T20:47:49.026Z",
       "verification": {
         "factory": "0xf883162ed9c7e8ef604214c964c678e40c9b737c",
         "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
         "method": "Fluxion Factory getPool + pool token checks + ERC-4626 asset() + onchain balances and slot0.",
         "lastObserved": {
-          "poolTvlUsd": 118721.58312739665,
-          "poolTvlCapturedAt": "2026-11-20T12:45:06.517Z",
+          "poolTvlUsd": 117513.3307053058,
+          "poolTvlCapturedAt": "2026-11-20T20:47:49.026Z",
           "token0": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
           "token1": "0x5aa7649fdbda47de64a07ac81d64b682af9c0724",
-          "token0Amount": 59919.128041,
-          "token1Amount": 167.414719459129,
-          "stableAmount": 59919.128041,
-          "wrapperAmount": 167.414719459129,
-          "priceUsdPerWrapper": 351.2382619423861
+          "token0Amount": 59304.349129,
+          "token1Amount": 169.19050411687533,
+          "stableAmount": 59304.349129,
+          "wrapperAmount": 169.19050411687533,
+          "priceUsdPerWrapper": 344.04402232938287
+        }
+      }
+    },
+    {
+      "assetId": "antx-mantle",
+      "symbol": "ANTx",
+      "name": "Anthropic xStock",
+      "underlying": "0x909369940f22dc1c143ac78753a33f41597138b1",
+      "wrapper": "0xabec6aeab037b77c09a2a99264f9c81a35b02649",
+      "pool": "0x8677efc7853e6ac8a99aa878124e4a4ed5454d1c",
+      "fee": 3000,
+      "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+      "url": "https://fluxion.network/pool/0x8677efc7853e6ac8a99aa878124e4a4ed5454d1c",
+      "status": "verified_onchain",
+      "verifiedAt": "2026-11-20T20:47:41.060Z",
+      "discovery": "factory_event",
+      "verification": {
+        "factory": "0xf883162ed9c7e8ef604214c964c678e40c9b737c",
+        "method": "Fluxion Factory event + getPool + pool token checks + ERC-4626 asset().",
+        "lastObserved": {
+          "poolTvlUsd": 30.144177016606026,
+          "poolTvlCapturedAt": "2026-11-20T20:47:43.284Z",
+          "token0Amount": 15.144842,
+          "token1Amount": 0.16412304762560806,
+          "priceUsdPerWrapper": 91.39079022479524
         }
       }
     },
@@ -74,21 +99,21 @@
       "fee": 3000,
       "url": "https://fluxion.network/pool/0x43cf441f5949d52faa105060239543492193c87e",
       "status": "verified_onchain",
-      "verifiedAt": "2026-11-20T12:45:12.312Z",
+      "verifiedAt": "2026-11-20T20:47:54.032Z",
       "verification": {
         "factory": "0xf883162ed9c7e8ef604214c964c678e40c9b737c",
         "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
         "method": "Fluxion Factory getPool + pool token checks + ERC-4626 asset() + onchain balances and slot0.",
         "lastObserved": {
-          "poolTvlUsd": 72989.92599735617,
-          "poolTvlCapturedAt": "2026-11-20T12:45:12.312Z",
+          "poolTvlUsd": 71170.12519088767,
+          "poolTvlCapturedAt": "2026-11-20T20:47:54.032Z",
           "token0": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
           "token1": "0xa90872aca656ebe47bdebf3b19ec9dd9c5adc7f8",
-          "token0Amount": 36716.757232,
-          "token1Amount": 719.3159163500446,
-          "stableAmount": 36716.757232,
-          "wrapperAmount": 719.3159163500446,
-          "priceUsdPerWrapper": 50.427312868890226
+          "token0Amount": 35809.467614,
+          "token1Amount": 738.0666752176847,
+          "stableAmount": 35809.467614,
+          "wrapperAmount": 738.0666752176847,
+          "priceUsdPerWrapper": 47.90984170428563
         }
       }
     },
@@ -102,21 +127,21 @@
       "fee": 3000,
       "url": "https://fluxion.network/pool/0x66960ed892daf022c5f282c5316c38cb6f0c1333",
       "status": "verified_onchain",
-      "verifiedAt": "2026-11-20T12:45:16.001Z",
+      "verifiedAt": "2026-11-20T20:47:56.512Z",
       "verification": {
         "factory": "0xf883162ed9c7e8ef604214c964c678e40c9b737c",
         "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
         "method": "Fluxion Factory getPool + pool token checks + ERC-4626 asset() + onchain balances and slot0.",
         "lastObserved": {
-          "poolTvlUsd": 97855.4216813705,
-          "poolTvlCapturedAt": "2026-11-20T12:45:16.001Z",
+          "poolTvlUsd": 96966.61134369647,
+          "poolTvlCapturedAt": "2026-11-20T20:47:56.512Z",
           "token0": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
           "token1": "0x1630f08370917e79df0b7572395a5e907508bbbc",
-          "token0Amount": 49331.419385,
-          "token1Amount": 178.23910801743355,
-          "stableAmount": 49331.419385,
-          "wrapperAmount": 178.23910801743355,
-          "priceUsdPerWrapper": 272.24105212434284
+          "token0Amount": 48881.314568,
+          "token1Amount": 179.8950738303203,
+          "stableAmount": 48881.314568,
+          "wrapperAmount": 179.8950738303203,
+          "priceUsdPerWrapper": 267.29635087757447
         }
       }
     },
@@ -130,21 +155,21 @@
       "fee": 3000,
       "url": "https://fluxion.network/pool/0x4e23bb828e51cbc03c81d76c844228cc75f6a287",
       "status": "verified_onchain",
-      "verifiedAt": "2026-11-20T12:45:17.231Z",
+      "verifiedAt": "2026-11-20T20:48:01.853Z",
       "verification": {
         "factory": "0xf883162ed9c7e8ef604214c964c678e40c9b737c",
         "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
         "method": "Fluxion Factory getPool + pool token checks + ERC-4626 asset() + onchain balances and slot0.",
         "lastObserved": {
-          "poolTvlUsd": 97444.27323842322,
-          "poolTvlCapturedAt": "2026-11-20T12:45:17.231Z",
+          "poolTvlUsd": 94385.57302324878,
+          "poolTvlCapturedAt": "2026-11-20T20:48:01.854Z",
           "token0": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
           "token1": "0x953707d7a1cb30cc5c636bda8eaebe410341eb14",
-          "token0Amount": 48965.679839,
-          "token1Amount": 729.0612890867001,
-          "stableAmount": 48965.679839,
-          "wrapperAmount": 729.0612890867001,
-          "priceUsdPerWrapper": 66.49453773653609
+          "token0Amount": 47434.250905,
+          "token1Amount": 753.0403399637,
+          "stableAmount": 47434.250905,
+          "wrapperAmount": 753.0403399637,
+          "priceUsdPerWrapper": 62.349013228842495
         }
       }
     },
@@ -183,21 +208,21 @@
       "fee": 3000,
       "url": "https://fluxion.network/pool/0x782bd3895a6ac561d0df11b02dd6f9e023f3a497",
       "status": "verified_onchain",
-      "verifiedAt": "2026-11-20T12:45:23.374Z",
+      "verifiedAt": "2026-11-20T20:48:02.837Z",
       "verification": {
         "factory": "0xf883162ed9c7e8ef604214c964c678e40c9b737c",
         "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
         "method": "Fluxion Factory getPool + pool token checks + ERC-4626 asset() + onchain balances and slot0.",
         "lastObserved": {
-          "poolTvlUsd": 102033.92433808524,
-          "poolTvlCapturedAt": "2026-11-20T12:45:23.374Z",
+          "poolTvlUsd": 100567.68358545082,
+          "poolTvlCapturedAt": "2026-11-20T20:48:02.837Z",
           "token0": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
           "token1": "0x4e41a262caa93c6575d336e0a4eb79f3c67caa06",
-          "token0Amount": 51648.505335,
-          "token1Amount": 86.93877763590028,
-          "stableAmount": 51648.505335,
-          "wrapperAmount": 86.93877763590028,
-          "priceUsdPerWrapper": 579.5505799966437
+          "token0Amount": 50900.680963,
+          "token1Amount": 88.26654335835015,
+          "stableAmount": 50900.680963,
+          "wrapperAmount": 88.26654335835015,
+          "priceUsdPerWrapper": 562.6934139791739
         }
       }
     },
@@ -211,21 +236,21 @@
       "fee": 3000,
       "url": "https://fluxion.network/pool/0x0e1f84a9e388071e20df101b36c14c817bf81953",
       "status": "verified_onchain",
-      "verifiedAt": "2026-11-20T12:45:25.026Z",
+      "verifiedAt": "2026-11-20T20:48:05.194Z",
       "verification": {
         "factory": "0xf883162ed9c7e8ef604214c964c678e40c9b737c",
         "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
         "method": "Fluxion Factory getPool + pool token checks + ERC-4626 asset() + onchain balances and slot0.",
         "lastObserved": {
-          "poolTvlUsd": 80378.5207651619,
-          "poolTvlCapturedAt": "2026-11-20T12:45:25.026Z",
+          "poolTvlUsd": 78021.5138910797,
+          "poolTvlCapturedAt": "2026-11-20T20:48:05.194Z",
           "token0": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
           "token1": "0x266e5923f6118f8b340ca5a23ae7f71897361476",
-          "token0Amount": 40540.010271,
-          "token1Amount": 474.7824413019432,
-          "stableAmount": 40540.010271,
-          "wrapperAmount": 474.7824413019432,
-          "priceUsdPerWrapper": 83.90898025823613
+          "token0Amount": 39370.642357,
+          "token1Amount": 489.36122829416234,
+          "stableAmount": 39370.642357,
+          "wrapperAmount": 489.36122829416234,
+          "priceUsdPerWrapper": 78.9822922196159
         }
       }
     },
@@ -239,21 +264,21 @@
       "fee": 3000,
       "url": "https://fluxion.network/pool/0xa875ac23d106394d1baaae5bc42b951268bc04e2",
       "status": "verified_onchain",
-      "verifiedAt": "2026-11-20T12:45:23.614Z",
+      "verifiedAt": "2026-11-20T20:48:08.062Z",
       "verification": {
         "factory": "0xf883162ed9c7e8ef604214c964c678e40c9b737c",
         "quoteToken": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
         "method": "Fluxion Factory getPool + pool token checks + ERC-4626 asset() + onchain balances and slot0.",
         "lastObserved": {
-          "poolTvlUsd": 90938.24876435768,
-          "poolTvlCapturedAt": "2026-11-20T12:45:23.614Z",
+          "poolTvlUsd": 86426.33379273622,
+          "poolTvlCapturedAt": "2026-11-20T20:48:08.062Z",
           "token0": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
           "token1": "0x93e62845c1dd5822ebc807ab71a5fb750decd15a",
-          "token0Amount": 45823.688555,
-          "token1Amount": 316.33419365461316,
-          "stableAmount": 45823.688555,
-          "wrapperAmount": 316.33419365461316,
-          "priceUsdPerWrapper": 142.6167676916256
+          "token0Amount": 43561.154518,
+          "token1Amount": 333.12022364663363,
+          "stableAmount": 43561.154518,
+          "wrapperAmount": 333.12022364663363,
+          "priceUsdPerWrapper": 128.6778052845168
         }
       }
     },
