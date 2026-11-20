@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-20T04:01:59.925Z",
+  "generatedAt": "2026-11-20T12:44:45.421Z",
   "asset": {
     "id": "uspxx-mantle",
     "name": "Franklin U.S. Equity Index xStock",
@@ -13,12 +13,12 @@
     "contractCreatedBlock": 95269806,
     "contractCreatedAt": "2026-05-13T10:58:44.000Z",
     "firstTransferBlock": 95283352,
-    "lastTransferBlock": 99526434,
-    "lastIndexedBlock": 103508499,
-    "lastIndexedAt": "2026-11-20T04:01:50.000Z"
+    "lastTransferBlock": 103511896,
+    "lastIndexedBlock": 103524178,
+    "lastIndexedAt": "2026-11-20T12:44:28.000Z"
   },
   "stats": {
-    "transferCount": 42,
+    "transferCount": 44,
     "walletAddresses": [
       "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
       "0xee84c59e31b67e435579720e5b4c5bc397dfae27",
@@ -30,15 +30,17 @@
       "0xde5752c4f79c08193af97a6daa815c39cd069f89",
       "0x735d8bfc46ee0e70304d0444194a7af905e8d970",
       "0x00140f219303306d40bf7fb457a6e1461d313fd4",
-      "0xed8f393d2582c9b2ef57559fa5c49f5e5b6d543a"
+      "0xed8f393d2582c9b2ef57559fa5c49f5e5b6d543a",
+      "0x804b10246b7d495517411b788f46134e731779cb",
+      "0x9941b4c49e967c974d441be437929055879e247c"
     ],
     "mints": 1,
     "burns": 0,
     "firstTransferBlock": 95283352,
-    "lastTransferBlock": 99526434
+    "lastTransferBlock": 103511896
   },
   "market": {
-    "capturedAt": "2026-11-20T04:02:00.058Z",
+    "capturedAt": "2026-11-20T12:44:45.487Z",
     "pairs": []
   },
   "sources": {
@@ -50,9 +52,9 @@
         "url": "https://mantle.drpc.org"
       },
       {
-        "id": "mantle-public",
-        "label": "Mantle Public RPC",
-        "url": "https://rpc.mantle.xyz"
+        "id": "publicnode-mantle",
+        "label": "PublicNode Mantle RPC",
+        "url": "https://mantle-rpc.publicnode.com"
       }
     ],
     "explorer": "https://mantlescan.xyz/token/0x368192fec58e3150600a1409c631c77f45745bec",
