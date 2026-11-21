@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-11-21T01:53:59.577Z",
+  "asset": {
+    "id": "antx-mantle",
+    "name": "Anthropic xStock",
+    "symbol": "ANTx",
+    "address": "0x909369940f22dc1c143ac78753a33f41597138b1",
+    "chainId": 5000
+  },
+  "coverage": {
+    "type": "full_token_lifetime",
+    "contractCreatedBlock": 102759141,
+    "contractCreatedAt": "2026-11-02T19:43:14.000Z",
+    "firstTransferBlock": 103449500,
+    "lastTransferBlock": 103543158,
+    "lastIndexedBlock": 103547676,
+    "lastIndexedAt": "2026-11-21T01:47:44.000Z"
+  },
+  "stats": {
+    "transferCount": 14,
+    "walletAddresses": [
+      "0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad",
+      "0x41dee1855293e4450cd67459047f372d4d818143",
+      "0x3fdcb4af7f9019f6f8b669790bde93bbf91bbcc0",
+      "0x68a359928fa70d17207c5d7e47a9047c0744d6f4",
+      "0xd894965581a598c0b9df5babaca73e714359e8b6",
+      "0xabec6aeab037b77c09a2a99264f9c81a35b02649",
+      "0x2b90c1dcfc676be2eb2ffaac1b37ac5f5c04662e"
+    ],
+    "mints": 1,
+    "burns": 0,
+    "firstTransferBlock": 103449500,
+    "lastTransferBlock": 103543158
+  },
+  "market": {
+    "capturedAt": "2026-11-21T01:53:59.715Z",
+    "pairs": []
+  },
+  "sources": {
+    "rpcPoolSource": "file",
+    "rpcEndpointsUsed": [
+      {
+        "id": "mantle-public",
+        "label": "Mantle Public RPC",
+        "url": "https://rpc.mantle.xyz"
+      },
+      {
+        "id": "publicnode-mantle",
+        "label": "PublicNode Mantle RPC",
+        "url": "https://mantle-rpc.publicnode.com"
+      }
+    ],
+    "explorer": "https://mantlescan.xyz/token/0x909369940f22dc1c143ac78753a33f41597138b1",
+    "market": "https://api.dexscreener.com"
+  }
+}
