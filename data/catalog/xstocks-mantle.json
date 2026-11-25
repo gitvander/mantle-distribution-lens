@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-25T13:34:37.969Z",
+  "generatedAt": "2026-11-25T22:41:48.760Z",
   "source": {
     "name": "xStocks / Backed official deployment catalog",
     "url": "https://api.backed.fi/rest/tokens/wrappers?businessLine=xStocks",
@@ -4524,6 +4524,19 @@
       "wrappers": [
         {
           "address": "0xc154b6f6d1a4e3ba4bb7bf98004269ee1d7563ec",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
+      "id": "crmlx-mantle",
+      "name": "Critical Metals xStock",
+      "symbol": "CRMLx",
+      "address": "0x0d855b5095a962aabf99f7b405ec394935aae49f",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0x3e14cde5f3e5b13ab9b4e3df988a58a00a9394d8",
           "type": "ERC4626V2"
         }
       ]
@@ -11347,6 +11360,19 @@
       ]
     },
     {
+      "id": "melix-mantle",
+      "name": "MercadoLibre xStock",
+      "symbol": "MELIx",
+      "address": "0xedb6700adf61873a59507d0053ee773917db69dc",
+      "decimals": 18,
+      "wrappers": [
+        {
+          "address": "0xfc7ab447d2c7eb27fc1d252d90d7b0fadcb56118",
+          "type": "ERC4626V2"
+        }
+      ]
+    },
+    {
       "id": "metax-mantle",
       "name": "Meta xStock",
       "symbol": "METAx",
@@ -13240,32 +13266,6 @@
       "wrappers": [
         {
           "address": "0x8dec4534748507b71f4631e4a000b9a907f7bfb8",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "oscrx-mantle",
-      "name": "Oscar Health xStock",
-      "symbol": "OSCRx",
-      "address": "0x3fe783b3e3edf6dfd6d8126af38f5c7f675d9cbc",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0x40438473a05553d9ab247b38c6fa890022ff3f5a",
-          "type": "ERC4626V2"
-        }
-      ]
-    },
-    {
-      "id": "oskx-mantle",
-      "name": "Oshkosh xStock",
-      "symbol": "OSKx",
-      "address": "0x156e1dde4cfa66c4f9ed52a834bbe88bc7986a6f",
-      "decimals": 18,
-      "wrappers": [
-        {
-          "address": "0x81bd2c8847f79bfab3aa178d87743879618b64dd",
           "type": "ERC4626V2"
         }
       ]
