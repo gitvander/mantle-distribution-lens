@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-28T04:46:46.662Z",
+  "generatedAt": "2026-11-28T13:41:55.368Z",
   "asset": {
     "id": "bspx-mantle",
     "name": "Bending Spoons xStock",
@@ -14,8 +14,8 @@
     "contractCreatedAt": "2026-06-29T10:00:02.000Z",
     "firstTransferBlock": 97307407,
     "lastTransferBlock": 103813232,
-    "lastIndexedBlock": 103855446,
-    "lastIndexedAt": "2026-11-28T04:46:44.000Z"
+    "lastIndexedBlock": 103871497,
+    "lastIndexedAt": "2026-11-28T13:41:46.000Z"
   },
   "stats": {
     "transferCount": 178,
@@ -48,17 +48,8 @@
     "lastTransferBlock": 103813232
   },
   "market": {
-    "capturedAt": "2026-11-28T04:46:46.738Z",
-    "pairs": [
-      {
-        "dexId": "merchantmoe",
-        "pairAddress": "0x076990881B4901752Db5d7887eb2CaFA27AF9cE8",
-        "priceUsd": "46.093",
-        "liquidityUsd": 1122.43,
-        "volumeH24": 149.6,
-        "url": "https://dexscreener.com/mantle/0x076990881b4901752db5d7887eb2cafa27af9ce8"
-      }
-    ]
+    "capturedAt": "2026-11-28T13:41:55.507Z",
+    "pairs": []
   },
   "sources": {
     "rpcPoolSource": "file",
@@ -67,6 +58,11 @@
         "id": "mantle-public",
         "label": "Mantle Public RPC",
         "url": "https://rpc.mantle.xyz"
+      },
+      {
+        "id": "publicnode-mantle",
+        "label": "PublicNode Mantle RPC",
+        "url": "https://mantle-rpc.publicnode.com"
       }
     ],
     "explorer": "https://mantlescan.xyz/token/0x7796f4e23a62ef3653829c21032a9e24beaf4cf5",
